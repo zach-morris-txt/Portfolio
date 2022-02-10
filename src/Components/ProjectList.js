@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Project from './Project'
-import { projects } from '../data'
+import { projects } from '../Assets/data'
 
 
 const ProjectList = () => {

@@ -19,7 +19,7 @@ export const projects = [
     },
     {
         id: 3,
-        title: "Coderheroes E-Learning",
+        title: "Coderheroes E-Learning (Under Construction)", //Provide Bug Checklist
         coverImg: "",
         description1: "",
         techStack: "",
