@@ -2,42 +2,125 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web site created using create-react-app"/>
+    <title>DevMorris Portfolio</title>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" >
+    <link rel="stylesheet"
+    href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/4c77dace33.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <header>
+      <div class="logo">
+        <img src="img/devMorris1" alt="">
+      </div>
+
+      <button class="nav_toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+          <li class="nav_item"><a href="#services" class="nav_link">My Services</a></li>
+          <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+          <li class="nav_item"><a href="#work" class="nav_link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+      <h1 class="section_title section_title--intro">
+        Hi, I Am <strong>Zach Morris</strong>
+      </h1>
+      <p class="section_subtitle section_subtitle--intro">
+        Front-End Dev
+      </p>
+      <img src="img/devMorris2" alt="A picture of Zach Morris" class="intro_img">
+    </section>
+
+    <!--Services-->
+    <section class="services" id="sevices">
+      <h2 class="section_title section_title--services">What I Can Do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>This</h3>
+          <p>This</p>
+        </div>
+
+        <div class="service">
+          <h3>This</h3>
+          <p>This</p>
+        </div>
+
+        <div class="service">
+          <h3>This</h3>
+          <p>This</p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about_me" id="about">
+      <h2 class="section_title section_title--about">Who I Am</h2>
+      <p class="section_subtitle section_subtitle--about">Me</p>
+      <div class="about_me_body">
+        <p>Me</p>
+        <p>Me</p>
+      </div>
+      <img src="img/devMorris3" alt="A picture of Zach Morris" class="about_me_img">
+    </section>
+
+    <!--About Me-->
+    <section class="my_work" id="work">
+      <h2 class="section_title section_title--work">What I Do</h2>
+      <p class="section_subtitle section_subtitle--work">This</p>
+
+      <div class="portfolio">
+        <a href="#" class="portfolio_item">
+          <img src="img/portfolio1" alt="" class="portfolio_img">
+        </a>
+
+        <a href="#" class="portfolio_item">
+          <img src="img/portfolio2" alt="" class="portfolio_img">
+        </a>
+
+        <a href="#" class="portfolio_item">
+          <img src="img/portfolio3" alt="" class="portfolio_img">
+        </a>
+
+        <a href="#" class="portfolio_item">
+          <img src="img/portfolio3" alt="" class="portfolio_img">
+        </a>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <a href="mailto:sbpayetc@gmail.com" class="footer_link">sbpayetc@gmail.com</a>
+      <ul class="social_list">
+        <li class="social_list--item">
+          <a class="social_list_link" href="https://github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social_list--item">
+          <a class="social_list_link" href="https://codepen.io">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <script src="js/index.js"></script>
   </body>
 </html>
