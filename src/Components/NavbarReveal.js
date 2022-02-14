@@ -1,3 +1,4 @@
+import {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 
 import '../Styles/Navbar.css'
@@ -6,17 +7,26 @@ import résumé from '../Assets/Images/Résumé.png'
 import manillaSlide from '../Assets/Images/manillaSlide.png'
 
 
-const Navbar = () => {
+const NavbarReveal = () => {
+    const [scroll, setScroll] = useState(0)
+
+    useEffect(() => {
+        var titleReveal = document.querySelector(".titleReveal-container")
+        var titleRevealHeight = titleReveal.offsetHeight
+        window.addEventListener("scroll", () => {
+          setScroll(window.scrollY > (0.5 * titleRevealHeight));
+        });
+    }, []);
+
     return (
         <div>
             <div id='nav-container' className='nav-container'>
                 <div className='nav-left'>
                     <div className='nav-top'>
-                        <Link to="/" className='nav-links' id='about-link'>Home</Link>
                         <Link to="/about" className='nav-links' id='about-link'>About</Link>
                         <Link to="/contact" className='nav-links'>Contact</Link>
                     </div>
-                    <div id='navBottom' className=''>
+                    <div id='navBottom' className={scroll ? "nav-bottom-show" : "nav-bottom-hide"}>
                         <div id='name'>Zach Morris</div>
                         <div id='title'>Fullstack WebDev | Frontend Engineer</div>
                     </div>
@@ -38,4 +48,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default NavbarReveal

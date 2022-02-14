@@ -1,14 +1,14 @@
 import React from 'react'
 
-import Footer from '../Components/Footer'
-import Navbar from '../Components/Navbar'
+import NavbarReveal from '../Components/NavbarReveal'
 import ProjectList from '../Components/ProjectList'
+import Footer from '../Components/Footer'
 
 
 const Home = () => {
   return (
     <div>
-        <Navbar />
+        <NavbarReveal />
         <ProjectList />
         <Footer />
     </div>

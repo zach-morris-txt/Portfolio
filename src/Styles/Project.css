@@ -1,0 +1,13 @@
+.project-container{
+    width: 28vw;
+    margin: 0px 2vw 4vh 2vw;
+    border: 1px blue solid;
+}
+.projectImg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-img{
+    width: 96%;
+}

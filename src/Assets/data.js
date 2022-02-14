@@ -1,43 +1,49 @@
+import caliProject from '../Assets/Images/Cali.PNG'
+import userAccountProject from '../Assets/Images/User-Account.PNG'
+import coderheroProject from '../Assets/Images/CoderHeroes.PNG'
+import ecommerceProject from '../Assets/Images/Ecommerce.PNG'
+
+
 export const projects = [
     {
         id: 1,
         title: "Cali-Cafe Site",
-        coverImg: "",
+        coverImg: caliProject,
         description1: "",
-        techStack: "",
-        deployedLink: "",
+        techStack: "React|FontAwesome",
+        deployedLink: "https://cali-site.herokuapp.com/",
         githubLink: "",
     },
     {
         id: 2,
         title: "User-Account Fullstack",
-        coverImg: "",
+        coverImg: userAccountProject,
         description1: "",
-        techStack: "",
-        deployedLink: "",
+        techStack: "React|Redux|PostgreSQL",
+        deployedLink: "https://frontend-market.herokuapp.com/",
         githubLink: "",
     },
     {
         id: 3,
-        title: "Coderheroes E-Learning (Under Construction)", //Provide Bug Checklist
-        coverImg: "",
+        title: "Coderheroes E-Learning (Private)", //Provide Bug Checklist
+        coverImg: coderheroProject,
         description1: "",
-        techStack: "",
-        deployedLink: "",
+        techStack: "React|Redux|Okta|Stripe|AntDesign",
+        deployedLink: "https://a.coderheroes.dev/login",
         githubLink: "",
     },
     {
         id: 4,
-        title: "",
-        coverImg: "",
+        title: "Ecommerce Fullstack (Under Construction)",
+        coverImg: ecommerceProject,
         description1: "",
-        techStack: "",
-        deployedLink: "",
+        techStack: "React|Redux|Express|MongoDB",
+        deployedLink: "https://ecommerce-backend--api.herokuapp.com/",
         githubLink: "",
     },
     {
         id: 5,
-        title: "Ecommerce Fullstack",
+        title: "",
         coverImg: "",
         description1: "",
         techStack: "",

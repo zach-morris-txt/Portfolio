@@ -1,16 +1,21 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+
+import '../Styles/Project.css'
 
 
 const Project = ({ item }) => {
   return (
-    <div>
-        <p key={item.id}>{item.title}</p>
-        <img src={item.coverImg} alt="" />
-        <Link to={`/project/${item.id}`}>
-        </Link>
+    <div className='project-container' key={item.id}>
+        <p>{item.title}</p>
+        <div className='projectImg-container'>
+          <img src={item.coverImg} className="project-img" alt="project item"/>
+        </div>
+        <p>{item.description1}</p>
+        <p>{item.techStack}</p>
+        <a href={item.deployedLink} target="_blank" rel="noreferrer">Live Version</a>
+        <a href={item.githubLink} target="_blank" rel="noreferrer">GitHub</a>
     </div>
   )
 }
 
-export default Project
+export default Project;

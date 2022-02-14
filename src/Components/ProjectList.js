@@ -1,12 +1,13 @@
 import React from 'react'
 
-import Project from './Project'
+import '../Styles/ProjectList.css'
+import Project from './Project.js'
 import { projects } from '../Assets/data'
 
 
 const ProjectList = () => {
   return (
-    <div>
+    <div className='projectList-container'>
         {projects.map((item) => <Project item={item} key={item.id} />)}
     </div>
   )
