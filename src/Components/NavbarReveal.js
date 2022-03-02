@@ -42,7 +42,7 @@ const NavbarReveal = () => {
                 </div>
             </div>
             <div className='titleReveal-container'>
-                TitleReveal
+                Zach Morris Fullstack WebDev|FrontendEngineer
             </div>
         </div>
     )

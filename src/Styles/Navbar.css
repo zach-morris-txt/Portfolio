@@ -73,5 +73,6 @@
 .titleReveal-container{
     height: 15vh;
     padding-top: 15vh;
+    color: white;
     background-color: black;
 }

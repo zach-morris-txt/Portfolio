@@ -8,7 +8,9 @@ import { projects } from '../Assets/data'
 const ProjectList = () => {
   return (
     <div className='projectList-container'>
-        {projects.map((item) => <Project item={item} key={item.id} />)}
+        {projects.map((item) => 
+          <Project item={item} key={item.id} />
+        )}
     </div>
   )
 }
