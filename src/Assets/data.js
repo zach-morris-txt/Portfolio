@@ -56,18 +56,51 @@ export const projects = [
 
 export const certs = [
     {
-        id: 1,
+        id: 0,
         title: "Adobe Photoshop",
         coverImg: "",
     },
     {
-        id: 2,
+        id: 1,
         title: "Adobe InDesign",
         coverImg: "",
     },
     {
-        id: 3,
+        id: 2,
         title: "Adobe Illustrator",
+        coverImg: "",
+    },
+]
+
+export const skills = [
+    {
+        id: 0,
+        title: "HTML/ CSS",
+        coverImg: "",
+    },
+    {
+        id: 1,
+        title: "JS",
+        coverImg: "",
+    },
+    {
+        id: 2,
+        title: "Python",
+        coverImg: "",
+    },
+    {
+        id: 3,
+        title: "React",
+        coverImg: "",
+    },
+    {
+        id: 4,
+        title: "Redux",
+        coverImg: "",
+    },
+    {
+        id: 5,
+        title: "PostgreSQL",
         coverImg: "",
     },
 ]

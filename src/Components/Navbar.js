@@ -32,7 +32,6 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='titleReveal-container'>
-                TitleReveal
             </div>
         </div>
     )

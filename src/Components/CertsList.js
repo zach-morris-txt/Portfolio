@@ -6,7 +6,14 @@ import { certs } from '../Assets/data'
 
 const CertsList = () => {
   return (
-    <div>CertsList</div>
+    <div className='certList-container'>
+        {certs.map((item) => 
+            <div>
+                <p>{item.title}</p>
+                <img src={item.coverImg} className="cert-img" alt="certificate item"/>
+            </div>
+        )}
+    </div>
   )
 }
 
