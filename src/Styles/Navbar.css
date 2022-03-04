@@ -1,78 +1,80 @@
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 15vh;
-    background-color: lightblue;
-}
-.nav-left{
-    width: 75%;
-    margin: 0px 0px 0px 1vw;
-    border: 1px green solid;
-}
-.nav-top{
-    display: flex;
-    width: 100%;
-}
-#about-link{
-    width: 25%;
-}
-.nav-bottom-hide {
-    display: none;
-}
-.nav-bottom-show {
-    display: flex;
-}
-#name{
-    width: 25%;
-}
-.nav-right{
-    width: 25%;
-    height: 27vh;
-}
-.résumé-file{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 2vh;
-    left: 2vw;
-    width: 8vw;
-}
-.manillaBack{
-    height: 22vh;
-}
-.résuméLink{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    height: 21vh;
-    background-color: white;
-    transition: transform 1s;
-}
-.résuméImg{
-    position: absolute;
-    width: 90%;
-}
-.manillaFront{
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 22vh;
-}
-.résumé-file:hover .résuméLink {
-    transform: translateX(6vw);
-}
+@media only screen and (max-width: 415px) {
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 15vh;
+        background-color: lightblue;
+    }
+    .nav-left{
+        width: 75%;
+        margin: 0px 0px 0px 1vw;
+        border: 1px green solid;
+    }
+    .nav-top{
+        display: flex;
+        width: 100%;
+    }
+    #about-link{
+        width: 25%;
+    }
+    .nav-bottom-hide {
+        display: none;
+    }
+    .nav-bottom-show {
+        display: flex;
+    }
+    #name{
+        width: 25%;
+    }
+    .nav-right{
+        width: 25%;
+        height: 27vh;
+    }
+    .résumé-file{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 2vh;
+        left: 2vw;
+        width: 8vw;
+    }
+    .manillaBack{
+        height: 22vh;
+    }
+    .résuméLink{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        height: 21vh;
+        background-color: white;
+        transition: transform 1s;
+    }
+    .résuméImg{
+        position: absolute;
+        width: 90%;
+    }
+    .manillaFront{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 22vh;
+    }
+    .résumé-file:hover .résuméLink {
+        transform: translateX(6vw);
+    }
 
 
-/* Separated For Scroll Effect */
-.titleReveal-container{
-    height: 15vh;
-    padding-top: 15vh;
-    color: white;
-    background-color: black;
+    /* Separated For Scroll Effect */
+    .titleReveal-container{
+        height: 15vh;
+        padding-top: 15vh;
+        color: white;
+        background-color: black;
+    }
 }

@@ -1,5 +1,5 @@
 .project-container{
-    width: 28vw;
+    width: 28%;
     margin: 0px 2vw 4vh 2vw;
     border: 1px blue solid;
 }
@@ -10,4 +10,10 @@
 }
 .project-img{
     width: 96%;
+}
+.info-wrapper{
+    width: 98%;
+}
+.item-info{
+    font-size: 2vw;
 }

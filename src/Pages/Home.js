@@ -12,7 +12,7 @@ const Home = () => {
     <div>
         <NavbarReveal />
         <ProjectList />
-        <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center", width: "100%", textAlign: "center"}}>
           <h2>BloomTech (FKA LambdaSchool)</h2>
           <h3>?Curriculum Listed?</h3>
         </div>
