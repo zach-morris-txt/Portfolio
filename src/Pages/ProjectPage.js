@@ -2,6 +2,8 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 
 import { projects } from '../Assets/data'
+import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
 
 
 const ProjectPage = () => {
@@ -9,12 +11,13 @@ const ProjectPage = () => {
     const item = projects[id]
     return (
         <div>
+            <Navbar />
             <h1>??Deploy Live Versions To This URL??</h1>
             <div>ProjectPage #{id}</div>
                 <div className='project-container' key={item.id}>
                 <p>{item.title}</p>
                 <div className='projectImg-container'>
-                <img src={item.coverImg} className="project-img" alt="project item"/>
+                <img src={item.coverImg} className='project-img' alt="project item"/>
                 </div>
                 <p>{item.description1}</p>
                 <p>{item.techStack}</p>
@@ -25,6 +28,7 @@ const ProjectPage = () => {
                 : <></>
                 }
             </div>
+            <Footer />
         </div>
     )
 }

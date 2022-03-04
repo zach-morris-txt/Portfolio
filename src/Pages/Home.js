@@ -12,7 +12,7 @@ const Home = () => {
     <div>
         <NavbarReveal />
         <ProjectList />
-        <div className="lambda">
+        <div className='lambda'>
           <h2>BloomTech (FKA LambdaSchool)</h2>
           <h3>?Curriculum Listed?</h3>
         </div>
