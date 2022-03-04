@@ -44,7 +44,7 @@ const Contact = () => {
           <input type="submit" value='Send' readOnly/>
         </form>
       </div>
-      <div id='status'></div>
+      <div id='status' />
 
       <div className=''>
         <div className=''>LinkedIn</div>

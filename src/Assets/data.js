@@ -43,15 +43,6 @@ export const projects = [
         deployedLink: "https://ecommerce-backend--api.herokuapp.com/",
         githubLink: "https://github.com/zach-morris-txt/EcommerceAPI",
     },
-    {
-        id: 4,
-        title: "",
-        coverImg: "",
-        description1: "",
-        techStack: "",
-        deployedLink: "",
-        githubLink: "",
-    },
 ]
 
 export const certs = [

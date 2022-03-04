@@ -8,7 +8,7 @@ const CertsList = () => {
   return (
     <div className='certList-container'>
         {certs.map((item) => 
-            <div>
+            <div key={item.id} >
                 <p>{item.title}</p>
                 <img src={item.coverImg} className="cert-img" alt="certificate item"/>
             </div>
