@@ -10,12 +10,15 @@ const Contact = () => {
     const form = useRef();
     function sendEmail(e) {
       e.preventDefault();
+      var status = document.getElementById('status')
 
       emailjs.sendForm('service_o41xzyd', 'template_c70amym', form.current, 'rRq4k2FhFObFtegju')
         .then((result) => {
-            console.log(result.text);
+          status.classList.add('success')
+          status.innerHTML = "Success"
         }, (error) => {
-            console.log(error.text);
+          status.classList.add('error')
+          status.innerHTML = `Error: ${error}`
         });
         form.current.reset()
     }
@@ -41,7 +44,7 @@ const Contact = () => {
           <input type="submit" value='Send' readOnly/>
         </form>
       </div>
-      <div id='status' className='success'>Success</div>
+      <div id='status'></div>
 
       <div className=''>
         <div className=''>LinkedIn</div>
