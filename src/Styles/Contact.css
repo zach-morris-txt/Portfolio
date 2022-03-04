@@ -1,0 +1,34 @@
+textarea{
+    resize: vertical;
+}
+button{
+    transition: .9s ease background;
+}
+button:hover{
+    background: green;
+}
+#status{
+    color: white;
+}
+#status.success{
+    background: green;
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background: red;
+    animation: status 4s ease forwards;
+}
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
