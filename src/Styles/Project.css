@@ -1,19 +1,19 @@
-.project-container{
+.projectContainer{
     width: 28%;
     margin: 0px 2vw 4vh 2vw;
     border: 1px blue solid;
 }
-.projectImg-container{
+.projectImgContainer{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.project-img{
+.projectImg{
     width: 96%;
 }
-.info-wrapper{
+.infoWrapper{
     width: 98%;
 }
-.item-info{
+.itemInfo{
     font-size: 2vw;
 }

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
 
 import '../Styles/ProjectList.css'
@@ -7,6 +7,8 @@ import { projects } from '../Assets/data'
 
 
 const ProjectList = () => {
+  const [reveal, setReveal] = useState(false)
+
   const form = useRef();
   function sendEmail(e) {
     e.preventDefault();
@@ -24,30 +26,34 @@ const ProjectList = () => {
   }
 
   return (
-    <div className='projectList-container'>
+    <div className='projectListContainer'>
       {projects.map((item) => 
         <Project item={item} key={item.id} />
       )}
-      <div className=''>
-        <div className='container'>
-          <form ref={form} onSubmit={sendEmail}>
-            <div className='form-group'>
-              <input type="text" id='subject-contact' name='subject' value='Project Suggestion' readOnly/>
-            </div>
-            <div className='form-group'>
-              <input type="text" id='name' name='name' placeholder='Name'></input>
-            </div>
-            <div className='form-group'>
-              <input type="email" id='email' name='email' placeholder='Email' required></input>
-            </div>
-            <div className='form-group'>
-              <textarea id='message' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
-            </div>
-            <input type="submit" value='Send' readOnly/>
-          </form>
+      <button onClick={()=>setReveal(!reveal)}>Suggest A Project</button>
+      { reveal?
+        <div className=''>
+          <div className='container'>
+            <form ref={form} onSubmit={sendEmail}>
+              <div className='formItem'>
+                <input type="text" className='subject' name='subject' value='Project Suggestion' readOnly/>
+              </div>
+              <div className='formItem'>
+                <input type="text" className='formItemInput' name='name' placeholder='Name'></input>
+              </div>
+              <div className='form-group'>
+                <input type="email" className='formItemInput' name='email' placeholder='Email' required></input>
+              </div>
+              <div className='form-group'>
+                <textarea className='formItemInput' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
+              </div>
+              <input type="submit" value='Send' readOnly/>
+            </form>
+          </div>
+          <div id='status' />
         </div>
-        <div id='status' />
-      </div>
+        : <></>
+      }
     </div>
   )
 }

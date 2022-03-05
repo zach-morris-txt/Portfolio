@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
 
 import '../Styles/SkillsList.css'
@@ -6,6 +6,8 @@ import { skills } from '../Assets/data'
 
 
 const SkillsList = () => {
+  const [reveal, setReveal] = useState(false)
+
   const form = useRef();
   function sendEmail(e) {
     e.preventDefault();
@@ -30,26 +32,30 @@ const SkillsList = () => {
               <img src={item.coverImg} className="skill-img" alt="skill item"/>
           </div>
       )}
-      <div className=''>
-        <div className='container'>
-          <form ref={form} onSubmit={sendEmail}>
-            <div className='form-group'>
-              <input type="text" id='subject-contact' name='subject' value='Skill Suggestion' readOnly/>
-            </div>
-            <div className='form-group'>
-              <input type="text" id='name' name='name' placeholder='Name'></input>
-            </div>
-            <div className='form-group'>
-              <input type="email" id='email' name='email' placeholder='Email' required></input>
-            </div>
-            <div className='form-group'>
-              <textarea id='message' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
-            </div>
-            <input type="submit" value='Send' readOnly/>
-          </form>
+      <button onClick={()=>setReveal(!reveal)}>Suggest A Skill</button>
+      { reveal?
+        <div className=''>
+          <div className='container'>
+            <form ref={form} onSubmit={sendEmail}>
+              <div className='form-group'>
+                <input type="text" id='subject-contact' name='subject' value='Skill Suggestion' readOnly/>
+              </div>
+              <div className='form-group'>
+                <input type="text" id='name' name='name' placeholder='Name'></input>
+              </div>
+              <div className='form-group'>
+                <input type="email" id='email' name='email' placeholder='Email' required></input>
+              </div>
+              <div className='form-group'>
+                <textarea id='message' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
+              </div>
+              <input type="submit" value='Send' readOnly/>
+            </form>
+          </div>
+          <div id='status' />
         </div>
-        <div id='status' />
-      </div>
+        : <></>
+      }
     </div>
   )
 }
