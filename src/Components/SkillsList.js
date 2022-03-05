@@ -25,12 +25,12 @@ const SkillsList = () => {
   }
 
   return (
-    <div className='skillList-container'>
+    <div className='skillListContainer'>
       {skills.map((item) => 
-          <div key={item.id} >
-              <p>{item.title}</p>
-              <img src={item.coverImg} className="skill-img" alt="skill item"/>
-          </div>
+        <div key={item.id} >
+          <p>{item.title}</p>
+          <img src={item.coverImg} className="skillImg" alt="skill item"/>
+        </div>
       )}
       <button onClick={()=>setReveal(!reveal)}>Suggest A Skill</button>
       { reveal?
