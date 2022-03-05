@@ -9,20 +9,20 @@ import manillaSlide from '../Assets/Images/manillaSlide.png'
 const Navbar = () => {
     return (
         <div>
-            <div id='nav-container' className='nav-container'>
-                <div className='nav-left'>
-                    <div className='nav-top'>
-                        <Link to="/" className='nav-links' id='about-link'>Home</Link>
-                        <Link to="/about" className='nav-links' id='about-link'>About</Link>
-                        <Link to="/contact" className='nav-links'>Contact</Link>
+            <div id='navContainer' className='navContainer'>
+                <div className='navLeft'>
+                    <div className='navTop'>
+                        <Link to="/" className='navLinks' id='aboutLink'>Home</Link>
+                        <Link to="/about" className='navLinks' id='aboutLink'>About</Link>
+                        <Link to="/contact" className='navLinks'>Contact</Link>
                     </div>
                     <div id='navBottom' className=''>
-                        <div id='name'>Zach Morris</div>
-                        <div id='title'>Fullstack WebDev | Frontend Engineer</div>
+                        <div className=''>Zach Morris</div>
+                        <div className=''>Fullstack WebDev | Frontend Engineer</div>
                     </div>
                 </div>
-                <div className='nav-right'>
-                    <div className='résumé-file'>
+                <div className='navRight'>
+                    <div className='résuméFile'>
                         <img src={manillaFull} className='manillaBack' alt="manilla folder" />
                         <a href="#" className='résuméLink'>
                             <img src={résumé} className='résuméImg' alt="résumé icon" />
@@ -31,7 +31,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className='titleReveal-container'>
+            <div className='titleRevealContainer'>
             </div>
         </div>
     )

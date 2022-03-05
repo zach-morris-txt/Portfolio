@@ -1,80 +1,158 @@
 @media only screen and (max-width: 415px) {
-    .nav-container{
+    .navContainer{
         display: flex;
         justify-content: space-between;
         position: fixed;
         top: 0;
         width: 100%;
-        height: 15vh;
+        height: 12vh;
         background-color: lightblue;
     }
-    .nav-left{
-        width: 75%;
+    .navLeft{
+        width: 60%;
         margin: 0px 0px 0px 1vw;
-        border: 1px green solid;
     }
-    .nav-top{
+    .navTop{
         display: flex;
+        justify-content: space-between;
         width: 100%;
     }
-    #about-link{
+    #aboutLink{
         width: 25%;
     }
-    .nav-bottom-hide {
+    .navBottomHide {
         display: none;
     }
-    .nav-bottom-show {
+    .navBottomShow {
         display: flex;
+        flex-direction: column;
     }
-    #name{
-        width: 25%;
+    .navRight{
+        width: 40%;
     }
-    .nav-right{
-        width: 25%;
-        height: 27vh;
-    }
-    .résumé-file{
+    .résuméFile{
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
         top: 2vh;
-        left: 2vw;
-        width: 8vw;
+        right: 2vw;
+        height: 12vh;
     }
     .manillaBack{
-        height: 22vh;
+        height: 12vh;
     }
     .résuméLink{
         display: flex;
         align-items: center;
         justify-content: center;
         position: absolute;
-        width: 100%;
-        height: 21vh;
+        height: 12vh;
         background-color: white;
         transition: transform 1s;
     }
     .résuméImg{
         position: absolute;
-        width: 90%;
+        height: 11.2vh;
+        background: white;
     }
     .manillaFront{
         position: absolute;
-        top: 0;
-        right: 0;
-        height: 22vh;
+        height: 12vh;
+        filter: brightness(94%);
     }
-    .résumé-file:hover .résuméLink {
-        transform: translateX(6vw);
+    .résuméFile:hover .résuméLink {
+        transform: translateX(9.2vw);
     }
-
 
     /* Separated For Scroll Effect */
-    .titleReveal-container{
-        height: 15vh;
-        padding-top: 15vh;
+    .titleRevealContainer{
+        height: 12vh;
+        padding-top: 12vh;
         color: white;
         background-color: black;
+    }
+    .bottomNav{
+        width: 68%;
+    }
+}
+
+@media only screen and (min-width: 415px) {
+    .navContainer{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 12vh;
+        background-color: lightblue;
+    }
+    .navLeft{
+        width: 60%;
+        margin: 0px 0px 0px 1vw;
+    }
+    .navTop{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #aboutLink{
+        width: 25%;
+    }
+    .navBottomHide {
+        display: none;
+    }
+    .navBottomShow {
+        display: flex;
+        flex-direction: column;
+    }
+    .navRight{
+        width: 40%;
+    }
+    .résuméFile{
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 3vh;
+        right: 6vw;
+        height: 20vh;
+    }
+    .manillaBack{
+        height: 20vh;
+    }
+    .résuméLink{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        height: 20vh;
+        background-color: white;
+        transition: transform 1s;
+    }
+    .résuméImg{
+        position: absolute;
+        height: 19vh;
+        background: white;
+    }
+    .manillaFront{
+        position: absolute;
+        height: 20vh;
+        filter: brightness(94%);
+    }
+    .résuméFile:hover .résuméLink {
+        transform: translateX(5vw);
+    }
+
+    /* Separated For Scroll Effect */
+    .titleRevealContainer{
+        height: 12vh;
+        padding-top: 12vh;
+        color: white;
+        background-color: black;
+    }
+    .bottomNav{
+        width: 68%;
     }
 }

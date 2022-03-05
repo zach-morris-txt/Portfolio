@@ -11,7 +11,7 @@ const NavbarReveal = () => {
     const [scroll, setScroll] = useState(0)
 
     useEffect(() => {
-        var titleReveal = document.querySelector(".titleReveal-container")
+        var titleReveal = document.querySelector(".titleRevealContainer")
         var titleRevealHeight = titleReveal.offsetHeight
         window.addEventListener("scroll", () => {
           setScroll(window.scrollY > (0.5 * titleRevealHeight));
@@ -20,19 +20,19 @@ const NavbarReveal = () => {
 
     return (
         <div>
-            <div id='nav-container' className='nav-container'>
-                <div className='nav-left'>
-                    <div className='nav-top'>
-                        <Link to="/about" className='nav-links' id='about-link'>About</Link>
-                        <Link to="/contact" className='nav-links'>Contact</Link>
+            <div id='navContainer' className='navContainer'>
+                <div className='navLeft'>
+                    <div className='navTop'>
+                        <Link to="/about" className='navLinks' id='aboutLink'>About</Link>
+                        <Link to="/contact" className='navLinks'>Contact</Link>
                     </div>
-                    <div id='navBottom' className={scroll ? "nav-bottom-show" : "nav-bottom-hide"}>
-                        <div id='name'>Zach Morris</div>
-                        <div id='title'>Fullstack WebDev | Frontend Engineer</div>
+                    <div id='navBottom' className={scroll ? "navBottomShow" : "navBottomHide"}>
+                        <div className=''>Zach Morris</div>
+                        <div className=''>Fullstack WebDev | Frontend Engineer</div>
                     </div>
                 </div>
-                <div className='nav-right'>
-                    <div className='résumé-file'>
+                <div className='navRight'>
+                    <div className='résuméFile'>
                         <img src={manillaFull} className='manillaBack' alt="manilla folder" />
                         <a href="#" className='résuméLink'>
                             <img src={résumé} className='résuméImg' alt="résumé icon" />
@@ -41,8 +41,11 @@ const NavbarReveal = () => {
                     </div>
                 </div>
             </div>
-            <div className='titleReveal-container'>
-                Zach Morris Fullstack WebDev | Frontend Engineer
+            <div className='titleRevealContainer'>
+                <div className='bottomNav'>
+                    <div>Zach Morris</div>
+                    <div>Fullstack WebDev | Frontend Engineer</div>
+                </div>
             </div>
         </div>
     )
