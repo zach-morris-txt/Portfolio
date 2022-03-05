@@ -1,3 +1,6 @@
+.contactContainer{
+    height: 66vh;
+}
 textarea{
     resize: vertical;
 }

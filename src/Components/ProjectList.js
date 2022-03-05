@@ -32,7 +32,7 @@ const ProjectList = () => {
       )}
       <button onClick={()=>setReveal(!reveal)}>Suggest A Project</button>
       { reveal?
-        <div className=''>
+        <div>
           <div className='container'>
             <form ref={form} onSubmit={sendEmail}>
               <div className='formItem'>
@@ -41,10 +41,10 @@ const ProjectList = () => {
               <div className='formItem'>
                 <input type="text" className='formItemInput' name='name' placeholder='Name'></input>
               </div>
-              <div className='form-group'>
+              <div className='formItem'>
                 <input type="email" className='formItemInput' name='email' placeholder='Email' required></input>
               </div>
-              <div className='form-group'>
+              <div className='formItem'>
                 <textarea className='formItemInput' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
               </div>
               <input type="submit" value='Send' readOnly/>

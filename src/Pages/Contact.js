@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import emailjs from 'emailjs-com'
 
-import '../Styles/Contact.css'
+import '../Styles/ContactPage.css'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 
@@ -27,33 +27,33 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <div className='container'>
-        <form ref={form} onSubmit={sendEmail}>
-          <div className='form-group'>
-            <input type="text" id='subject-contact' name='subject' value='Contact' readOnly/>
-          </div>
-          <div className='form-group'>
-            <input type="text" id='name' name='name' placeholder='Name'></input>
-          </div>
-          <div className='form-group'>
-            <input type="email" id='email' name='email' placeholder='Email' required></input>
-          </div>
-          <div className='form-group'>
-            <textarea id='message' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
-          </div>
-          <input type="submit" value='Send' readOnly/>
-        </form>
-      </div>
-      <div id='status' />
-
-      <div className=''>
-        <div className=''>LinkedIn</div>
-        <div className=''>GitHub</div>
-        <div className=''>Email -professional-</div>
-        <div className=''>phone#???</div>
+      <div className='contactContainer'>
+        <div className='container'>
+          <form ref={form} onSubmit={sendEmail}>
+            <div className='formItem'>
+              <input type="text" className='subject' name='subject' value='Contact' readOnly/>
+            </div>
+            <div className='formItem'>
+              <input type="text" className='formItemInput' name='name' placeholder='Name'></input>
+            </div>
+            <div className='formItem'>
+              <input type="email" className='formItemInput' name='email' placeholder='Email' required></input>
+            </div>
+            <div className='formItem'>
+              <textarea name='message' className='formItemInput' placeholder='Email Me' cols="30" rows="10" required></textarea>
+            </div>
+            <input type="submit" value='Send' readOnly/>
+          </form>
+        </div>
+        <div id='status' />
+        <div className=''>
+          <div className='contactLink'>LinkedIn</div>
+          <div className='contactLink'>GitHub</div>
+          <div className='contactLink'>Email -professional-</div>
+          <div className='contactLink'>phone#???</div>
+        </div>
       </div>
       <Footer />
-      <script src="https://smtpjs.com/v3/smtp.js"></script>
     </div>
   )
 }
