@@ -10,15 +10,20 @@ import Footer from '../Components/Footer'
 const Home = () => {
   return (
     <div>
-        <NavbarReveal />
+      <NavbarReveal />
+      <div style={{display: "flex", flexDirection: "column", alignItems: "center",}}>
+        <h3>Projects</h3>
         <ProjectList />
+        <h3>Certifications</h3>
         <div style={{display: "flex", flexDirection: "column", alignItems: "center", width: "100%", textAlign: "center"}}>
-          <h2>BloomTech (FKA LambdaSchool)</h2>
-          <h3>?Curriculum Listed?</h3>
+          <h4>BloomTech (FKA LambdaSchool)</h4>
+          <h4>?Curriculum Listed?</h4>
         </div>
         <CertsList />
+        <h3>Skills</h3>
         <SkillsList />
-        <Footer />
+      </div>
+      <Footer />
     </div>
   )
 }

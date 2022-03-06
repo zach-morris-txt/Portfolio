@@ -34,7 +34,7 @@ const SkillsList = () => {
       )}
       <button onClick={()=>setReveal(!reveal)}>Suggest A Skill</button>
       { reveal?
-        <div className=''>
+        <div>
           <div className='container'>
             <form ref={form} onSubmit={sendEmail}>
               <div className='form-group'>

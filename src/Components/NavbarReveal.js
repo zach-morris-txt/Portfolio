@@ -27,8 +27,8 @@ const NavbarReveal = () => {
                         <Link to="/contact" className='navLinks'>Contact</Link>
                     </div>
                     <div id='navBottom' className={scroll ? "navBottomShow" : "navBottomHide"}>
-                        <div className=''>Zach Morris</div>
-                        <div className=''>Fullstack WebDev | Frontend Engineer</div>
+                        <h1>Zach Morris</h1>
+                        <h2>Fullstack WebDev | Frontend Engineer</h2>
                     </div>
                 </div>
                 <div className='navRight'>
@@ -43,8 +43,8 @@ const NavbarReveal = () => {
             </div>
             <div className='titleRevealContainer'>
                 <div className='bottomNav'>
-                    <div>Zach Morris</div>
-                    <div>Fullstack WebDev | Frontend Engineer</div>
+                    <h1>Zach Morris</h1>
+                    <h2>Fullstack WebDev | Frontend Engineer</h2>
                 </div>
             </div>
         </div>

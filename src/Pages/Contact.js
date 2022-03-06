@@ -46,7 +46,7 @@ const Contact = () => {
           </form>
         </div>
         <div id='status' />
-        <div className=''>
+        <div>
           <div className='contactLink'>LinkedIn</div>
           <div className='contactLink'>GitHub</div>
           <div className='contactLink'>Email -professional-</div>

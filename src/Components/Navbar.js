@@ -16,9 +16,9 @@ const Navbar = () => {
                         <Link to="/about" className='navLinks' id='aboutLink'>About</Link>
                         <Link to="/contact" className='navLinks'>Contact</Link>
                     </div>
-                    <div id='navBottom' className=''>
-                        <div className=''>Zach Morris</div>
-                        <div className=''>Fullstack WebDev | Frontend Engineer</div>
+                    <div id='navBottom' >
+                        <h1>Zach Morris</h1>
+                        <h2>Fullstack WebDev | Frontend Engineer</h2>
                     </div>
                 </div>
                 <div className='navRight'>
