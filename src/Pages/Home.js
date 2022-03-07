@@ -1,5 +1,6 @@
 import React from 'react'
 
+import '../index.css'
 import NavbarReveal from '../Components/NavbarReveal'
 import ProjectList from '../Components/ProjectList'
 import CertsList from '../Components/CertsList'
@@ -9,7 +10,7 @@ import Footer from '../Components/Footer'
 
 const Home = () => {
   return (
-    <div>
+    <div className='scroll'>
       <NavbarReveal />
       <div style={{display: "flex", flexDirection: "column", alignItems: "center",}}>
         <h3>Projects</h3>

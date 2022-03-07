@@ -1,5 +1,8 @@
 import {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+
 
 import '../Styles/Navbar.css'
 import manillaFull from '../Assets/Images/manillaFull.png'
@@ -50,8 +53,8 @@ const NavbarReveal = () => {
             </div>
             <div className='slide'>
                 <img src={slide} id='slideImg' alt="Neon Grid Design" />
-                <div id='slideText'>My Work</div>
-                <div>!!!Font Awesome Down Arrow!!!</div>
+                <h3 id='slideText'>My Work</h3>
+                <FontAwesomeIcon icon={faChevronDown} size='4x' id='chevronIcon' />
             </div>
         </div>
     )
