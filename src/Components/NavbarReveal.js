@@ -5,6 +5,7 @@ import '../Styles/Navbar.css'
 import manillaFull from '../Assets/Images/manillaFull.png'
 import résumé from '../Assets/Images/Résumé.png'
 import manillaSlide from '../Assets/Images/manillaSlide.png'
+import slide from '../Assets/Images/Home.jpg'
 
 
 const NavbarReveal = () => {
@@ -24,11 +25,11 @@ const NavbarReveal = () => {
                 <div className='navLeft'>
                     <div className='navTop'>
                         <Link to="/about" className='navLinks' id='aboutLink'>About</Link>
-                        <Link to="/contact" className='navLinks'>Contact</Link>
+                        <Link to="/contact" className='navLinks' id='contactLink'>Contact</Link>
                     </div>
                     <div id='navBottom' className={scroll ? "navBottomShow" : "navBottomHide"}>
-                        <h1>Zach Morris</h1>
-                        <h2>Fullstack WebDev | Frontend Engineer</h2>
+                        <h1 className='name'>Zach Morris</h1>
+                        <h2 className='career'>Fullstack WebDev | Frontend Engineer</h2>
                     </div>
                 </div>
                 <div className='navRight'>
@@ -43,9 +44,14 @@ const NavbarReveal = () => {
             </div>
             <div className='titleRevealContainer'>
                 <div className='bottomNav'>
-                    <h1>Zach Morris</h1>
-                    <h2>Fullstack WebDev | Frontend Engineer</h2>
+                    <h1 className='name'>Zach Morris</h1>
+                    <h2 className='career'>Fullstack WebDev | Frontend Engineer</h2>
                 </div>
+            </div>
+            <div className='slide'>
+                <img src={slide} id='slideImg' alt="Neon Grid Design" />
+                <div id='slideText'>My Work</div>
+                <div>!!!Font Awesome Down Arrow!!!</div>
             </div>
         </div>
     )

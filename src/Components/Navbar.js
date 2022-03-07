@@ -12,13 +12,13 @@ const Navbar = () => {
             <div id='navContainer' className='navContainer'>
                 <div className='navLeft'>
                     <div className='navTop'>
-                        <Link to="/" className='navLinks' id='aboutLink'>Home</Link>
+                        <Link to="/" className='navLinks' id='homeLink'>Home</Link>
                         <Link to="/about" className='navLinks' id='aboutLink'>About</Link>
-                        <Link to="/contact" className='navLinks'>Contact</Link>
+                        <Link to="/contact" className='navLinks' id='contactLink'>Contact</Link>
                     </div>
-                    <div id='navBottom' >
-                        <h1>Zach Morris</h1>
-                        <h2>Fullstack WebDev | Frontend Engineer</h2>
+                    <div id='navBottom'>
+                        <h1 className='name'>Zach Morris</h1>
+                        <h2 className='career'>Fullstack WebDev | Frontend Engineer</h2>
                     </div>
                 </div>
                 <div className='navRight'>
