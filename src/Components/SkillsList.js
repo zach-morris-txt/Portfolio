@@ -1,8 +1,9 @@
 import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHtml5, faCss3Alt, faJsSquare, faNode, faReact, faPython, faGitSquare } from '@fortawesome/free-brands-svg-icons'
 
 import '../Styles/SkillsList.css'
-import { skills } from '../Assets/data'
 
 
 const SkillsList = () => {
@@ -26,12 +27,44 @@ const SkillsList = () => {
 
   return (
     <div className='skillListContainer'>
-      {skills.map((item) => 
-        <div key={item.id} >
-          <p>{item.title}</p>
-          <img src={item.coverImg} className="skillImg" alt="skill item"/>
+      <div className='skills'>
+        <div className='skill'>
+          <p>HTML/CSS</p>
+          <div>
+            <FontAwesomeIcon size='4x' icon={faHtml5} />
+            <FontAwesomeIcon size='4x' icon={faCss3Alt} />
+          </div>
         </div>
-      )}
+        <div className='skill'>
+          <p>JS</p>
+          <FontAwesomeIcon size='4x' icon={faJsSquare} />
+        </div>
+        <div className='skill'>
+          <p>Python</p>
+          <FontAwesomeIcon size='4x' icon={faPython} />
+        </div>
+        <div className='skill'>
+          <p>Node</p>
+          <FontAwesomeIcon size='4x' icon={faNode} />
+        </div>
+        <div className='skill'>
+          <p>React</p>
+          <FontAwesomeIcon size='4x' icon={faReact} />
+        </div>
+        <div className='skill'>
+          <p>Redux</p>
+        </div>
+        <div className='skill'>
+          <p>PostgreSQL</p>
+        </div>
+        <div className='skill'>
+          <p>MongoDB</p>
+        </div>
+        <div className='skill'>
+          <p>Git</p>
+          <FontAwesomeIcon size='4x' icon={faGitSquare} />
+        </div>
+      </div>
       <button onClick={()=>setReveal(!reveal)}>Suggest A Skill</button>
       { reveal?
         <div>

@@ -9,7 +9,7 @@ export const projects = [
         id: 0,
         title: "Cali-Cafe",
         coverImg: caliProject,
-        description1: "Website for a previously unlisted, local café.",
+        description1: "React site for a previously unlisted local café.",
         techStack: "React | FontAwesome",
         deployedLink: "https://cali-site.herokuapp.com/",
         githubLink: "https://github.com/zach-morris-txt/cali-site",
@@ -26,7 +26,7 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Coderheroes E-Learning (Private)", //Provide Bug Checklist
+        title: "Coderheroes E-Learning (Private)",
         coverImg: coderheroProject,
         description1: "Fullstack app for a startup education platform. Features okta account management, backend class registration, and stripe payment processing.",
         techStack: "React | Redux | Okta | Stripe | AntDesign",
@@ -36,7 +36,7 @@ export const projects = [
     },
     {
         id: 3,
-        title: "StyleRider Ecommerce (Under Construction)",
+        title: "StyleRider Ecommerce (Under Construction)  ***PROVIDE Bug List?",
         coverImg: ecommerceProject,
         description1: "Fullstack app for a demo, motorcylce-gear vendor. Features product filtering, full product CRUD, and a working customer cart.",
         techStack: "React | Redux | Express | MongoDB",
@@ -59,39 +59,6 @@ export const certs = [
     {
         id: 2,
         title: "Adobe Illustrator",
-        coverImg: "",
-    },
-]
-
-export const skills = [
-    {
-        id: 0,
-        title: "HTML/ CSS",
-        coverImg: "",
-    },
-    {
-        id: 1,
-        title: "JS",
-        coverImg: "",
-    },
-    {
-        id: 2,
-        title: "Python",
-        coverImg: "",
-    },
-    {
-        id: 3,
-        title: "React",
-        coverImg: "",
-    },
-    {
-        id: 4,
-        title: "Redux",
-        coverImg: "",
-    },
-    {
-        id: 5,
-        title: "PostgreSQL",
         coverImg: "",
     },
 ]
