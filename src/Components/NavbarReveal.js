@@ -1,14 +1,10 @@
 import {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
-
 
 import '../Styles/Navbar.css'
 import manillaFull from '../Assets/Images/manillaFull.png'
 import résumé from '../Assets/Images/Résumé.png'
 import manillaSlide from '../Assets/Images/manillaSlide.png'
-import slide from '../Assets/Images/Home.jpg'
 
 
 const NavbarReveal = () => {
@@ -46,15 +42,10 @@ const NavbarReveal = () => {
                 </div>
             </div>
             <div className='titleRevealContainer'>
-                <div className='bottomNav'>
+                <div className={scroll ? "bottomNavShow" : "bottomNavHide"}>
                     <h1 className='name'>Zach Morris</h1>
                     <h2 className='career'>Fullstack WebDev | Frontend Engineer</h2>
                 </div>
-            </div>
-            <div className='slide'>
-                <img src={slide} id='slideImg' alt="Neon Grid Design" />
-                <h3 id='slideText'>My Work</h3>
-                <FontAwesomeIcon icon={faChevronDown} size='4x' id='chevronIcon' />
             </div>
         </div>
     )

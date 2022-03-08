@@ -84,7 +84,7 @@
         z-index: 2;
         width: 100%;
         height: 12vh;
-        background-color: lightblue;
+        background: rgba(96,47,199, 0.73);
     }
     .navLeft{
         width: 82%;
@@ -96,9 +96,10 @@
     .navLinks{
         margin: 1vw;
         font-size: 2vw;
+        color: #7395b1;
     }
     #navBottom{
-        color: black;
+        color: #7395b1;
         font-size: 1.3vw;
     }
     .navBottomHide {
@@ -155,33 +156,11 @@
         padding-top: 12vh;
         background-color: black;
     }
-    .bottomNav{
+    .bottomNavShow{
+        display: none;
+    }
+    .bottomNavHide{
         width: 68%;
         color: white;
-    }
-
-    .slide{
-        position: relative;
-        text-align: center;
-        z-index: 1;
-    }
-    #slideImg{
-        width: 100%;
-        height: 90vh;
-        text-align: center;
-    }
-    #slideText{
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-    }
-    #chevronIcon{
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: red;
     }
 }

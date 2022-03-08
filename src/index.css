@@ -22,6 +22,8 @@ code {
 html {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+
+  scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
   display: none;

@@ -8,7 +8,7 @@ const Project = ({ item }) => {
   return (
     <div className='projectContainer' key={item.id}>
       <Link to={`/project/${item.id}`}>
-        <p>{item.title}</p>
+        <h4>{item.title}</h4>
         <div className='projectImgContainer'>
           <img src={item.coverImg} className="projectImg" alt="project item"/>
         </div>
