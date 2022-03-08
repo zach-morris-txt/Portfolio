@@ -44,21 +44,3 @@ export const projects = [
         githubLink: "https://github.com/zach-morris-txt/EcommerceAPI",
     },
 ]
-
-export const certs = [
-    {
-        id: 0,
-        title: "Adobe Photoshop",
-        coverImg: "",
-    },
-    {
-        id: 1,
-        title: "Adobe InDesign",
-        coverImg: "",
-    },
-    {
-        id: 2,
-        title: "Adobe Illustrator",
-        coverImg: "",
-    },
-]

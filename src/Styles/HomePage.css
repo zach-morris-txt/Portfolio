@@ -22,3 +22,15 @@
     transform: translate(-50%, -50%);
     color: #2c586c;
 }
+.bloomRow{
+    display: flex;
+    flex-direction: row;
+}
+#bloomTech{
+    width: 36vw;
+    margin: 0px 4vw 0px 0px;
+}
+.curriculumItem{
+    display: flex;
+    align-items: center;
+}

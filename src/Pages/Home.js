@@ -9,6 +9,7 @@ import CertsList from '../Components/CertsList'
 import SkillsList from '../Components/SkillsList'
 import Footer from '../Components/Footer'
 import slide from '../Assets/Images/Home.jpg'
+import bloom from '../Assets/Images/BloomTech.jpg'
 
 
 const Home = () => {
@@ -24,9 +25,17 @@ const Home = () => {
         <h3 id='projects'>Projects</h3>
         <ProjectList />
         <h3>Certifications</h3>
-        <div style={{display: "flex", flexDirection: "column", alignItems: "center", width: "100%", textAlign: "center"}}>
-          <h4>BloomTech (FKA LambdaSchool)</h4>
-          <h4>?Curriculum Listed?</h4>
+        <h4>BloomTech (FKA LambdaSchool)</h4>
+        <div className='bloomRow'>
+          <img src={bloom} id='bloomTech' alt="Neon Grid Design" />
+          <div className='curriculum'>
+            <div className='curriculumItem'><h6>Web Foundations</h6><p>HTML, CSS, Git, JavaScript And UI Principles</p></div>
+            <div className='curriculumItem'><h6>Web Application Development</h6><p>‍React, Redux, React Router, HTTP/Ajax, And Functional Programming Techniques</p></div>
+            <div className='curriculumItem'><h6>Advanced Web Development</h6><p>Advanced React, State Management, And Web Applications</p></div>
+            <div className='curriculumItem'><h6>Backend Development</h6><p>Node.js Web APIs, Data Persistence, Authentication, And Testing</p></div>
+            <div className='curriculumItem'><h6>Computer Science</h6><p>‍Intro To Python And OOP, Algorithms, Data Structures, Graphs, And Hash Tables</p></div>
+            <div className='curriculumItem'><h6>Stakeholder Experience</h6><p>AGILE Development Apprenticeship Alongside Industry Non-Profit</p></div>
+          </div>
         </div>
         <CertsList />
         <h3>Skills</h3>
