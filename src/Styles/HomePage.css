@@ -13,12 +13,12 @@
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #7395b1;
 }
 #chevronIcon{
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: red;
+    color: #2c586c;
 }
