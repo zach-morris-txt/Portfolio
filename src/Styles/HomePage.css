@@ -10,14 +10,14 @@
 }
 #slideText{
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #7395b1;
 }
 #chevronIcon{
     position: absolute;
-    top: 70%;
+    top: 76%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #2c586c;
@@ -27,12 +27,16 @@
     flex-direction: column;
     align-items: center;
 }
-#work{
-    height: 12vh;
+.homeSubtitle{
+    margin: 12vh 0px 0vh 0px;
+}
+#bloomSubtitle{
+    text-align: center;
 }
 .bloomRow{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 #bloomTech{
     width: 36vw;

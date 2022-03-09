@@ -6,7 +6,8 @@
     min-height: 80vh;
     padding-top: 6vh;
 }
-.emailButton{
-    height: 60vh;
+.projectForm{
     width: 28%;
+}
+.emailButton{
 }

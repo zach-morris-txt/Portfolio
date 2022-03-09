@@ -30,30 +30,32 @@ const ProjectList = () => {
       {projects.map((item) => 
         <Project item={item} key={item.id} />
       )}
-      <button className='emailButton' onClick={()=>setReveal(!reveal)}>Suggest A Project</button>
-      { reveal?
-        <div>
-          <div className='container'>
-            <form ref={form} onSubmit={sendEmail}>
-              <div className='formItem'>
-                <input type="text" className='subject' name='subject' value='Project Suggestion' readOnly/>
-              </div>
-              <div className='formItem'>
-                <input type="text" className='formItemInput' name='name' placeholder='Name'></input>
-              </div>
-              <div className='formItem'>
-                <input type="email" className='formItemInput' name='email' placeholder='Email' required></input>
-              </div>
-              <div className='formItem'>
-                <textarea className='formItemInput' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
-              </div>
-              <input type="submit" value='Send' readOnly/>
-            </form>
+      <div className='projectForm'>
+        <button className='emailButton' onClick={()=>setReveal(!reveal)}>Suggest A Project</button>
+        { reveal?
+          <div>
+            <div className='container'>
+              <form ref={form} onSubmit={sendEmail}>
+                <div className='formItem'>
+                  <input type="text" className='subject' name='subject' value='Project Suggestion' readOnly/>
+                </div>
+                <div className='formItem'>
+                  <input type="text" className='formItemInput' name='name' placeholder='Name'></input>
+                </div>
+                <div className='formItem'>
+                  <input type="email" className='formItemInput' name='email' placeholder='Email' required></input>
+                </div>
+                <div className='formItem'>
+                  <textarea className='formItemInput' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
+                </div>
+                <input type="submit" value='Send' readOnly/>
+              </form>
+            </div>
+            <div id='status' />
           </div>
-          <div id='status' />
-        </div>
-        : <></>
-      }
+          : <></>
+        }
+      </div>
     </div>
   )
 }

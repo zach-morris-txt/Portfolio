@@ -18,28 +18,32 @@ const Home = () => {
       <NavbarReveal />
       <div className='slide'>
           <img src={slide} id='slideImg' alt="Neon Grid Design" />
-          <h3 id='slideText'>My Work</h3>
-          <a href='#work'><FontAwesomeIcon icon={faChevronDown} size='4x' id='chevronIcon' /></a>
+          <a href='#work'>
+            <h3 id='slideText'>My Work</h3>
+            <FontAwesomeIcon icon={faChevronDown} size='4x' id='chevronIcon' />
+          </a>
       </div>
       <div id='homeContainer'>
         <div id='work' />
-        <h3 id='projects'>Projects</h3>
+        <h3 className='homeSubtitle'>Projects</h3>
         <ProjectList />
-        <h3>Certifications</h3>
-        <h4>BloomTech (FKA LambdaSchool)</h4>
-        <div className='bloomRow'>
-          <img src={bloom} id='bloomTech' alt="Neon Grid Design" />
-          <div className='curriculum'>
-            <div className='curriculumItem'><h6>Web Foundations</h6><p>HTML, CSS, Git, JavaScript And UI Principles</p></div>
-            <div className='curriculumItem'><h6>Web Application Development</h6><p>‍React, Redux, React Router, HTTP/Ajax, And Functional Programming Techniques</p></div>
-            <div className='curriculumItem'><h6>Advanced Web Development</h6><p>Advanced React, State Management, And Web Applications</p></div>
-            <div className='curriculumItem'><h6>Backend Development</h6><p>Node.js Web APIs, Data Persistence, Authentication, And Testing</p></div>
-            <div className='curriculumItem'><h6>Computer Science</h6><p>‍Intro To Python And OOP, Algorithms, Data Structures, Graphs, And Hash Tables</p></div>
-            <div className='curriculumItem'><h6>Stakeholder Experience</h6><p>AGILE Development Apprenticeship Alongside Industry Non-Profit</p></div>
+        <h3 className='homeSubtitle'>Certifications</h3>
+        <div className='bloomColumn'>
+          <h4 id='bloomSubtitle'>BloomTech (FKA LambdaSchool)</h4>
+          <div className='bloomRow'>
+            <img src={bloom} id='bloomTech' alt="Neon Grid Design" />
+            <div className='curriculum'>
+              <div className='curriculumItem'><h6>Web Foundations</h6><p>HTML, CSS, Git, JavaScript And UI Principles</p></div>
+              <div className='curriculumItem'><h6>Web Application Development</h6><p>‍React, Redux, React Router, HTTP/Ajax, And Functional Programming Techniques</p></div>
+              <div className='curriculumItem'><h6>Advanced Web Development</h6><p>Advanced React, State Management, And Web Applications</p></div>
+              <div className='curriculumItem'><h6>Backend Development</h6><p>Node.js Web APIs, Data Persistence, Authentication, And Testing</p></div>
+              <div className='curriculumItem'><h6>Computer Science</h6><p>‍Intro To Python And OOP, Algorithms, Data Structures, Graphs, And Hash Tables</p></div>
+              <div className='curriculumItem'><h6>Stakeholder Experience</h6><p>AGILE Development Apprenticeship Alongside Industry Non-Profit</p></div>
+            </div>
           </div>
         </div>
         <CertsList />
-        <h3>Skills</h3>
+        <h3 className='homeSubtitle'>Skills</h3>
         <SkillsList />
       </div>
       <Footer />
