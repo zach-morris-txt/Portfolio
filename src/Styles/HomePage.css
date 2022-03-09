@@ -22,6 +22,14 @@
     transform: translate(-50%, -50%);
     color: #2c586c;
 }
+#homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#work{
+    height: 12vh;
+}
 .bloomRow{
     display: flex;
     flex-direction: row;

@@ -19,9 +19,10 @@ const Home = () => {
       <div className='slide'>
           <img src={slide} id='slideImg' alt="Neon Grid Design" />
           <h3 id='slideText'>My Work</h3>
-          <a href='#projects'><FontAwesomeIcon icon={faChevronDown} size='4x' id='chevronIcon' /></a>
+          <a href='#work'><FontAwesomeIcon icon={faChevronDown} size='4x' id='chevronIcon' /></a>
       </div>
-      <div style={{display: "flex", flexDirection: "column", alignItems: "center",}}>
+      <div id='homeContainer'>
+        <div id='work' />
         <h3 id='projects'>Projects</h3>
         <ProjectList />
         <h3>Certifications</h3>
