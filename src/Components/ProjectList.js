@@ -30,7 +30,7 @@ const ProjectList = () => {
       {projects.map((item) => 
         <Project item={item} key={item.id} />
       )}
-      <button onClick={()=>setReveal(!reveal)}>Suggest A Project</button>
+      <button className='emailButton' onClick={()=>setReveal(!reveal)}>Suggest A Project</button>
       { reveal?
         <div>
           <div className='container'>

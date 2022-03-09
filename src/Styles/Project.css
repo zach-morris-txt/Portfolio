@@ -1,19 +1,35 @@
 .projectContainer{
     width: 28%;
+    height: 60vh;
     margin: 0px 2vw 4vh 2vw;
     border: 1px blue solid;
+}
+#projectTitle{
+    height: 10%;
+    text-align: center;
 }
 .projectImgContainer{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 44%;
 }
 .projectImg{
-    width: 96%;
+    width: 25vw;
 }
 .infoWrapper{
-    width: 98%;
+    height: 30%;
 }
-.itemInfo{
-    font-size: 2vw;
+#itemInfoDescription{
+    font-size: 1.2vw;
+}
+#itemInfoTech{
+    font-size: 1.2vw;
+    color: red;
+}
+.itemLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
 }

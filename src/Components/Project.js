@@ -8,21 +8,23 @@ const Project = ({ item }) => {
   return (
     <div className='projectContainer' key={item.id}>
       <Link to={`/project/${item.id}`}>
-        <h4>{item.title}</h4>
+        <h4 id='projectTitle'>{item.title}</h4>
         <div className='projectImgContainer'>
-          <img src={item.coverImg} className="projectImg" alt="project item"/>
+          <img src={item.coverImg} className="projectImg" alt="Project Item"/>
         </div>
         <div className='infoWrapper'>
-          <p className='itemInfo'>{item.description1}</p>
-          <p className='itemInfo'>{item.techStack}</p>
+          <p id='itemInfoDescription'>{item.description1}</p>
+          <p id='itemInfoTech'>{item.techStack}</p>
         </div>
       </Link>
+      <div className='itemLinks'>
         <a href={item.deployedLink} target="_blank" rel="noreferrer" className='itemInfo'>Live Version</a>
-        <a href={item.githubLink} target="_blank" rel="noreferrer" className='itemInfo'>GitHub Frontend</a>
         {item.githubLink2? 
           <a href={item.githubLink2} target="_blank" rel="noreferrer" className='itemInfo'>GitHub Backend</a>
           : <></>
         }
+        <a href={item.githubLink} target="_blank" rel="noreferrer" className='itemInfo'>GitHub Frontend</a>
+      </div>
     </div>
   )
 }

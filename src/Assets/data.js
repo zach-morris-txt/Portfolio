@@ -1,7 +1,7 @@
 import caliProject from '../Assets/Images/Cali.PNG'
-import userAccountProject from '../Assets/Images/User-Account.PNG'
-import coderheroProject from '../Assets/Images/CoderHeroes.PNG'
-import ecommerceProject from '../Assets/Images/Ecommerce.PNG'
+import userAccountProject from '../Assets/Images/User-Account.jpg'
+import coderheroProject from '../Assets/Images/CoderHeroes.jpg'
+import ecommerceProject from '../Assets/Images/Ecommerce.jpg'
 
 
 export const projects = [
