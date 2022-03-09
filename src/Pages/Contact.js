@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
 import emailjs from 'emailjs-com'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelopeOpen, faSquarePhone } from '@fortawesome/free-solid-svg-icons'
 
 import '../Styles/ContactPage.css'
 import Navbar from '../Components/Navbar'
@@ -33,15 +33,15 @@ const Contact = () => {
       <div className='contactContainer'>
         <div id='contactItems'>
           <a href="https://www.linkedin.com/in/zachariah-morris/" className="" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} size='4x' className="faIcon" />
+            <FontAwesomeIcon icon={faLinkedin} size='3x' className="faIcon" />
           </a>
           <a href="https://github.com/zach-morris-txt" className="" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithub} size='4x' className="faIcon" />
+            <FontAwesomeIcon icon={faGithubSquare} size='3x' className="faIcon" />
           </a>
           <a href="mailto:zachariahmorris2000@gmail.com" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faEnvelope} size='4x' className="faIcon" />
+            <div><FontAwesomeIcon icon={faEnvelopeOpen} size='3x' className="faIcon" />ZachariahMorris2000@gmail.com</div>
           </a>
-          <div>Phone# (813) 570 5140</div>
+          <div><FontAwesomeIcon icon={faSquarePhone} size='3x' className="faIcon" />(813) 570 5140</div>
         </div>
         <div className='formContainer'>
           <form ref={form} onSubmit={sendEmail}>
