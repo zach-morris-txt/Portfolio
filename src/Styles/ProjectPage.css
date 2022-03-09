@@ -1,0 +1,8 @@
+.projectPageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projectPageImg{
+    width: 70%;
+}

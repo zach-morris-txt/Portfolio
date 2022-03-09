@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faCss3Alt, faNode, faPython } from '@fortawesome/free-brands-svg-icons'
 
 import '../Styles/SkillsList.css'
-import js from '../Assets/Images/JS.png'
-import reactRedux from '../Assets/Images/ReactRedux.png'
-import postgreSQL from '../Assets/Images/PostgreSQL.png'
-import mongoDB from '../Assets/Images/MongoDB.png'
-import git from '../Assets/Images/Git.png'
+import js from '../Assets/Images/IconIMGs/JS.png'
+import reactRedux from '../Assets/Images/IconIMGs/ReactRedux.png'
+import postgreSQL from '../Assets/Images/IconIMGs/PostgreSQL.png'
+import mongoDB from '../Assets/Images/IconIMGs/MongoDB.png'
+import git from '../Assets/Images/IconIMGs/Git.png'
 
 
 const SkillsList = () => {

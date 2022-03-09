@@ -2,9 +2,9 @@ import {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 
 import '../Styles/Navbar.css'
-import manillaFull from '../Assets/Images/manillaFull.png'
-import résumé from '../Assets/Images/Résumé.png'
-import manillaSlide from '../Assets/Images/manillaSlide.png'
+import manillaFull from '../Assets/Images/IconIMGs/manillaFull.png'
+import résumé from '../Assets/Images/IconIMGs/Résumé.png'
+import manillaSlide from '../Assets/Images/IconIMGs/manillaSlide.png'
 
 
 const NavbarReveal = () => {
