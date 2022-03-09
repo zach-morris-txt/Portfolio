@@ -4,7 +4,7 @@
         justify-content: space-between;
         position: fixed;
         top: 0;
-        width: 100%;
+        width: 100vw;
         height: 12vh;
         background-color: lightblue;
     }
@@ -82,9 +82,9 @@
         display: flex;
         position: fixed;
         z-index: 2;
-        width: 100%;
+        width: 100vw;
         height: 12vh;
-        background: rgba(96,47,199, 0.73);
+        background: #6d1d85;
     }
     .navLeft{
         width: 82%;
@@ -147,7 +147,7 @@
         filter: brightness(94%);
     }
     .résuméFile:hover .résuméLink {
-        transform: translateX(5vw);
+        transform: translateX(4.1vw);
     }
 
     /* Separated For Scroll Effect */
