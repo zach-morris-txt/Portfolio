@@ -1,6 +1,17 @@
 .contactContainer{
     height: 66vh;
 }
+#contactItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 textarea{
     resize: vertical;
 }

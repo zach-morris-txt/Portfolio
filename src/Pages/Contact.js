@@ -1,5 +1,8 @@
 import React, { useRef } from 'react'
 import emailjs from 'emailjs-com'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 import '../Styles/ContactPage.css'
 import Navbar from '../Components/Navbar'
@@ -28,7 +31,19 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className='contactContainer'>
-        <div className='container'>
+        <div id='contactItems'>
+          <a href="https://www.linkedin.com/in/zachariah-morris/" className="" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} size='4x' className="faIcon" />
+          </a>
+          <a href="https://github.com/zach-morris-txt" className="" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faGithub} size='4x' className="faIcon" />
+          </a>
+          <a href="mailto:zachariahmorris2000@gmail.com" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faEnvelope} size='4x' className="faIcon" />
+          </a>
+          <div>Phone# (813) 570 5140</div>
+        </div>
+        <div className='formContainer'>
           <form ref={form} onSubmit={sendEmail}>
             <div className='formItem'>
               <input type="text" className='subject' name='subject' value='Contact' readOnly/>
@@ -46,12 +61,6 @@ const Contact = () => {
           </form>
         </div>
         <div id='status' />
-        <div>
-          <div className='contactLink'>LinkedIn</div>
-          <div className='contactLink'>GitHub</div>
-          <div className='contactLink'>Email -professional-</div>
-          <div className='contactLink'>phone#???</div>
-        </div>
       </div>
       <Footer />
     </div>
