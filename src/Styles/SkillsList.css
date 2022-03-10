@@ -3,7 +3,7 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    padding-top: 6vh;
+    margin-bottom: 10vh;
 }
 .skills{
     display: flex;
@@ -13,8 +13,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 16px; 
+    margin: 0px 18px 0px 18px; 
+}
+.skillName{
+}
+.skillIcon{
+    height: 8vh;
+}
+.imgIconWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .imgIcon{
-    width: 3.2vw;
+    margin-top: 2px;
 }

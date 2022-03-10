@@ -24,21 +24,21 @@ const Home = () => {
           </a>
       </div>
       <div id='homeContainer'>
-        <div id='work' />
+        <div id='work'></div>
         <h3 className='homeSubtitle'>Projects</h3>
         <ProjectList />
         <h3 className='homeSubtitle'>Certifications</h3>
         <div className='bloomColumn'>
-          <h4 id='bloomSubtitle'>BloomTech (FKA LambdaSchool)</h4>
           <div className='bloomRow'>
             <img src={bloom} id='bloomTech' alt="Neon Grid Design" />
             <div className='curriculum'>
-              <div className='curriculumItem'><h6>Web Foundations</h6><p>HTML, CSS, Git, JavaScript And UI Principles</p></div>
-              <div className='curriculumItem'><h6>Web Application Development</h6><p>‍React, Redux, React Router, HTTP/Ajax, And Functional Programming Techniques</p></div>
-              <div className='curriculumItem'><h6>Advanced Web Development</h6><p>Advanced React, State Management, And Web Applications</p></div>
-              <div className='curriculumItem'><h6>Backend Development</h6><p>Node.js Web APIs, Data Persistence, Authentication, And Testing</p></div>
-              <div className='curriculumItem'><h6>Computer Science</h6><p>‍Intro To Python And OOP, Algorithms, Data Structures, Graphs, And Hash Tables</p></div>
-              <div className='curriculumItem'><h6>Stakeholder Experience</h6><p>AGILE Development Apprenticeship Alongside Industry Non-Profit</p></div>
+              <h5 id='bloomSubtitle'>BloomTech (FKA LambdaSchool)</h5>
+              <div className='curriculumItem'><h6 className='curriculumTitle'>Web Foundations</h6><p className='curriculumText'>HTML, CSS, Git, JavaScript And UI Principles</p></div>
+              <div className='curriculumItem'><h6 className='curriculumTitle'>Web Application Development</h6><p className='curriculumText'>‍React, Redux, React Router, HTTP/Ajax, And Functional Programming Techniques</p></div>
+              <div className='curriculumItem'><h6 className='curriculumTitle'>Advanced Web Development</h6><p className='curriculumText'>Advanced React, State Management, And Web Applications</p></div>
+              <div className='curriculumItem'><h6 className='curriculumTitle'>Backend Development</h6><p className='curriculumText'>Node.js Web APIs, Data Persistence, Authentication, And Testing</p></div>
+              <div className='curriculumItem'><h6 className='curriculumTitle'>Computer Science</h6><p className='curriculumText'>‍Intro To Python And OOP, Algorithms, Data Structures, Graphs, And Hash Tables</p></div>
+              <div className='curriculumItem'><h6 className='curriculumTitle'>Stakeholder Experience</h6><p className='curriculumText'>AGILE Development Apprenticeship Alongside Industry Non-Profit</p></div>
             </div>
           </div>
         </div>

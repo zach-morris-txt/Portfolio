@@ -24,14 +24,23 @@
 }
 #homeContainer{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 .homeSubtitle{
-    margin: 12vh 0px 0vh 0px;
+    width: 90%;
+    margin-top: 12vh;
+    text-align: center;
+    background: green;
 }
 #bloomSubtitle{
     text-align: center;
+}
+.bloomColumn{
+    display: flex;
+    justify-content: space-evenly;    ;
+    width: 90vw;
 }
 .bloomRow{
     display: flex;
@@ -41,8 +50,16 @@
 #bloomTech{
     width: 36vw;
     margin: 0px 4vw 0px 0px;
+    border: 1px gray solid;
 }
 .curriculumItem{
     display: flex;
     align-items: center;
+    margin: 1vw;
+}
+.curriculumTitle{
+    width: 16vw;
+}
+.curriculumText{
+    width: 30vw;
 }

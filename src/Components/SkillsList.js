@@ -34,39 +34,49 @@ const SkillsList = () => {
     <div className='skillListContainer'>
       <div className='skills'>
         <div className='skill'>
-          <p>HTML/CSS</p>
+          <p className='skillName'>HTML/CSS</p>
           <div>
-            <FontAwesomeIcon size='4x' icon={faHtml5} color='#E44D26' />
-            <FontAwesomeIcon size='4x' icon={faCss3Alt} color='#1b73ba' />
+            <FontAwesomeIcon className='skillIcon' size='4x' icon={faHtml5} color='#E44D26' />
+            <FontAwesomeIcon className='skillIcon' size='4x' icon={faCss3Alt} color='#1b73ba' />
           </div>
         </div>
         <div className='skill'>
-          <p>JS</p>
-          <img src={js} className='imgIcon' alt='JavaScript Icon' />
+          <p className='skillName'>JS</p>
+          <div className='imgIconWrap'>
+            <img src={js} className='imgIcon skillIcon' alt='JavaScript Icon' />
+          </div>
         </div>
         <div className='skill'>
-          <p>Python</p>
-          <FontAwesomeIcon size='4x' icon={faPython} color='#3775a9' />
+          <p className='skillName'>Python</p>
+          <FontAwesomeIcon className='skillIcon' size='4x' icon={faPython} color='#3775a9' />
         </div>
         <div className='skill'>
-          <p>Node</p>
-          <FontAwesomeIcon size='4x' icon={faNode} color='#2e7d32' />
+          <p className='skillName'>Node</p>
+          <FontAwesomeIcon className='skillIcon' size='4x' icon={faNode} color='#2e7d32' />
         </div>
         <div className='skill'>
-          <p>React/Redux</p>
-          <img src={reactRedux} className='imgIcon' alt='React And Redux Icons' />
+          <p className='skillName'>React/Redux</p>
+          <div className='imgIconWrap'>
+            <img src={reactRedux} className='imgIcon skillIcon' alt='React And Redux Icons' />
+          </div>
         </div>
         <div className='skill'>
-          <p>PostgreSQL</p>
-          <img src={postgreSQL} className='imgIcon' alt='PostgreSQL Icon' />
+          <p className='skillName'>PostgreSQL</p>
+          <div className='imgIconWrap'>
+            <img src={postgreSQL} className='imgIcon skillIcon' alt='PostgreSQL Icon' />
+          </div>
         </div>
         <div className='skill'>
-          <p>MongoDB</p>
-          <img src={mongoDB} className='imgIcon' alt='MongoDB Icon' />
+          <p className='skillName'>MongoDB</p>
+          <div className='imgIconWrap'>
+            <img src={mongoDB} className='imgIcon skillIcon' alt='MongoDB Icon' />
+          </div>
         </div>
         <div className='skill'>
-          <p>Git</p>
-          <img src={git} className='imgIcon' alt='Git Icon' />
+          <p className='skillName'>Git</p>
+          <div className='imgIconWrap'>
+            <img src={git} className='imgIcon skillIcon' alt='Git Icon' />
+          </div>
         </div>
       </div>
       <button onClick={()=>setReveal(!reveal)}>Suggest A Skill</button>

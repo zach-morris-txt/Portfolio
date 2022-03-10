@@ -1,11 +1,11 @@
 .projectContainer{
-    width: 28%;
+    width: 28vw;
     height: 60vh;
-    margin: 0px 2vw 4vh 2vw;
-    border: 1px blue solid;
+    margin: 0.4vw;
+    background: rgba(0, 0, 0, 0.4);
 }
 #projectTitle{
-    height: 10%;
+    height: 8%;
     text-align: center;
 }
 .projectImgContainer{
@@ -21,9 +21,14 @@
     height: 30%;
 }
 #itemInfoDescription{
+    height: 86%;
+    margin: 0px 14px 0px 14px;
+    text-align: center;
     font-size: 1.2vw;
 }
 #itemInfoTech{
+    margin: 0px 14px 0px 14px;
+    text-align: center;
     font-size: 1.2vw;
     color: red;
 }
@@ -32,4 +37,6 @@
     align-items: center;
     justify-content: space-around;
     height: 10%;
+    margin-top: 8px;
+    text-decoration: underline 2px;
 }

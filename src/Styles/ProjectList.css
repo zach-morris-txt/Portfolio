@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90vw;
     min-height: 80vh;
-    padding-top: 6vh;
 }
 .projectForm{
     width: 28%;
+    margin: 0.4vw;
 }
 .emailButton{
 }

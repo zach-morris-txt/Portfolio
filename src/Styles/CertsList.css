@@ -1,8 +1,9 @@
 .certListContainer{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 6vh;
+    justify-content: space-evenly;
+    flex-flow: wrap row;
+    width: 92vw;
+    margin-top: 6vh;
 }
 .certificate{
     display: flex;
@@ -10,5 +11,6 @@
     align-items: center;
 }
 .certImg{
-    width: 32vw;
+    width: 28vw;
+    border: 1px gray solid;
 }

@@ -16,7 +16,7 @@ const ProjectPage = () => {
             <div className='projectPageContainer'>
                 <h1>??Deploy Live Versions To This URL??</h1>
                 <p>{item.title}</p>
-                <img src={item.coverImg} className='projectPageImg' alt="project item"/>
+                <img src={item.coverImg} className='projectPageImg' alt="Project Item"/>
                 <p>{item.description1}</p>
                 <p>{item.techStack}</p>
                 <a href={item.deployedLink} target="_blank" rel="noreferrer">Live Version</a>
