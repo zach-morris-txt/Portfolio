@@ -30,7 +30,7 @@ const ProjectList = () => {
     <div className='projectListContainer'>
       {projects.map((item) => 
         <Link to={`/project/${item.id}`}>
-        <Project item={item} key={item.id} />
+          <Project item={item} key={item.id} />
         </Link>
       )}
       <div className='projectForm'>

@@ -8,6 +8,9 @@
     margin: 0.6vw;
     background: rgb(236, 210, 210);
 }
+.projectContainer:hover{
+    transform: scale(1.02,1.02);
+}
 .left{
     width: 50%;
     height: 74%;
