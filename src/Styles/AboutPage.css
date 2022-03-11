@@ -19,14 +19,20 @@
         height: 68vh;
     }
     .aboutText{
+        display: flex;
+        flex-direction: column;
         width: 40vw;
-        text-align: center;
     }
     .aboutBold{
         font-weight: 500;
     }
+    .aboutBooks{
+        display: flex;
+        justify-content: space-evenly;
+    }
     .jsBooks{
         width: 10vw;
+        margin: 0 40px 0 40px;
     }
     #aboutItalic{
         font-style: italic;
@@ -36,7 +42,8 @@
         align-items: top;
         justify-content: center;
         position: relative;
-        height: 40vh;
+        width: 30vh;
+        height: 45vh;
     }
     .aboutImg{
         height: 100%;
