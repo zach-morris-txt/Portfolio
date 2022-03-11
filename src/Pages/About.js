@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import '../Styles/AboutPage.css'
 import Navbar from '../Components/Navbar'
@@ -10,6 +10,8 @@ import definitiveJS from '../Assets/Images/DefinitiveJS.jpg'
 
 
 const About = () => {
+  const [reveal, setReveal] = useState(false)
+
   return (
     <div>
       <Navbar />
@@ -24,8 +26,9 @@ const About = () => {
           <p><span className='aboutBold'>Interests:</span> Arduino, Homesteading, Make: Magazine, Motorcycles, The Rich Dad Podcast</p>
         </div>
         <div className='aboutImgs'>
-          <img src={about1} className='aboutImg' alt='Zach Morris' />
-          <img src={about2} className='aboutImg' alt='Zach Morris' />
+          <button id='aboutButton' onClick={()=>setReveal(!reveal)}>Hacker Man</button>
+          <img src={about1} className='aboutImg' id='about1' alt='Zach Morris' />
+          <img src={about2} className='aboutImg' id={reveal? 'about2Show' : 'about2Hide'} alt='Zach Morris' />
         </div>
       </div>
       <Footer />
