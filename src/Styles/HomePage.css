@@ -10,20 +10,35 @@
     object-fit: cover;
     text-align: center;
 }
-#slideText{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    font-size: 2vw;
-    text-decoration: underline;
-    transform: translate(-50%, -50%);
-    color: #0edef0;
-}
-#chevronIcon{
+#slideWrap{
     position: absolute;
     top: 76%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 20vw;
+    height: 10vh;
+    border-radius: 4vw;
+    background: rgb(0,0,0,0.7);
+}
+#slideLink{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 4vw;
+}
+#slideText{
+    position: absolute;
+    width: 14vw;
+    font-size: 2vw;
+    text-decoration: underline;
+    color: #0edef0;
+}
+#downIcon{
+    position: absolute;
+    width: 14vw;
+    margin-top: 0.4vw;
     color: #09676f;
 }
 #homeContainer{
@@ -34,8 +49,8 @@
     background: rgb(243, 237, 237);
 }
 #work{
-    width: 98vw;
-    border: 2px black dotted;
+    width: 96vw;
+    border: 1px black solid;
 }
 .homeSubtitle{
     width: 90%;

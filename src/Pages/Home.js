@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faSortDown } from '@fortawesome/free-solid-svg-icons'
 
 import '../Styles/HomePage.css'
 import NavbarReveal from '../Components/NavbarReveal'
@@ -18,10 +18,11 @@ const Home = () => {
       <NavbarReveal />
       <div className='slide'>
           <img src={slide} id='slideImg' alt="Neon Grid Design" />
-          <a href='#work' id='slideLink'>
-            <h3 id='slideText'>My Work</h3>
-            <FontAwesomeIcon icon={faChevronDown} size='4x' id='chevronIcon' />
-          </a>
+          <div id='slideWrap'>
+            <a href='#work' id='slideLink'><h3 id='slideText'>My Work</h3>
+              <FontAwesomeIcon icon={faSortDown} size='4x' id='downIcon' />
+            </a>
+          </div>
       </div>
       <div id='homeContainer'>
         <div id='work'></div>

@@ -1,5 +1,6 @@
 .contactContainer{
     height: 68vh;
+    background: rgb(243, 237, 237);
 }
 #contactItems{
     display: flex;
