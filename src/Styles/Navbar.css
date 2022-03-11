@@ -96,10 +96,10 @@
     .navLinks{
         margin: 1vw;
         font-size: 2vw;
-        color: #0de1ef;
+        color: #5d57c9;
     }
     #navBottom{
-        color: #0de1ef;
+        color: #5d57c9;
         font-size: 1.3vw;
     }
     .navBottomHide {
@@ -161,6 +161,6 @@
     }
     .bottomNavHide{
         width: 68%;
-        color: #0de1ef;
+        color: #dc73e6;
     }
 }

@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import emailjs from 'emailjs-com'
 
 import '../Styles/ProjectList.css'
@@ -28,7 +29,9 @@ const ProjectList = () => {
   return (
     <div className='projectListContainer'>
       {projects.map((item) => 
+        <Link to={`/project/${item.id}`}>
         <Project item={item} key={item.id} />
+        </Link>
       )}
       <div className='projectForm'>
         <button className='emailButton' onClick={()=>setReveal(!reveal)}>Suggest A Project</button>

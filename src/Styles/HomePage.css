@@ -14,15 +14,17 @@
     position: absolute;
     top: 70%;
     left: 50%;
+    font-size: 2vw;
+    text-decoration: underline;
     transform: translate(-50%, -50%);
-    color: #7395b1;
+    color: #0edef0;
 }
 #chevronIcon{
     position: absolute;
     top: 76%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #2c586c;
+    color: #09676f;
 }
 #homeContainer{
     display: flex;
@@ -40,8 +42,8 @@
     height: 8vh;
     margin: 13vh 0 2vh 0;
     text-align: center;
-    color: white;
-    background: #56450b;
+    color: black;
+    background: #cc7a7a;
 }
 #bloomSubtitle{
     text-align: center;
