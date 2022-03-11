@@ -12,9 +12,9 @@ const Navbar = () => {
             <div id='navContainer' className='navContainer'>
                 <div className='navLeft'>
                     <div className='navTop'>
-                        <Link to="/" className='navLinks' id='homeLink'>Home</Link>
-                        <Link to="/about" className='navLinks' id='aboutLink'>About</Link>
-                        <Link to="/contact" className='navLinks' id='contactLink'>Contact</Link>
+                        <Link to="/" id='homeLink'><div className='navLinks'>Home</div></Link>
+                        <Link to="/about" id='aboutLink'><div className='navLinks'>About</div></Link>
+                        <Link to="/contact" id='contactLink'><div className='navLinks'>Contact</div></Link>
                     </div>
                     <div id='navBottom'>
                         <h1 className='name'>Zach Morris</h1>

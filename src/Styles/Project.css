@@ -1,27 +1,23 @@
 .projectContainer{
-    width: 28vw;
-    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height: 34vh;
     margin: 0.4vw;
     background: rgba(0, 0, 0, 0.4);
 }
+.left{
+    width: 54%;
+}
 #projectTitle{
-    height: 8%;
     text-align: center;
-}
-.projectImgContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 44%;
-}
-.projectImg{
-    width: 25vw;
 }
 .infoWrapper{
     height: 30%;
 }
 #itemInfoDescription{
-    height: 86%;
     margin: 0px 14px 0px 14px;
     text-align: center;
     font-size: 1.2vw;
@@ -39,4 +35,13 @@
     height: 10%;
     margin-top: 8px;
     text-decoration: underline 2px;
+}
+.projectImgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.projectImg{
+    height: 90%;
 }

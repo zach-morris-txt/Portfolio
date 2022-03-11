@@ -8,7 +8,7 @@ import ProjectList from '../Components/ProjectList'
 import CertsList from '../Components/CertsList'
 import SkillsList from '../Components/SkillsList'
 import Footer from '../Components/Footer'
-import slide from '../Assets/Images/Home.jpg'
+import slide from '../Assets/Images/PageHome.png'
 import bloom from '../Assets/Images/BloomTech.jpg'
 
 
@@ -18,7 +18,7 @@ const Home = () => {
       <NavbarReveal />
       <div className='slide'>
           <img src={slide} id='slideImg' alt="Neon Grid Design" />
-          <a href='#work'>
+          <a href='#work' id='slideLink'>
             <h3 id='slideText'>My Work</h3>
             <FontAwesomeIcon icon={faChevronDown} size='4x' id='chevronIcon' />
           </a>
