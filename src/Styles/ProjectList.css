@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 90vw;
+    width: 78vw;
     min-height: 80vh;
+    border: 20px #0f0b56 solid;
 }
 .projectForm{
     width: 28%;

@@ -29,12 +29,19 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    background: rgb(243, 237, 237);
+}
+#work{
+    width: 98vw;
+    border: 2px black dotted;
 }
 .homeSubtitle{
     width: 90%;
-    margin-top: 12vh;
+    height: 8vh;
+    margin: 13vh 0 2vh 0;
     text-align: center;
-    background: green;
+    color: white;
+    background: #56450b;
 }
 #bloomSubtitle{
     text-align: center;

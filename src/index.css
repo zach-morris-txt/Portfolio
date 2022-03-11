@@ -11,6 +11,12 @@ body{
 }
 html{
   scroll-behavior: smooth;
+
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar {
+  display: none;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
@@ -25,16 +31,4 @@ h1, h2, h3, h4, h5, h6{
 }
 p{
   margin: 0px;
-}
-
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-thumb {
-  height: 1vh;
-  background-color: #7395b1;
-}
-::-webkit-scrollbar-track {
-  background-color: #2c586c;
 }
