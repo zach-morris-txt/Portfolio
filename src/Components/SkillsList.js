@@ -1,10 +1,13 @@
 import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHtml5, faCss3Alt, faNode, faPython } from '@fortawesome/free-brands-svg-icons'
 
 import '../Styles/SkillsList.css'
+import html from '../Assets/Images/IconIMGs/HTML.png'
+import css from '../Assets/Images/IconIMGs/CSS.png'
 import js from '../Assets/Images/IconIMGs/JS.png'
+import python from '../Assets/Images/IconIMGs/Python.png'
+import node from '../Assets/Images/IconIMGs/Node.png'
+
 import reactRedux from '../Assets/Images/IconIMGs/ReactRedux.png'
 import postgreSQL from '../Assets/Images/IconIMGs/PostgreSQL.png'
 import mongoDB from '../Assets/Images/IconIMGs/MongoDB.png'
@@ -35,9 +38,9 @@ const SkillsList = () => {
       <div className='skills'>
         <div className='skill'>
           <p className='skillName'>HTML/CSS</p>
-          <div>
-            <FontAwesomeIcon className='skillIcon' size='4x' icon={faHtml5} color='#E44D26' />
-            <FontAwesomeIcon className='skillIcon' size='4x' icon={faCss3Alt} color='#1b73ba' />
+          <div className='imgIconWrap'>
+            <img src={html} className='imgIcon skillIcon' alt='JavaScript Icon' />
+            <img src={css} className='imgIcon skillIcon' alt='JavaScript Icon' />
           </div>
         </div>
         <div className='skill'>
@@ -47,18 +50,22 @@ const SkillsList = () => {
           </div>
         </div>
         <div className='skill'>
-          <p className='skillName'>Python</p>
-          <FontAwesomeIcon className='skillIcon' size='4x' icon={faPython} color='#3775a9' />
-        </div>
-        <div className='skill'>
           <p className='skillName'>Node</p>
-          <FontAwesomeIcon className='skillIcon' size='4x' icon={faNode} color='#2e7d32' />
+          <div className='imgIconWrap'>
+            <img src={node} className='imgIcon skillIcon' alt='JavaScript Icon' />
+          </div>        
         </div>
         <div className='skill'>
           <p className='skillName'>React/Redux</p>
           <div className='imgIconWrap'>
             <img src={reactRedux} className='imgIcon skillIcon' alt='React And Redux Icons' />
           </div>
+        </div>
+        <div className='skill'>
+          <p className='skillName'>Python</p>
+          <div className='imgIconWrap'>
+            <img src={python} className='imgIcon skillIcon' alt='JavaScript Icon' />
+          </div>        
         </div>
         <div className='skill'>
           <p className='skillName'>PostgreSQL</p>

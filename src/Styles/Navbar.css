@@ -83,7 +83,7 @@
         position: fixed;
         z-index: 2;
         width: 100vw;
-        height: 12vh;
+        height: 11vh;
         background: #471972;
     }
     .navLeft{
@@ -99,6 +99,7 @@
         color: #5d57c9;
     }
     #navBottom{
+        width: 50vw;
         color: rgb(243, 237, 237);
         font-size: 1.3vw;
     }
@@ -142,7 +143,7 @@
         justify-content: center;
         position: absolute;
         height: 20vh;
-        background-color: white;
+        background: white;
         transition: transform 1s;
     }
     .résuméImg{
@@ -161,9 +162,9 @@
 
     /* Separated For Scroll Effect */
     .titleRevealContainer{
-        height: 12vh;
-        padding-top: 12vh;
-        background-color: black;
+        height: 11vh;
+        padding-top: 11vh;
+        background: black;
     }
     .bottomNavShow{
         display: none;

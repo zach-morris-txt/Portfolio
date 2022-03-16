@@ -1,3 +1,6 @@
+#fullContainer{
+    background: rgb(243, 237, 237);
+}
 .slide{
     position: relative;
     text-align: center;
@@ -5,27 +8,27 @@
 }
 #slideImg{
     width: 100%;
-    height: 90vh;
-    filter: contrast(180%);
+    height: 88vh;
+    filter: saturate(100%) contrast(140%) brightness(160%);
     object-fit: cover;
     text-align: center;
 }
 #slideWrap{
     position: absolute;
-    top: 76%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 20vw;
-    height: 10vh;
-    border-radius: 4vw;
-    background: rgb(0,0,0,0.7);
+    width: 22vw;
+    height: 11vh;
+    border-radius: 1.2vw;
+    background: rgb(0,0,0,0.86);
 }
 #slideLink{
     display: flex;
     justify-content: center;
     position: relative;
-    width: 20vw;
-    height: 10vh;
+    width: 22vw;
+    height: 11vh;
     border-radius: 4vw;
 }
 #slideText{
@@ -38,7 +41,7 @@
 #downIcon{
     position: absolute;
     width: 14vw;
-    margin-top: 0.4vw;
+    margin: 0.4vw 0vw 0.4vw 0vw;
     color: #09676f;
 }
 #homeContainer{
@@ -49,14 +52,18 @@
     background: rgb(243, 237, 237);
 }
 #work{
-    width: 96vw;
-    border: 1px black solid;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.homeSubtitle{
+.homeSubtitleWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 90%;
     height: 8vh;
-    margin: 13vh 0 2vh 0;
-    text-align: center;
+    margin: 7vh 0vh 1vh 0vh;
     color: black;
     background: #cc7a7a;
 }
