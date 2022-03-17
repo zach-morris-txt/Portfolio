@@ -3,6 +3,16 @@ import userAccountProject from '../Assets/Images/ProjectIMGs/User-Account.jpg'
 import coderheroProject from '../Assets/Images/ProjectIMGs/CoderHeroes.jpg'
 import ecommerceProject from '../Assets/Images/ProjectIMGs/Ecommerce.jpg'
 
+import html from './Images/IconIMGs/HTML.png'
+import css from './Images/IconIMGs/CSS.png'
+import js from './Images/IconIMGs/JS.png'
+import python from './Images/IconIMGs/Python.png'
+import node from './Images/IconIMGs/Node.png'
+import reactRedux from './Images/IconIMGs/ReactRedux.png'
+import postgreSQL from './Images/IconIMGs/PostgreSQL.png'
+import mongoDB from './Images/IconIMGs/MongoDB.png'
+import git from './Images/IconIMGs/Git.png'
+
 
 export const projects = [
     {
@@ -43,4 +53,57 @@ export const projects = [
         deployedLink: "https://ecommerce-backend--api.herokuapp.com/",
         githubLink: "https://github.com/zach-morris-txt/EcommerceAPI",
     },
+]
+
+export const skills = [
+    {
+        id: 0,
+        name: "HTML/CSS",
+        img: html,
+        imgAlt: "HTML Icon",
+        img2: css,
+        img2Alt: "CSS Icon",
+    },
+    {
+        id: 0,
+        name: "JS",
+        img: js,
+        imgAlt: "JavaScript Icon",
+    },
+    {
+        id: 0,
+        name: "Node",
+        img: node,
+        imgAlt: "Node Icon",
+    },
+    {
+        id: 0,
+        name: "React/Redux",
+        img: reactRedux,
+        imgAlt: "React And Redux Icons",
+    },
+    {
+        id: 0,
+        name: "Python",
+        img: python,
+        imgAlt: "Python Icon",
+    },
+    {
+        id: 0,
+        name: "PostgreSQL",
+        img: postgreSQL,
+        imgAlt: "PostgreSQL Icon",
+    },
+    {
+        id: 0,
+        name: "MongoDB",
+        img: mongoDB,
+        imgAlt: "MongoDB Icon",
+    },
+    {
+        id: 0,
+        name: "Git",
+        img: git,
+        imgAlt: "Git Icon",
+    }
 ]

@@ -1,5 +1,5 @@
 .contactContainer{
-    height: 68vh;
+    height: 70vh;
     background: rgb(243, 237, 237);
 }
 #contactItems{
@@ -14,13 +14,16 @@
     height: 100%;
 }
 textarea{
-    resize: vertical;
+    resize: none;
 }
-button{
+button, input[type="submit"] {
+    color: white;
+    background: #471972;
+    border: none;
     transition: .9s ease background;
 }
-button:hover{
-    background: green;
+button:hover, input[type="submit"]:hover {
+    color: #5d57c9;
 }
 #status{
     color: white;

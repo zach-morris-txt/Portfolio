@@ -15,8 +15,6 @@
     align-items: center;
     margin: 0px 18px 0px 18px; 
 }
-.skillName{
-}
 .skillIcon{
     height: 8vh;
 }
@@ -27,4 +25,33 @@
 }
 .imgIcon{
     margin-top: 2px;
+}
+
+
+.skillForm{
+    display: flex;
+}
+.suggestSkillBtn{
+    width: 10vw;
+    margin: 1vh 1vw 1vh 1.8vw;
+    padding: 1.6vh 2vw 1.6vh 2vw;
+}
+.skillInputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#skillMessage{
+    width: 18vw;
+    height: 14vh;
+}
+.btnsWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 1vw 0px 1vw;
+}
+.skillBtn{
+    width: 8vw;
+    height: 7vh;
+    margin: 1vh 0px 1vh 0px;
 }

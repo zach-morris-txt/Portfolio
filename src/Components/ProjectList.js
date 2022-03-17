@@ -34,26 +34,29 @@ const ProjectList = () => {
         </Link>
       )}
       <div className='projectForm'>
-        <button className='emailButton' onClick={()=>setReveal(!reveal)}>Suggest A Project</button>
+        <button className='suggestProjectBtn' onClick={()=>setReveal(!reveal)}>Suggest <br />A Project</button>
         { reveal?
           <div>
-            <div className='container'>
-              <form ref={form} onSubmit={sendEmail}>
-                <div className='formItem'>
-                  <input type="text" className='subject' name='subject' value='Project Suggestion' readOnly/>
+            <form ref={form} className='projectInputs' onSubmit={sendEmail}>
+                <div>
+                  <div className='formItem'>
+                    <input type="text" className='subject' name='subject' value='Project Suggestion' readOnly/>
+                  </div>
+                  <div className='formItem'>
+                    <input type="text" className='formProjectInput' name='name' placeholder='Name'></input>
+                  </div>
+                  <div className='formItem'>
+                    <input type="email" className='formProjectInput' name='email' placeholder='Email' required></input>
+                  </div>
+                  <div className='formItem'>
+                    <textarea className='formProjectInput' id='projectMessage' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
+                  </div>
                 </div>
-                <div className='formItem'>
-                  <input type="text" className='formItemInput' name='name' placeholder='Name'></input>
+                <div className='btnsWrapper'>
+                  <button className='projectBtn' onClick={()=>setReveal(!reveal)}>X</button>
+                  <input className='projectBtn' type="submit" value='Send' readOnly/>
                 </div>
-                <div className='formItem'>
-                  <input type="email" className='formItemInput' name='email' placeholder='Email' required></input>
-                </div>
-                <div className='formItem'>
-                  <textarea className='formItemInput' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
-                </div>
-                <input type="submit" value='Send' readOnly/>
-              </form>
-            </div>
+            </form>
             <div id='status' />
           </div>
           : <></>
