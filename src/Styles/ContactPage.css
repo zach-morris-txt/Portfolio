@@ -16,15 +16,6 @@
 textarea{
     resize: none;
 }
-button, input[type="submit"] {
-    color: white;
-    background: #471972;
-    border: none;
-    transition: .9s ease background;
-}
-button:hover, input[type="submit"]:hover {
-    color: #5d57c9;
-}
 #status{
     color: white;
 }

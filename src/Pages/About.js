@@ -28,7 +28,7 @@ const About = () => {
           <p><span className='aboutBold'>Interests:</span> Arduino, Homesteading, Make: Magazine, Motorcycles, The Rich Dad Podcast</p>
         </div>
         <div className='aboutImgs'>
-          <button id='aboutButton' onClick={()=>setReveal(!reveal)}>{reveal? 'A Less Horrifying Photo' : 'Hacker Man'}</button>
+          <button id='aboutButton blueHover' onClick={()=>setReveal(!reveal)}>{reveal? 'A Less Horrifying Photo' : 'Hacker Man'}</button>
           <img src={about1} className='aboutImg' id='about1' alt='Zach Morris' />
           <img src={about2} className='aboutImg' id={reveal? 'about2Show' : 'about2Hide'} alt='Zach Morris' />
         </div>

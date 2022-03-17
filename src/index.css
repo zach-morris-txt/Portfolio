@@ -32,3 +32,14 @@ h1, h2, h3, h4, h5, h6{
 p{
   margin: 0px;
 }
+
+
+.blueHover, input[type="submit"] {
+  color: white;
+  background: #471972;
+  border: none;
+  transition: .9s ease background;
+}
+.blueHover:hover, input[type="submit"]:hover {
+  color: #5d57c9;
+}

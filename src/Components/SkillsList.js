@@ -39,7 +39,7 @@ const SkillsList = () => {
         )}
       </div>
       <div className={reveal? 'skillForm' : 'skillFormAlt' }>
-        <button className={reveal? 'suggestSkillBtn' : 'suggestSkillBtnAlt'} onClick={()=>setReveal(!reveal)}>Skill<br />Suggestion</button>
+        <button className={reveal? 'suggestSkillBtn blueHover' : 'suggestSkillBtnAlt blueHover'} onClick={()=>setReveal(!reveal)}>Skill<br />Suggestion</button>
         { reveal?
           <div className='skillFormWrap'>
               <form ref={form} className='skillInputs' onSubmit={sendEmail}>
@@ -58,7 +58,7 @@ const SkillsList = () => {
                   </div>
                 </div>
                 <div className='btnsWrapper'>
-                  <button className='skillBtn' onClick={()=>setReveal(!reveal)}>X</button>
+                  <button className='skillBtn blueHover' onClick={()=>setReveal(!reveal)}>X</button>
                   <input className='skillBtn' type="submit" value='Send' readOnly/>
                 </div>
               </form>

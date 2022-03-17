@@ -30,12 +30,12 @@ const ProjectList = () => {
   return (
     <div className='projectListContainer'>
       {projects.map((item) => 
-        <button onClick={()=> navigate(`/project/${item.id}`)} key={item.id} >
+        <button onClick={()=> navigate(`/project/${item.id}`)} key={item.id} style={{border: "none"}}>
           <Project item={item} />
         </button>
       )}
       <div className='projectForm'>
-        <button className='suggestProjectBtn' onClick={()=>setReveal(!reveal)}>Project<br />Suggestion</button>
+        <button className='suggestProjectBtn blueHover' onClick={()=>setReveal(!reveal)}>Project<br />Suggestion</button>
         { reveal?
           <div>
             <form ref={form} className='projectInputs' onSubmit={sendEmail}>
@@ -54,7 +54,7 @@ const ProjectList = () => {
                   </div>
                 </div>
                 <div className='btnsWrapper'>
-                  <button className='projectBtn' onClick={()=>setReveal(!reveal)}>X</button>
+                  <button className='projectBtn blueHover' onClick={()=>setReveal(!reveal)}>X</button>
                   <input className='projectBtn' type="submit" value='Send' readOnly/>
                 </div>
             </form>
