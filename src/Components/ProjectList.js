@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import emailjs from 'emailjs-com'
 
 import '../Styles/ProjectList.css'
@@ -8,6 +8,7 @@ import { projects } from '../Assets/data'
 
 
 const ProjectList = () => {
+  const navigate = useNavigate()
   const [reveal, setReveal] = useState(false)
 
   const form = useRef();
@@ -29,9 +30,9 @@ const ProjectList = () => {
   return (
     <div className='projectListContainer'>
       {projects.map((item) => 
-        <Link to={`/project/${item.id}`}>
-          <Project item={item} key={item.id} />
-        </Link>
+        <button onClick={()=> navigate(`/project/${item.id}`)} key={item.id} >
+          <Project item={item} />
+        </button>
       )}
       <div className='projectForm'>
         <button className='suggestProjectBtn' onClick={()=>setReveal(!reveal)}>Project<br />Suggestion</button>
