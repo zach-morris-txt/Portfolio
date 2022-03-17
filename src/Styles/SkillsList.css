@@ -1,22 +1,30 @@
 .skillListContainer{
     display: flex;
+    align-items: flex-start;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 10vh;
+    width: 84vw;
+    min-height: 54vh;
+    margin: 4vh 0px 6vh 0px;
+    border: 4px white solid;
 }
 .skills{
     display: flex;
-    justify-content: center; 
+    flex-flow: row wrap;
+    width: 52%;
 }
 .skill{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px 18px 0px 18px; 
+    width: 6vw;
+    height: 6vw;
+    margin: 18px 14px 14px 14px; 
+    background: white;
+    border: 4px #5d57c9 solid;
+    border-radius: 50%;
 }
 .skillIcon{
-    height: 8vh;
+    height: 7.8vh;
 }
 .imgIconWrap{
     display: flex;
@@ -30,28 +38,45 @@
 
 .skillForm{
     display: flex;
+    align-items: center;
+    width: 30%;
+    margin-top: 4vh;
+}
+.skillFormAlt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
 }
 .suggestSkillBtn{
-    width: 10vw;
-    margin: 1vh 1vw 1vh 1.8vw;
-    padding: 1.6vh 2vw 1.6vh 2vw;
+    width: 7vw;
+    height: 18vh;
+    margin: 1vh 1vw 1vh 0vw;
+}
+.suggestSkillBtnAlt{
+    width: 12vw;
+    height: 10vh;
+    margin-top: 4vh;
 }
 .skillInputs{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+.formSkillInput{
+    width: 9vw;
+}
 #skillMessage{
-    width: 18vw;
-    height: 14vh;
+    width: 11vw;
+    height: 21vh;
 }
 .btnsWrapper{
     display: flex;
     flex-direction: column;
-    margin: 0px 1vw 0px 1vw;
+    margin: 0px 0vw 0px 1vw;
 }
 .skillBtn{
-    width: 8vw;
-    height: 7vh;
-    margin: 1vh 0px 1vh 0px;
+    width: 6vw;
+    height: 8vh;
+    margin: 1.5vh 0px 1.5vh 0px;
 }

@@ -12,6 +12,8 @@ import reactRedux from './Images/IconIMGs/ReactRedux.png'
 import postgreSQL from './Images/IconIMGs/PostgreSQL.png'
 import mongoDB from './Images/IconIMGs/MongoDB.png'
 import git from './Images/IconIMGs/Git.png'
+import okta from './Images/IconIMGs/Okta.png'
+import stripe from './Images/IconIMGs/Stripe.jpg'
 
 
 export const projects = [
@@ -99,6 +101,18 @@ export const skills = [
         name: "MongoDB",
         img: mongoDB,
         imgAlt: "MongoDB Icon",
+    },
+    {
+        id: 0,
+        name: "Okta",
+        img: okta,
+        imgAlt: "Okta Icon",
+    },
+    {
+        id: 0,
+        name: "Stripe",
+        img: stripe,
+        imgAlt: "Stripe Icon",
     },
     {
         id: 0,

@@ -34,7 +34,7 @@ const ProjectList = () => {
         </Link>
       )}
       <div className='projectForm'>
-        <button className='suggestProjectBtn' onClick={()=>setReveal(!reveal)}>Suggest <br />A Project</button>
+        <button className='suggestProjectBtn' onClick={()=>setReveal(!reveal)}>Project<br />Suggestion</button>
         { reveal?
           <div>
             <form ref={form} className='projectInputs' onSubmit={sendEmail}>
