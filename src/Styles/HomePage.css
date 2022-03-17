@@ -15,34 +15,33 @@
 }
 #slideWrap{
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 22vw;
-    height: 11vh;
-    border-radius: 1.2vw;
-    background: rgb(0,0,0,0.86);
+    width: 18vw;
+    height: 12vh;
+    border-radius: 0.9vw;
+    background: rgb(0,0,0,0.8);
 }
 #slideLink{
     display: flex;
     justify-content: center;
     position: relative;
-    width: 22vw;
-    height: 11vh;
+    width: 18vw;
+    height: 12vh;
     border-radius: 4vw;
 }
 #slideText{
     position: absolute;
     width: 14vw;
+    margin-top: 2.2vh;
     font-size: 2vw;
-    text-decoration: underline;
-    color: #0edef0;
+    color: #214eae;
 }
 #downIcon{
     position: absolute;
-    width: 14vw;
-    margin: 0.4vw 0vw 0.4vw 0vw;
-    color: #09676f;
+    margin-top: 4.2vh;
+    color: #123582;
 }
 #homeContainer{
     display: flex;

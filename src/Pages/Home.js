@@ -20,7 +20,7 @@ const Home = () => {
           <img src={slide} id='slideImg' alt="Neon Grid Design" />
           <div id='slideWrap'>
             <a href='#work' id='slideLink'><h3 id='slideText'>My Work</h3>
-              <FontAwesomeIcon icon={faSortDown} size='4x' id='downIcon' />
+              <FontAwesomeIcon icon={faSortDown} size='3x' id='downIcon' />
             </a>
           </div>
           <div id='work'></div>
