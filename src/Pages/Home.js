@@ -20,7 +20,7 @@ const Home = () => {
           <img src={slide} id='slideImg' alt="Neon Grid Design" />
           <div id='slideWrap'>
             <a href='#work' id='slideLink'><h3 id='slideText'>My Work</h3>
-              <FontAwesomeIcon icon={faSortDown} size='3x' id='downIcon' />
+              <FontAwesomeIcon icon={faSortDown} id='downIcon' />
             </a>
           </div>
           <div id='work'></div>
@@ -36,9 +36,9 @@ const Home = () => {
         </div>
         <div className='bloomColumn'>
           <div className='bloomRow'>
-            <img src={bloom} id='bloomTech' alt="Neon Grid Design" />
+            <img src={bloom} id='bloomTech' alt="BloomTech Certificate" />
             <div className='curriculum'>
-              <h5 id='bloomSubtitle'>BloomTech Bootcamp (F.K.A. Lambda School)</h5>
+              <h5 id='bloomSubtitle'>BloomTech Bootcamp<br />(F.K.A. Lambda School)</h5>
               <div className='curriculumItem'><h6 className='curriculumTitle'>Web Foundations</h6><p className='curriculumText'>HTML, CSS, Git, JavaScript And UI Principles</p></div>
               <div className='curriculumItem'><h6 className='curriculumTitle'>Web Application Development</h6><p className='curriculumText'>‍React, Redux, React Router, HTTP/Ajax, And Functional Programming Techniques</p></div>
               <div className='curriculumItem'><h6 className='curriculumTitle'>Advanced Web Development</h6><p className='curriculumText'>Advanced React, State Management, And Web Applications</p></div>

@@ -1,97 +1,206 @@
-#fullContainer{
-    background: rgb(243, 237, 237);
+@media only screen and (max-width: 415px) {
+    #fullContainer{
+        background: rgb(243, 237, 237);
+    }
+    .slide{
+        position: relative;
+        text-align: center;
+        z-index: 1;
+    }
+    #slideImg{
+        width: 100%;
+        height: 80vh;
+        filter: saturate(100%) contrast(140%) brightness(160%);
+        object-fit: cover;
+        text-align: center;
+    }
+    #slideWrap{
+        position: absolute;
+        top: 91%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 38vw;
+        height: 8vh;
+        border-radius: 0.9vw;
+        background: rgb(0,0,0,0.84);
+    }
+    #slideLink{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 38vw;
+        height: 8vh;
+        border-radius: 4vw;
+    }
+    #slideText{
+        position: absolute;
+        width: 30vw;
+        margin-top: 1.6vh;
+        font-size: 2.4vh;
+        color: #214eae;
+    }
+    #downIcon{
+        position: absolute;
+        margin-top: 2vh;
+        font-size: 6vh;
+        color: #123582;
+    }
+    #homeContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background: rgb(243, 237, 237);
+    }
+    #work{
+        position: absolute;
+        top: 73vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .homeSubtitleWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 94%;
+        height: 7vh;
+        margin: 5vh 0vh 1vh 0vh;
+        font-size: 2.4vh;
+        color: black;
+        background: #cc7a7a;
+    }
+    #bloomSubtitle{
+        font-size: 2vh;
+        text-align: center;
+    }
+    .bloomColumn{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90vw;
+    }
+    .bloomRow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #bloomTech{
+        width: 84vw;
+        margin-bottom: 2vh;
+        border: 1px gray solid;
+    }
+    .curriculumItem{
+        display: flex;
+        align-items: center;
+        margin: 1vh 0vh 2vh 0vh;
+    }
+    .curriculumTitle{
+        width: 24vw;
+        margin-left: 5vw;
+        font-size: 1.3vh;
+    }
+    .curriculumText{
+        width: 62vw;
+        margin-left: 3vw;
+        font-size: 1.3vh;
+    }
 }
-.slide{
-    position: relative;
-    text-align: center;
-    z-index: 1;
-}
-#slideImg{
-    width: 100%;
-    height: 88vh;
-    filter: saturate(100%) contrast(140%) brightness(160%);
-    object-fit: cover;
-    text-align: center;
-}
-#slideWrap{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 18vw;
-    height: 12vh;
-    border-radius: 0.9vw;
-    background: rgb(0,0,0,0.8);
-}
-#slideLink{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 18vw;
-    height: 12vh;
-    border-radius: 4vw;
-}
-#slideText{
-    position: absolute;
-    width: 14vw;
-    margin-top: 2.2vh;
-    font-size: 2vw;
-    color: #214eae;
-}
-#downIcon{
-    position: absolute;
-    margin-top: 4.2vh;
-    color: #123582;
-}
-#homeContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    background: rgb(243, 237, 237);
-}
-#work{
-    position: absolute;
-    top: 93%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.homeSubtitleWrap{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    height: 8vh;
-    margin: 7vh 0vh 1vh 0vh;
-    color: black;
-    background: #cc7a7a;
-}
-#bloomSubtitle{
-    text-align: center;
-}
-.bloomColumn{
-    display: flex;
-    justify-content: space-evenly;    ;
-    width: 90vw;
-}
-.bloomRow{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-#bloomTech{
-    width: 36vw;
-    margin: 0px 4vw 0px 0px;
-    border: 1px gray solid;
-}
-.curriculumItem{
-    display: flex;
-    align-items: center;
-    margin: 1vw;
-}
-.curriculumTitle{
-    width: 16vw;
-}
-.curriculumText{
-    width: 30vw;
+@media only screen and (min-width: 416px) {
+    #fullContainer{
+        background: rgb(243, 237, 237);
+    }
+    .slide{
+        position: relative;
+        text-align: center;
+        z-index: 1;
+    }
+    #slideImg{
+        width: 100%;
+        height: 88vh;
+        filter: saturate(100%) contrast(140%) brightness(160%);
+        object-fit: cover;
+        text-align: center;
+    }
+    #slideWrap{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 18vw;
+        height: 12vh;
+        border-radius: 0.9vw;
+        background: rgb(0,0,0,0.8);
+    }
+    #slideLink{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 18vw;
+        height: 12vh;
+        border-radius: 4vw;
+    }
+    #slideText{
+        position: absolute;
+        width: 14vw;
+        margin-top: 2.2vh;
+        font-size: 2vw;
+        color: #214eae;
+    }
+    #downIcon{
+        position: absolute;
+        margin-top: 4.2vh;
+        color: #123582;
+    }
+    #homeContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background: rgb(243, 237, 237);
+    }
+    #work{
+        position: absolute;
+        top: 93%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .homeSubtitleWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 8vh;
+        margin: 7vh 0vh 1vh 0vh;
+        font-size: ;
+        color: black;
+        background: #cc7a7a;
+    }
+    #bloomSubtitle{
+        text-align: center;
+    }
+    .bloomColumn{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90vw;
+    }
+    .bloomRow{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #bloomTech{
+        width: 36vw;
+        margin: 0px 4vw 0px 0px;
+        border: 1px gray solid;
+    }
+    .curriculumItem{
+        display: flex;
+        align-items: center;
+        margin: 1vw;
+    }
+    .curriculumTitle{
+        width: 16vw;
+    }
+    .curriculumText{
+        width: 30vw;
+    }
 }

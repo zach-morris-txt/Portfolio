@@ -55,7 +55,7 @@ const ProjectList = () => {
                 </div>
                 <div className='btnsWrapper'>
                   <button className='projectBtn blueHover' onClick={()=>setReveal(!reveal)}>X</button>
-                  <input className='projectBtn' type="submit" value='Send' readOnly/>
+                  <input className='projectBtn' type="submit" value='&#10004;' readOnly/>
                 </div>
             </form>
             <div id='status' />

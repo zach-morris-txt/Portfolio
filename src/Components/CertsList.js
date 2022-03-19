@@ -10,15 +10,15 @@ const CertsList = () => {
   return (
     <div className='certListContainer'>
       <div className='certificate'>
-        <h5>Adobe Photoshop</h5>
+        <h5 className='certSubTitle'>Adobe Photoshop</h5>
         <img src={adobePhoto} className="certImg" alt="certificate item"/>
       </div>
       <div className='certificate'>
-        <h5>Adobe Illustrator</h5>
+        <h5 className='certSubTitle'>Adobe Illustrator</h5>
         <img src={adobeIllus} className="certImg" alt="certificate item"/>
       </div>
       <div className='certificate'>
-        <h5>Adobe InDesign</h5>
+        <h5 className='certSubTitle'>Adobe InDesign</h5>
         <img src={adobeInDes} className="certImg" alt="certificate item"/>
       </div>
     </div>

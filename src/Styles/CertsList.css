@@ -1,16 +1,39 @@
-.certListContainer{
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: wrap row;
-    width: 92vw;
-    margin-top: 6vh;
+@media only screen and (max-width: 415px) {
+    .certListContainer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: wrap column;
+        width: 92vw;
+        margin-top: 1vh;
+    }
+    .certificate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .certSubTitle{
+        font-size: 2vh;
+    }
+    .certImg{
+        width: 84vw;
+        border: 1px gray solid;
+    }
 }
-.certificate{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.certImg{
-    width: 28vw;
-    border: 1px gray solid;
+@media only screen and (min-width: 416px) {
+    .certListContainer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: wrap row;
+        width: 92vw;
+        margin-top: 6vh;
+    }
+    .certificate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .certImg{
+        width: 28vw;
+        border: 1px gray solid;
+    }
 }
