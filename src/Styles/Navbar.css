@@ -95,7 +95,6 @@
         color: #dc73e6;
     }
 }
-
 @media only screen and (min-width: 416px) {
     .navContainer{
         display: flex;

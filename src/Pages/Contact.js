@@ -31,17 +31,17 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className='contactContainer'>
-        <div id='contactItems'>
-          <a href="https://www.linkedin.com/in/zachariah-morris/" className="" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} size='3x' className="faIcon" />
-          </a>
-          <a href="https://github.com/zach-morris-txt" className="" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithubSquare} size='3x' className="faIcon" />
-          </a>
-          <a href="mailto:zachariahmorris2000@gmail.com" target="_blank" rel="noreferrer">
-            <div><FontAwesomeIcon icon={faEnvelopeOpen} size='3x' className="faIcon" />ZachariahMorris2000@gmail.com</div>
-          </a>
-          <div><FontAwesomeIcon icon={faSquarePhone} size='3x' className="faIcon" />(813) 570 5140</div>
+        <div className='contactItems'>
+          <div className='mixIcon'>
+            <a href="https://www.linkedin.com/in/zachariah-morris/" className='iconText' target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} size='3x' className="faIcon" />LinkedIn
+            </a>
+          </div>
+          <div className='mixIcon'>
+            <a href="https://github.com/zach-morris-txt" className='iconText' target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGithubSquare} size='3x' className="faIcon" />GitHub
+            </a>
+          </div>
         </div>
         <div className='formContainer'>
           <form ref={form} onSubmit={sendEmail}>
@@ -49,18 +49,28 @@ const Contact = () => {
               <input type="text" className='subject' name='subject' value='Contact' readOnly/>
             </div>
             <div className='formItem'>
-              <input type="text" className='formItemInput' name='name' placeholder='Name'></input>
+              <input type="text" className='contactInput' name='name' placeholder='Name'></input>
             </div>
             <div className='formItem'>
-              <input type="email" className='formItemInput' name='email' placeholder='Email' required></input>
+              <input type="email" className='contactInput' name='email' placeholder='Email' required></input>
             </div>
             <div className='formItem'>
-              <textarea name='message' className='formItemInput' placeholder='Email Me' cols="30" rows="10" required></textarea>
+              <textarea name='message' className='contactMessage' placeholder='Email Me' cols="30" rows="10" required></textarea>
             </div>
-            <input type="submit" value='Send' readOnly/>
+            <input type="submit" id='contactSend' value='Send' readOnly/>
           </form>
         </div>
         <div id='status' />
+        <div className='contactItems'>
+          <div className='mixIcon'>
+            <a href="mailto:zachariahmorris2000@gmail.com" target="_blank" rel="noreferrer">
+              <div className='iconText'><FontAwesomeIcon icon={faEnvelopeOpen} size='3x' className="faIcon" />ZachariahMorris2000@gmail.com</div>
+            </a>
+          </div>
+          <div className='mixIcon'>
+            <div className='iconText'><FontAwesomeIcon icon={faSquarePhone} size='3x' className="faIcon" />(813) 570 5140</div>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
