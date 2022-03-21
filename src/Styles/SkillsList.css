@@ -26,10 +26,17 @@
         border-radius: 50%;
     }
     .skillName{
-        font-size: 2vh;
+        width: 22vw;
+        margin: 0.5vh 0vw 0.5vh 0vw;
+        padding: 0.2vh;
+        font-size: 1.7vh;
+        font-weight: 800;
+        text-align: center;
+        color: white;
+        background: #5d57c9;;
     }
     .skillIcon{
-        height: 6vh;
+        height: 6.4vh;
     }
     .imgIconWrap{
         display: flex;
