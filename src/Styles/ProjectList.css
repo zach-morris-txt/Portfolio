@@ -53,7 +53,56 @@
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
-
+    .projectListContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 76vw;
+        min-height: 80vh;
+    }
+    .projectForm{
+        display: flex;
+        align-items: center;
+    }
+    .suggestProjectBtn{
+        width: 28vw;
+        height: 7vh;
+        margin-right: 1vw;
+    }
+    .suggestProjectBtnAlt{
+        height: 18vh;
+        margin: 1vh 1vw 1vh 0vw;
+    }
+    .projectInputs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formProjectInput{
+        width: 30vw;
+    }
+    .subject{
+        display: none;
+    }
+    #projectMessage{
+        width: 43vw;
+        height: 16vh;
+        margin-top: 0.5vh;
+    }
+    .btnsWrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 1vw 0px 1vw;
+    }
+    .projectBtn{
+        width: 8vw;
+        height: 7vh;
+        margin-top: 1vh;
+    }
+    
+    
+    #status{
+    }
 }
 
 

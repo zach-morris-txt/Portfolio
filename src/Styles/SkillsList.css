@@ -88,7 +88,91 @@
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
-
+    .skillListContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 84vw;
+        margin-bottom: 2vh;
+        border: 4px white solid;
+    }
+    .skills{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 19vw;
+        height: 19vw;
+        margin: 1vh 2vw 2vh 2vw; 
+        background: white;
+        border: 4px #5d57c9 solid;
+        border-radius: 50%;
+    }
+    .skillName{
+        width: 22vw;
+        margin: 0.5vh 0vw 0.5vh 0vw;
+        padding: 0.2vh;
+        font-size: 1.7vh;
+        font-weight: 800;
+        text-align: center;
+        color: white;
+        background: #5d57c9;;
+    }
+    .skillIcon{
+        height: 6.4vh;
+    }
+    .imgIconWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .skillForm{
+        display: flex;
+        align-items: center;
+    }
+    .skillFormAlt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .suggestSkillBtn{
+        height: 18vh;
+        margin: 1vh 1vw 1vh 0vw;
+    }
+    .suggestSkillBtnAlt{
+        margin-bottom: 2vh;
+        width: 30vw;
+        height: 7vh;
+    }
+    .skillInputs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .formSkillInput{
+        width: 30vw;
+    }
+    #skillMessage{
+        width: 44vw;
+        height: 14vh;
+        margin-top: 0.5vh;
+    }
+    .btnsWrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0vw 0px 1vw;
+    }
+    .skillBtn{
+        width: 8vw;
+        height: 8vh;
+        margin: 1.5vh 0px 1.5vh 0px;
+    }
 }
 
 

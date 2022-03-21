@@ -23,7 +23,26 @@
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
-
+    .certListContainer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: wrap column;
+        width: 92vw;
+        margin-top: 1vh;
+    }
+    .certificate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .certSubTitle{
+        margin-top: 2vh;;
+        font-size: 2vh;
+    }
+    .certImg{
+        width: 84vw;
+        border: 1px gray solid;
+    }
 }
 
 
