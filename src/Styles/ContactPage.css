@@ -39,6 +39,9 @@
     #contactSend{
         padding: 1vh 3vw 1vh 3vw;
     }
+    .contactMessage{
+        max-height: 22vh;
+    }
     textarea{
         resize: none;
     }
