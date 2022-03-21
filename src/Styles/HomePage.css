@@ -94,17 +94,19 @@
     .curriculumItem{
         display: flex;
         align-items: center;
-        margin: 1vh 0vh 2vh 0vh;
+        margin: 1vh 0vw 1vh 0vw;
+        padding: 1vh 0vw 1.5vh 0vw;
+        border-bottom: 1px black solid;
     }
     .curriculumTitle{
         width: 24vw;
-        margin-left: 5vw;
-        font-size: 1.3vh;
+        margin-left: 2vw;
+        font-size: 1.5vh;
     }
     .curriculumText{
-        width: 62vw;
-        margin-left: 3vw;
-        font-size: 1.3vh;
+        width: 55vw;
+        margin: 0vh 1vw 0vh 3vw;
+        font-size: 1.4vh;
     }
 }
 @media only screen and (min-width: 416px) {
