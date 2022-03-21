@@ -15,22 +15,27 @@
     }
     .left{
         position: relative;
-        width: 96%;
-        height: 88%;
-        border: 2px black solid;
+        width: 100%;
+        height: 100%;
+    }
+    #projectTitleWrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 4.2vh;
+        background: #b34747;
     }
     #projectTitle{
-        height: 13%;
         font-size: 2vh;
         text-align: center;
     }
     .infoWrapper{
-        height: 72%;
+        height: 3.5vh;
     }
     #itemInfoDescription{
-        margin: 0px 14px 0px 14px;
+        margin: 22vh 3vw 0vh 3vw;
         text-align: center;
-        font-size: 1.2vh;
+        font-size: 1.4vh;
     }
     #itemInfoTech{
         display: none;
@@ -39,21 +44,25 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        height: 10%;
-        margin-top: 8px;
+        height: 3.5vh;
+        margin-top: 1.4vh;
+        font-size: 1.4vh;
         font-style: italic;
         text-decoration: underline 2px;
+        color: black;
     }
     .projectImgContainer{
         display: flex;
         align-items: center;
         justify-content: center;
         position: absolute;
-        height: 100%;
-        margin-top: 5vh;
+        width: 78vw;
+        margin-bottom: 5.7vh;
+        background: rgba(0,0,0,0.3);
+        border: 1px black solid;
     }
     .projectImg{
-        width: 80vw;
+        width: 90%;
     }
 }
 @media only screen and (min-width: 416px) {

@@ -7,7 +7,9 @@ const Project = ({ item }) => {
   return (
     <div className='projectContainer' key={item.id}>
       <div className='left'>
-          <h4 id='projectTitle'>{item.title}</h4>
+          <div id='projectTitleWrap'>
+            <h4 id='projectTitle'>{item.title}</h4>
+          </div>
           <div className='infoWrapper'>
             <p id='itemInfoDescription'>{item.description1}</p>
             <p id='itemInfoTech'>{item.techStack}</p>
