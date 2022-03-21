@@ -13,7 +13,7 @@ import postgreSQL from './Images/IconIMGs/PostgreSQL.png'
 import mongoDB from './Images/IconIMGs/MongoDB.png'
 import git from './Images/IconIMGs/Git.png'
 import okta from './Images/IconIMGs/Okta.png'
-import stripe from './Images/IconIMGs/Stripe.jpg'
+import stripe from './Images/IconIMGs/Stripe.png'
 
 
 export const projects = [

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import '../Styles/AboutPage.css'
+import '../Styles/PageAbout.css'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import about1 from '../Assets/Images/About1.jpg'

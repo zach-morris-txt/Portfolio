@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelopeOpen, faSquarePhone } from '@fortawesome/free-solid-svg-icons'
 
-import '../Styles/ContactPage.css'
+import '../Styles/PageContact.css'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 

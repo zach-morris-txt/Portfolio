@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSortDown } from '@fortawesome/free-solid-svg-icons'
 
-import '../Styles/HomePage.css'
+import '../Styles/PageHome.css'
 import NavbarReveal from '../Components/NavbarReveal'
 import ProjectList from '../Components/ProjectList'
 import CertsList from '../Components/CertsList'
