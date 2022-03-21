@@ -11,14 +11,21 @@
         align-items: center;
     }
     .suggestProjectBtn{
-        width: 30vw;
+        width: 28vw;
         height: 7vh;
         margin-right: 1vw;
+    }
+    .suggestProjectBtnAlt{
+        height: 18vh;
+        margin: 1vh 1vw 1vh 0vw;
     }
     .projectInputs{
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+    .formProjectInput{
+        width: 30vw;
     }
     .subject{
         display: none;
@@ -26,6 +33,7 @@
     #projectMessage{
         width: 43vw;
         height: 16vh;
+        margin-top: 0.5vh;
     }
     .btnsWrapper{
         display: flex;

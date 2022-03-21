@@ -35,7 +35,7 @@ const ProjectList = () => {
         </button>
       )}
       <div className='projectForm'>
-        <button className='suggestProjectBtn blueHover' onClick={()=>setReveal(!reveal)}>Project<br />Suggestion</button>
+        <button className={reveal? 'suggestProjectBtnAlt blueHover' : 'suggestProjectBtn blueHover'} onClick={()=>setReveal(!reveal)}>Project<br />Suggestion</button>
         { reveal?
           <div>
             <form ref={form} className='projectInputs' onSubmit={sendEmail}>
@@ -50,7 +50,7 @@ const ProjectList = () => {
                     <input type="email" className='formProjectInput' name='email' placeholder='Email' required></input>
                   </div>
                   <div className='formItem'>
-                    <textarea className='formProjectInput' id='projectMessage' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
+                    <textarea id='projectMessage' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
                   </div>
                 </div>
                 <div className='btnsWrapper'>

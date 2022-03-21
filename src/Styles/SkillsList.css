@@ -60,11 +60,12 @@
         align-items: center;
     }
     .formSkillInput{
-        width: 20vw;
+        width: 30vw;
     }
     #skillMessage{
         width: 44vw;
         height: 14vh;
+        margin-top: 0.5vh;
     }
     .btnsWrapper{
         display: flex;
