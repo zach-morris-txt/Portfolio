@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import '../Styles/Navbar.css'
 import manillaFull from '../Assets/Images/IconIMGs/manillaFull.png'
-import résumé from '../Assets/Images/IconIMGs/0.png'
+import résumé from '../Assets/Images/IconIMGs/Résumé.png'
 import manillaSlide from '../Assets/Images/IconIMGs/manillaSlide.png'
 
 

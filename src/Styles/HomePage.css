@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap');
+
 @media only screen and (max-width: 415px) {
     #fullContainer{
         background: rgb(243, 237, 237);
@@ -19,7 +21,7 @@
         top: 91%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 38vw;
+        width: 42vw;
         height: 8vh;
         border-radius: 0.9vw;
         background: rgb(0,0,0,0.84);
@@ -28,22 +30,23 @@
         display: flex;
         justify-content: center;
         position: relative;
-        width: 38vw;
+        width: 42vw;
         height: 8vh;
         border-radius: 4vw;
     }
     #slideText{
         position: absolute;
-        width: 30vw;
-        margin-top: 1.6vh;
-        font-size: 2.4vh;
-        color: #214eae;
+        width: 42vw;
+        margin-top: 0.6vh;
+        font-size: 3.6vh;
+        font-family: 'Titillium Web', sans-serif;
+        color: #1a8b9d;
     }
     #downIcon{
         position: absolute;
-        margin-top: 2vh;
-        font-size: 6vh;
-        color: #123582;
+        margin-top: 2.8vh;
+        font-size: 5vh;
+        color: #12c6d6;
     }
     #homeContainer{
         display: flex;
