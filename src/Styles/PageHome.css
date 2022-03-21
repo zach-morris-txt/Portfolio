@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap');
 
+
 @media only screen and (max-width: 415px) {
     #fullContainer{
         background: rgb(243, 237, 237);
@@ -109,7 +110,20 @@
         font-size: 1.4vh;
     }
 }
-@media only screen and (min-width: 416px) {
+
+
+@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
+
+}
+
+
+
+@media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
+
+}
+
+
+@media only screen and (min-width: 1025px) {
     #fullContainer{
         background: rgb(243, 237, 237);
     }

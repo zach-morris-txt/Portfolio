@@ -43,7 +43,20 @@
         font-weight: 500;
     }
 }
-@media only screen and (min-width: 415px) {
+
+
+@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
+
+}
+
+
+
+@media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
+
+}
+
+
+@media only screen and (min-width: 1025px) {
     .aboutContainer{
         display: flex;
         align-items: center;

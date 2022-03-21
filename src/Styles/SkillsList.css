@@ -85,7 +85,20 @@
         margin: 1.5vh 0px 1.5vh 0px;
     }
 }
-@media only screen and (min-width: 416px) {
+
+
+@media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
+
+}
+
+
+
+@media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
+
+}
+
+
+@media only screen and (min-width: 1025px) {
     .skillListContainer{
         display: flex;
         align-items: flex-start;
