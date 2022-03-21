@@ -5,8 +5,8 @@ import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import about1 from '../Assets/Images/About1.jpg'
 import about2 from '../Assets/Images/About2.jpg'
-import eloquentJS from '../Assets/Images/EloquentJS.jpg'
-import definitiveJS from '../Assets/Images/DefinitiveJS.jpg'
+import eloquentJS from '../Assets/Images/AboutEloquentJS.jpg'
+import definitiveJS from '../Assets/Images/AboutDefinitiveJS.jpg'
 
 
 const About = () => {
@@ -24,9 +24,9 @@ const About = () => {
             <img src={definitiveJS} className='jsBooks' alt='Definitive JavaScript Book' />
             <img src={eloquentJS} className='jsBooks' alt='Eloquent JavaScript Book' />
           </div>
-          <p>I've had a life-long passion for circuitry, code, and economics. There's something about unravelling a stubborn puzzle that really calls to me. Fortunately, 
+          <p className='aboutRegular'>I've had a life-long passion for circuitry, code, and economics. There's something about unravelling a stubborn puzzle that really calls to me. Fortunately, 
             Computer Science is riddled with stubborn bugs. I have freelancer ambitions and I'd like to learn some software development; at least enough to be dangerous.</p>
-          <p className='aboutRegular'><span className='aboutBold'>Interests:</span> Arduino, Homesteading, Make: Magazine, Motorcycles, The Rich Dad Podcast</p>
+          <div className='aboutRegular'><div className='aboutBold'>Interests:</div> Arduino, Homesteading, Make: Magazine, Motorcycles, The Rich Dad Podcast</div>
         </div>
         <div className='aboutImgs'>
           <button id='aboutButton blueHover' onClick={()=>setReveal(!reveal)}>{reveal? 'A Less Horrifying Photo' : 'Hacker Man'}</button>
