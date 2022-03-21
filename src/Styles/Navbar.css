@@ -21,7 +21,7 @@
     }
     #navBottom{
         width: 70vw;
-        margin-top: 5.8vh;
+        margin: 5vh 0vw 0vh 2vw;
         color: rgb(243, 237, 237);
     }
     .navBottomShow{
@@ -37,10 +37,10 @@
         transform: translateX(-100%);
     }
     .name{
-        font-size: 1.6vh;
+        font-size: 2vh;
     }
     .career{
-        font-size: 1.3vh;
+        font-size: 1.5vh;
     }
     .navRight{
         width: 10vw;
@@ -68,7 +68,7 @@
     }
     .résuméImg{
         position: absolute;
-        height: 9.4vh;
+        height: 9.1vh;
         background: white;
     }
     .manillaFront{
@@ -77,7 +77,7 @@
         filter: brightness(94%);
     }
     .résuméFile:hover .résuméLink {
-        transform: translateX(9.4vw);
+        transform: translateX(10vw);
     }
 
     /* Separated For Scroll Effect */
@@ -91,7 +91,7 @@
     }
     .bottomNavHide{
         width: 68%;
-        margin-top: 2.6vh;
+        margin: 2vw;
         color: #dc73e6;
     }
 }
