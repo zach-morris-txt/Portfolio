@@ -1,139 +1,105 @@
-@media only screen and (max-width: 415px) {
-    .navContainer{
-        display: flex;
-        position: fixed;
-        z-index: 2;
-        width: 100vw;
-        height: 10vh;
-        background: #471972;
-    }
-    .navLeft{
-        width: 100%;
-    }
-    .navTop{
-        display: flex;
-        float: right;
-    }
-    .navLinks{
-        margin: 1vw 3.4vw 1vw 1vw;
-        font-size: 3vh;
-        color: #5d57c9;
-    }
-    #navBottom{
-        width: 70vw;
-        margin: 5vh 0vw 0vh 2vw;
-        color: rgb(243, 237, 237);
-    }
-    .navBottomShow{
-        transition: transform 0.3s;
-        -webkit-transition: transform 0.3s;
-        transform: translateX(0%);
-    }
-    .navBottomHide {
-        opacity:0;
-        transition: 0.3s;
-        float: left;
-        margin-right: 20px;
-        transform: translateX(-100%);
-    }
-    .name{
-        font-size: 2vh;
-    }
-    .career{
-        font-size: 1.5vh;
-    }
-    .navRight{
-        width: 10vw;
-    }
-    .résuméFile{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        top: 6.4vh;
-        right: 16vw;
-        height: 10vh;
-    }
-    .manillaBack{
-        height: 10vh;
-    }
-    .résuméLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        height: 10vh;
-        background: white;
-        transition: transform 1s;
-    }
-    .résuméImg{
-        position: absolute;
-        height: 9.1vh;
-        background: white;
-    }
-    .manillaFront{
-        position: absolute;
-        height: 10vh;
-        filter: brightness(94%);
-    }
-    .résuméFile:hover .résuméLink {
-        transform: translateX(10vw);
-    }
-
-    /* Separated For Scroll Effect */
-    .titleRevealContainer{
-        height: 10vh;
-        padding-top: 10vh;
-        background: black;
-    }
-    .bottomNavShow{
-        display: none;
-    }
-    .bottomNavHide{
-        width: 68%;
-        margin: 2vw;
-        color: #dc73e6;
-    }
+.navContainer{
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+    height: 10vh;
+    background: #471972;
+}
+.navLeft{
+    width: 100%;
+}
+.navTop{
+    display: flex;
+    float: right;
+}
+.navLinks{
+    margin: 1vw 3.4vw 1vw 1vw;
+    font-size: 3vh;
+    color: #5d57c9;
+}
+#navBottom{
+    width: 70vw;
+    margin: 5vh 0vw 0vh 2vw;
+    color: rgb(243, 237, 237);
+}
+.navBottomShow{
+    transition: transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    transform: translateX(0%);
+}
+.navBottomHide {
+    opacity:0;
+    transition: 0.3s;
+    float: left;
+    margin-right: 20px;
+    transform: translateX(-100%);
+}
+.name{
+    font-size: 2vh;
+}
+.career{
+    font-size: 1.5vh;
+}
+.navRight{
+    width: 10vw;
+}
+.résuméFile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 6.4vh;
+    right: 16vw;
+    height: 10vh;
+}
+.manillaBack{
+    height: 10vh;
+}
+.résuméLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 10vh;
+    background: white;
+    transition: transform 1s;
+}
+.résuméImg{
+    position: absolute;
+    height: 9.1vh;
+    background: white;
+}
+.manillaFront{
+    position: absolute;
+    height: 10vh;
+    filter: brightness(90%);
+}
+.résuméFile:hover .résuméLink {
+    transform: translateX(10vw);
+}
+/* Scroll Effect */
+.titleRevealContainer{
+    height: 10vh;
+    padding-top: 10vh;
+    background: black;
+}
+.bottomNavShow{
+    display: none;
+}
+.bottomNavHide{
+    width: 68%;
+    margin: 2vw;
+    color: #dc73e6;
 }
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
-    .navContainer{
-        display: flex;
-        position: fixed;
-        z-index: 2;
-        width: 100vw;
-        height: 10vh;
-        background: #471972;
-    }
-    .navLeft{
-        width: 100%;
-    }
-    .navTop{
-        display: flex;
-        float: right;
-    }
     .navLinks{
-        margin: 1vw 3.4vw 1vw 1vw;
         font-size: 3.4vh;
-        color: #5d57c9;
     }
     #navBottom{
-        width: 70vw;
         margin: 4.4vh 0vw 0vh 2vw;
-        color: rgb(243, 237, 237);
-    }
-    .navBottomShow{
-        transition: transform 0.3s;
-        -webkit-transition: transform 0.3s;
-        transform: translateX(0%);
-    }
-    .navBottomHide {
-        opacity:0;
-        transition: 0.3s;
-        float: left;
-        margin-right: 20px;
-        transform: translateX(-100%);
     }
     .name{
         font-size: 2.2vh;
@@ -141,98 +107,33 @@
     .career{
         font-size: 1.7vh;
     }
-    .navRight{
-        width: 10vw;
-    }
     .résuméFile{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        top: 6.4vh;
-        right: 16vw;
         height: 13vh;
     }
     .manillaBack{
         height: 13vh;
     }
     .résuméLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
         height: 13vh;
-        background: white;
-        transition: transform 1s;
     }
     .résuméImg{
-        position: absolute;
         height: 12.1vh;
-        background: white;
     }
     .manillaFront{
-        position: absolute;
         height: 13vh;
-        filter: brightness(94%);
     }
     .résuméFile:hover .résuméLink {
         transform: translateX(8.5vw);
-    }
-
-    /* Separated For Scroll Effect */
-    .titleRevealContainer{
-        height: 10vh;
-        padding-top: 10vh;
-        background: black;
-    }
-    .bottomNavShow{
-        display: none;
-    }
-    .bottomNavHide{
-        width: 68%;
-        margin: 2vw;
-        color: #dc73e6;
     }
 }
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
-    .navContainer{
-        display: flex;
-        position: fixed;
-        z-index: 2;
-        width: 100vw;
-        height: 10vh;
-        background: #471972;
-    }
-    .navLeft{
-        width: 100%;
-    }
-    .navTop{
-        display: flex;
-        float: right;
-    }
     .navLinks{
-        margin: 1vw 3.4vw 1vw 1vw;
         font-size: 3.4vh;
-        color: #5d57c9;
     }
     #navBottom{
-        width: 70vw;
         margin: 4.2vh 0vw 0vh 2vw;
-        color: rgb(243, 237, 237);
-    }
-    .navBottomShow{
-        transition: transform 0.3s;
-        -webkit-transition: transform 0.3s;
-        transform: translateX(0%);
-    }
-    .navBottomHide {
-        opacity:0;
-        transition: 0.3s;
-        float: left;
-        margin-right: 20px;
-        transform: translateX(-100%);
     }
     .name{
         font-size: 2.2vh;
@@ -240,14 +141,7 @@
     .career{
         font-size: 1.7vh;
     }
-    .navRight{
-        width: 10vw;
-    }
     .résuméFile{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
         top: 6.7vh;
         right: 12vw;
         height: 13vh;
@@ -256,181 +150,55 @@
         height: 13vh;
     }
     .résuméLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
         height: 13vh;
-        background: white;
-        transition: transform 1s;
     }
     .résuméImg{
-        position: absolute;
         height: 12.1vh;
-        background: white;
     }
     .manillaFront{
-        position: absolute;
         height: 13vh;
-        filter: brightness(94%);
     }
     .résuméFile:hover .résuméLink {
         transform: translateX(5.7vw);
-    }
-
-    /* Separated For Scroll Effect */
-    .titleRevealContainer{
-        height: 10vh;
-        padding-top: 10vh;
-        background: black;
-    }
-    .bottomNavShow{
-        display: none;
-    }
-    .bottomNavHide{
-        width: 68%;
-        margin: 2vw;
-        color: #dc73e6;
     }
 }
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
-    .navContainer{
-        display: flex;
-        position: fixed;
-        z-index: 2;
-        width: 100vw;
-        height: 10vh;
-        background: #471972;
-    }
-    .navLeft{
-        width: 100%;
-    }
-    .navTop{
-        display: flex;
-        float: right;
-    }
     .navLinks{
-        margin: 1vw 3.4vw 1vw 1vw;
         font-size: 3.4vh;
-        color: #5d57c9;
     }
     #navBottom{
-        width: 70vw;
         margin: 4.6vh 0vw 0vh 2vw;
-        color: rgb(243, 237, 237);
-    }
-    .navBottomShow{
-        transition: transform 0.3s;
-        -webkit-transition: transform 0.3s;
-        transform: translateX(0%);
-    }
-    .navBottomHide {
-        opacity:0;
-        transition: 0.3s;
-        float: left;
-        margin-right: 20px;
-        transform: translateX(-100%);
-    }
-    .name{
-        font-size: 2vh;
-    }
-    .career{
-        font-size: 1.5vh;
-    }
-    .navRight{
-        width: 10vw;
     }
     .résuméFile{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
         top: 6.7vh;
-        right: 16vw;
         height: 13vh;
     }
     .manillaBack{
         height: 13vh;
     }
     .résuméLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
         height: 13vh;
-        background: white;
-        transition: transform 1s;
     }
     .résuméImg{
-        position: absolute;
         height: 12.1vh;
-        background: white;
     }
     .manillaFront{
-        position: absolute;
         height: 13vh;
-        filter: brightness(94%);
     }
     .résuméFile:hover .résuméLink {
         transform: translateX(11vw);
-    }
-
-    /* Separated For Scroll Effect */
-    .titleRevealContainer{
-        height: 10vh;
-        padding-top: 10vh;
-        background: black;
-    }
-    .bottomNavShow{
-        display: none;
-    }
-    .bottomNavHide{
-        width: 68%;
-        margin: 2vw;
-        color: #dc73e6;
     }
 }
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: landscape) {
-    .navContainer{
-        display: flex;
-        position: fixed;
-        z-index: 2;
-        width: 100vw;
-        height: 10vh;
-        background: #471972;
-    }
-    .navLeft{
-        width: 100%;
-    }
-    .navTop{
-        display: flex;
-        float: right;
-    }
     .navLinks{
-        margin: 1vw 3.4vw 1vw 1vw;
         font-size: 3.4vh;
-        color: #5d57c9;
     }
     #navBottom{
-        width: 70vw;
         margin: 4.2vh 0vw 0vh 2vw;
-        color: rgb(243, 237, 237);
-    }
-    .navBottomShow{
-        transition: transform 0.3s;
-        -webkit-transition: transform 0.3s;
-        transform: translateX(0%);
-    }
-    .navBottomHide {
-        opacity:0;
-        transition: 0.3s;
-        float: left;
-        margin-right: 20px;
-        transform: translateX(-100%);
     }
     .name{
         font-size: 2.2vh;
@@ -438,14 +206,7 @@
     .career{
         font-size: 1.7vh;
     }
-    .navRight{
-        width: 10vw;
-    }
     .résuméFile{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
         top: 6.7vh;
         right: 11vw;
         height: 13vh;
@@ -454,83 +215,35 @@
         height: 13vh;
     }
     .résuméLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
         height: 13vh;
-        background: white;
-        transition: transform 1s;
     }
     .résuméImg{
-        position: absolute;
         height: 12.5vh;
-        background: white;
     }
     .manillaFront{
-        position: absolute;
         height: 13vh;
-        filter: brightness(94%);
     }
     .résuméFile:hover .résuméLink {
         transform: translateX(4.7vw);
-    }
-
-    /* Separated For Scroll Effect */
-    .titleRevealContainer{
-        height: 10vh;
-        padding-top: 10vh;
-        background: black;
-    }
-    .bottomNavShow{
-        display: none;
-    }
-    .bottomNavHide{
-        width: 68%;
-        margin: 2vw;
-        color: #dc73e6;
     }
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .navContainer{
-        display: flex;
-        position: fixed;
-        z-index: 2;
-        width: 100vw;
         height: 11vh;
-        background: #471972;
     }
     .navLeft{
         width: 82%;
     }
-    .navTop{
-        display: flex;
-        float: right;
-    }
     .navLinks{
-        margin: 1vw;
+        margin: 2vh 1vw 1vw 1vw;
         font-size: 2.5vw;
-        color: #5d57c9;
     }
     #navBottom{
         width: 50vw;
-        margin: 3.4vh 0vw 0vh 1vw;
-        color: rgb(243, 237, 237);
+        margin: 4.4vh 0vw 0vh 1vw;
         font-size: 1.3vw;
-    }
-    .navBottomShow{
-        transition: transform 0.3s;
-        -webkit-transition: transform 0.3s;
-        transform: translateX(0%);
-    }
-    .navBottomHide {
-        opacity:0;
-        transition: 0.3s;
-        float: left;
-        margin-right: 20px;
-        transform: translateX(-100%);
     }
     .name{
         font-size: 1.6vw;
@@ -543,95 +256,54 @@
     }
     .résuméFile{
         float: right;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
         top: 3vh;
         right: 6vw;
-        height: 20vh;
+        height: 18vh;
     }
     .manillaBack{
-        height: 20vh;
+        height: 18vh;
     }
     .résuméLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        height: 20vh;
-        background: white;
-        transition: transform 1s;
+        height: 18vh;
     }
     .résuméImg{
-        position: absolute;
-        height: 19vh;
-        background: white;
+        height: 17vh;
     }
     .manillaFront{
-        position: absolute;
-        height: 20vh;
-        filter: brightness(94%);
+        height: 18vh;
     }
     .résuméFile:hover .résuméLink {
         transform: translateX(4.1vw);
     }
-
-    /* Separated For Scroll Effect */
+    /* Scroll Effect */
     .titleRevealContainer{
         height: 11vh;
         padding-top: 11vh;
-        background: black;
     }
     .bottomNavShow{
         display: none;
     }
     .bottomNavHide{
-        width: 68%;
-        margin: 1vw;
-        color: #dc73e6;
+        margin: 2.4vh 1vw 1vw 1vw;
     }
 }
 
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .navContainer{
-        display: flex;
-        position: fixed;
-        z-index: 2;
-        width: 100vw;
         height: 11vh;
-        background: #471972;
     }
     .navLeft{
         width: 82%;
     }
-    .navTop{
-        display: flex;
-        float: right;
-    }
     .navLinks{
-        margin: 1vw;
-        font-size: 2.5vw;
-        color: #5d57c9;
+        margin: 1.8vh 1.5vw 1vw;
+        font-size: 2.8vw;
     }
     #navBottom{
         width: 50vw;
-        margin: 3.4vh 0vw 0vh 1vw;
-        color: rgb(243, 237, 237);
+        margin: 4.4vh 0vw 0vh 1vw;
         font-size: 1.3vw;
-    }
-    .navBottomShow{
-        transition: transform 0.3s;
-        -webkit-transition: transform 0.3s;
-        transform: translateX(0%);
-    }
-    .navBottomHide {
-        opacity:0;
-        transition: 0.3s;
-        float: left;
-        margin-right: 20px;
-        transform: translateX(-100%);
     }
     .name{
         font-size: 1.6vw;
@@ -644,95 +316,51 @@
     }
     .résuméFile{
         float: right;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
         top: 3vh;
         right: 6vw;
-        height: 20vh;
+        height: 18vh;
     }
     .manillaBack{
-        height: 20vh;
+        height: 18vh;
     }
     .résuméLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        height: 20vh;
-        background: white;
-        transition: transform 1s;
+        height: 18vh;
     }
     .résuméImg{
-        position: absolute;
-        height: 19vh;
-        background: white;
+        height: 17vh;
     }
     .manillaFront{
-        position: absolute;
-        height: 20vh;
-        filter: brightness(94%);
+        height: 18vh;
     }
     .résuméFile:hover .résuméLink {
-        transform: translateX(4.1vw);
+        transform: translateX(5.4vw);
     }
-
-    /* Separated For Scroll Effect */
+    /* Scroll Effect */
     .titleRevealContainer{
         height: 11vh;
         padding-top: 11vh;
-        background: black;
-    }
-    .bottomNavShow{
-        display: none;
     }
     .bottomNavHide{
-        width: 68%;
         margin: 1vw;
-        color: #dc73e6;
     }
 }
 
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
     .navContainer{
-        display: flex;
-        position: fixed;
-        z-index: 2;
-        width: 100vw;
         height: 11vh;
-        background: #471972;
     }
     .navLeft{
         width: 82%;
     }
-    .navTop{
-        display: flex;
-        float: right;
-    }
     .navLinks{
         margin: 1vw;
         font-size: 2.5vw;
-        color: #5d57c9;
     }
     #navBottom{
         width: 50vw;
         margin: 3.4vh 0vw 0vh 1vw;
-        color: rgb(243, 237, 237);
         font-size: 1.3vw;
-    }
-    .navBottomShow{
-        transition: transform 0.3s;
-        -webkit-transition: transform 0.3s;
-        transform: translateX(0%);
-    }
-    .navBottomHide {
-        opacity:0;
-        transition: 0.3s;
-        float: left;
-        margin-right: 20px;
-        transform: translateX(-100%);
     }
     .name{
         font-size: 1.6vw;
@@ -745,10 +373,6 @@
     }
     .résuméFile{
         float: right;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
         top: 3vh;
         right: 6vw;
         height: 20vh;
@@ -757,83 +381,43 @@
         height: 20vh;
     }
     .résuméLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
         height: 20vh;
-        background: white;
-        transition: transform 1s;
     }
     .résuméImg{
-        position: absolute;
         height: 19vh;
-        background: white;
     }
     .manillaFront{
-        position: absolute;
         height: 20vh;
-        filter: brightness(94%);
     }
     .résuméFile:hover .résuméLink {
-        transform: translateX(4.1vw);
+        transform: translateX(5.2vw);
     }
-
-    /* Separated For Scroll Effect */
+    /* Scroll Effect */
     .titleRevealContainer{
         height: 11vh;
         padding-top: 11vh;
-        background: black;
-    }
-    .bottomNavShow{
-        display: none;
     }
     .bottomNavHide{
-        width: 68%;
         margin: 1vw;
-        color: #dc73e6;
     }
 }
 
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .navContainer{
-        display: flex;
-        position: fixed;
-        z-index: 2;
-        width: 100vw;
         height: 11vh;
-        background: #471972;
     }
     .navLeft{
         width: 82%;
     }
-    .navTop{
-        display: flex;
-        float: right;
-    }
     .navLinks{
         margin: 1vw;
         font-size: 2.5vw;
-        color: #5d57c9;
     }
     #navBottom{
         width: 50vw;
         margin: 3.4vh 0vw 0vh 1vw;
-        color: rgb(243, 237, 237);
         font-size: 1.3vw;
-    }
-    .navBottomShow{
-        transition: transform 0.3s;
-        -webkit-transition: transform 0.3s;
-        transform: translateX(0%);
-    }
-    .navBottomHide {
-        opacity:0;
-        transition: 0.3s;
-        float: left;
-        margin-right: 20px;
-        transform: translateX(-100%);
     }
     .name{
         font-size: 1.6vw;
@@ -846,10 +430,6 @@
     }
     .résuméFile{
         float: right;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
         top: 3vh;
         right: 6vw;
         height: 20vh;
@@ -858,83 +438,43 @@
         height: 20vh;
     }
     .résuméLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
         height: 20vh;
-        background: white;
-        transition: transform 1s;
     }
     .résuméImg{
-        position: absolute;
         height: 19vh;
-        background: white;
     }
     .manillaFront{
-        position: absolute;
         height: 20vh;
-        filter: brightness(94%);
     }
     .résuméFile:hover .résuméLink {
-        transform: translateX(4.1vw);
+        transform: translateX(5vw);
     }
-
-    /* Separated For Scroll Effect */
+    /* Scroll Effect */
     .titleRevealContainer{
         height: 11vh;
         padding-top: 11vh;
-        background: black;
-    }
-    .bottomNavShow{
-        display: none;
     }
     .bottomNavHide{
-        width: 68%;
         margin: 1vw;
-        color: #dc73e6;
     }
 }
 
 
 @media only screen and (min-width: 3001px) {
     .navContainer{
-        display: flex;
-        position: fixed;
-        z-index: 2;
-        width: 100vw;
         height: 11vh;
-        background: #471972;
     }
     .navLeft{
         width: 82%;
     }
-    .navTop{
-        display: flex;
-        float: right;
-    }
     .navLinks{
         margin: 1vw;
         font-size: 2.5vw;
-        color: #5d57c9;
     }
     #navBottom{
         width: 50vw;
         margin: 3.4vh 0vw 0vh 1vw;
-        color: rgb(243, 237, 237);
         font-size: 1.3vw;
-    }
-    .navBottomShow{
-        transition: transform 0.3s;
-        -webkit-transition: transform 0.3s;
-        transform: translateX(0%);
-    }
-    .navBottomHide {
-        opacity:0;
-        transition: 0.3s;
-        float: left;
-        margin-right: 20px;
-        transform: translateX(-100%);
     }
     .name{
         font-size: 1.6vw;
@@ -947,10 +487,6 @@
     }
     .résuméFile{
         float: right;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
         top: 3vh;
         right: 6vw;
         height: 20vh;
@@ -959,40 +495,23 @@
         height: 20vh;
     }
     .résuméLink{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
         height: 20vh;
-        background: white;
-        transition: transform 1s;
     }
     .résuméImg{
-        position: absolute;
         height: 19vh;
-        background: white;
     }
     .manillaFront{
-        position: absolute;
         height: 20vh;
-        filter: brightness(94%);
     }
     .résuméFile:hover .résuméLink {
-        transform: translateX(4.1vw);
+        transform: translateX(5.2vw);
     }
-
-    /* Separated For Scroll Effect */
+    /* Scroll Effect */
     .titleRevealContainer{
         height: 11vh;
         padding-top: 11vh;
-        background: black;
-    }
-    .bottomNavShow{
-        display: none;
     }
     .bottomNavHide{
-        width: 68%;
         margin: 1vw;
-        color: #dc73e6;
     }
 }
