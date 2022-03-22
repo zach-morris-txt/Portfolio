@@ -493,7 +493,7 @@
 }
 
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .navContainer{
         display: flex;
         position: fixed;
@@ -591,4 +591,24 @@
         margin: 1vw;
         color: #dc73e6;
     }
+}
+
+
+@media only screen and (min-width: 1281px) and (max-width: 1536px) {
+
+}
+
+
+@media only screen and (min-width: 1537px) and (max-width: 2048px) {
+
+}
+
+
+@media only screen and (min-width: 2049px) and (max-width: 3000px) {
+
+}
+
+
+@media only screen and (min-width: 3001px) {
+
 }

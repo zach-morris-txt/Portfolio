@@ -130,7 +130,7 @@
     }
     #slideWrap{
         position: absolute;
-        top: 91%;
+        top: 88%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 42vw;
@@ -185,7 +185,7 @@
         background: #cc7a7a;
     }
     #bloomSubtitle{
-        font-size: 2vh;
+        font-size: 2.2vh;
         text-align: center;
     }
     .bloomColumn{
@@ -213,7 +213,7 @@
     .curriculumTitle{
         width: 24vw;
         margin-left: 2vw;
-        font-size: 1.5vh;
+        font-size: 1.7vh;
     }
     .curriculumText{
         width: 55vw;
@@ -244,7 +244,7 @@
         top: 91%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 42vw;
+        width: 34vw;
         height: 8vh;
         border-radius: 0.9vw;
         background: rgb(0,0,0,0.84);
@@ -253,13 +253,13 @@
         display: flex;
         justify-content: center;
         position: relative;
-        width: 42vw;
+        width: 34vw;
         height: 8vh;
         border-radius: 4vw;
     }
     #slideText{
         position: absolute;
-        width: 42vw;
+        width: 34vw;
         margin-top: 0.6vh;
         font-size: 3.6vh;
         font-family: 'Titillium Web', sans-serif;
@@ -306,12 +306,13 @@
     }
     .bloomRow{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        justify-content: center;
     }
     #bloomTech{
-        width: 84vw;
-        margin-bottom: 2vh;
+        width: 40vw;
+        margin: 4vh;
         border: 1px gray solid;
     }
     .curriculumItem{
@@ -322,12 +323,12 @@
         border-bottom: 1px black solid;
     }
     .curriculumTitle{
-        width: 24vw;
+        width: 14vw;
         margin-left: 2vw;
         font-size: 1.5vh;
     }
     .curriculumText{
-        width: 55vw;
+        width: 24vw;
         margin: 0vh 1vw 0vh 3vw;
         font-size: 1.4vh;
     }
@@ -352,10 +353,10 @@
     }
     #slideWrap{
         position: absolute;
-        top: 91%;
+        top: 88.25%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 42vw;
+        width: 46vw;
         height: 8vh;
         border-radius: 0.9vw;
         background: rgb(0,0,0,0.84);
@@ -364,13 +365,13 @@
         display: flex;
         justify-content: center;
         position: relative;
-        width: 42vw;
+        width: 46vw;
         height: 8vh;
         border-radius: 4vw;
     }
     #slideText{
         position: absolute;
-        width: 42vw;
+        width: 46vw;
         margin-top: 0.6vh;
         font-size: 3.6vh;
         font-family: 'Titillium Web', sans-serif;
@@ -466,7 +467,7 @@
         top: 91%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 42vw;
+        width: 32vw;
         height: 8vh;
         border-radius: 0.9vw;
         background: rgb(0,0,0,0.84);
@@ -475,13 +476,13 @@
         display: flex;
         justify-content: center;
         position: relative;
-        width: 42vw;
+        width: 32vw;
         height: 8vh;
         border-radius: 4vw;
     }
     #slideText{
         position: absolute;
-        width: 42vw;
+        width: 32vw;
         margin-top: 0.6vh;
         font-size: 3.6vh;
         font-family: 'Titillium Web', sans-serif;
@@ -518,7 +519,7 @@
         background: #cc7a7a;
     }
     #bloomSubtitle{
-        font-size: 2vh;
+        font-size: 2.2vh;
         text-align: center;
     }
     .bloomColumn{
@@ -528,12 +529,12 @@
     }
     .bloomRow{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     #bloomTech{
-        width: 84vw;
-        margin-bottom: 2vh;
+        width: 40vw;
+        margin-right: 3vh;
         border: 1px gray solid;
     }
     .curriculumItem{
@@ -544,19 +545,18 @@
         border-bottom: 1px black solid;
     }
     .curriculumTitle{
-        width: 24vw;
-        margin-left: 2vw;
-        font-size: 1.5vh;
+        width: 15vw;
+        font-size: 1.7vh;
     }
     .curriculumText{
-        width: 55vw;
-        margin: 0vh 1vw 0vh 3vw;
-        font-size: 1.4vh;
+        width: 24vw;
+        margin: 0vh 2vw 0vh 1vw;
+        font-size: 1.5vh;
     }
 }
 
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
     #fullContainer{
         background: rgb(243, 237, 237);
     }
@@ -577,30 +577,32 @@
         top: 80%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 18vw;
-        height: 12vh;
-        border-radius: 0.9vw;
-        background: rgb(0,0,0,0.8);
+        width: 22vw;
+        height: 10vh;
+        border-radius: 0.7vw;
+        background: black;
     }
     #slideLink{
         display: flex;
         justify-content: center;
         position: relative;
-        width: 18vw;
-        height: 12vh;
+        width: 22vw;
+        height: 10vh;
         border-radius: 4vw;
     }
     #slideText{
         position: absolute;
-        width: 14vw;
-        margin-top: 2.2vh;
-        font-size: 2vw;
-        color: #214eae;
+        width: 22vw;
+        margin-top: 2vh;
+        font-size: 2.5vw;
+        font-family: 'Titillium Web', sans-serif;
+        color: #4006a3;
     }
     #downIcon{
         position: absolute;
-        margin-top: 4.2vh;
-        color: #123582;
+        margin-top: 4.1vh;
+        font-size: 5.5vh;
+        color: #300080;
     }
     #homeContainer{
         display: flex;
@@ -622,10 +624,12 @@
         width: 90%;
         height: 8vh;
         margin: 7vh 0vh 1vh 0vh;
+        font-size: 3vh;
         color: black;
         background: #cc7a7a;
     }
     #bloomSubtitle{
+        font-size: 2.2vh;
         text-align: center;
     }
     .bloomColumn{
@@ -654,4 +658,24 @@
     .curriculumText{
         width: 30vw;
     }
+}
+
+
+@media only screen and (min-width: 1281px) and (max-width: 1536px) {
+
+}
+
+
+@media only screen and (min-width: 1537px) and (max-width: 2048px) {
+
+}
+
+
+@media only screen and (min-width: 2049px) and (max-width: 3000px) {
+
+}
+
+
+@media only screen and (min-width: 3001px) {
+
 }
