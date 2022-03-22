@@ -315,20 +315,184 @@
 
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
-
+    .projectListContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 76vw;
+        min-height: 80vh;
+    }
+    .projectForm{
+        display: flex;
+        width: 70vw;
+    }
+    .suggestProjectBtn{
+        width: 10vw;
+        margin: 1vh 1vw 1vh 1.8vw;
+        padding: 1.6vh 2vw 1.6vh 2vw;
+    }
+    .projectInputs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .subject{
+        display: none;
+    }
+    #projectMessage{
+        width: 46vw;
+        height: 16vh;
+    }
+    .btnsWrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 1vw 0px 1vw;
+    }
+    .projectBtn{
+        width: 8vw;
+        height: 7vh;
+        margin: 1vh 0px 1vh 0px;
+    }
+    
+    
+    #status{
+    }
 }
 
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
-
+    .projectListContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 76vw;
+        min-height: 80vh;
+    }
+    .projectForm{
+        display: flex;
+        width: 70vw;
+    }
+    .suggestProjectBtn{
+        width: 10vw;
+        margin: 1vh 1vw 1vh 1.8vw;
+        padding: 1.6vh 2vw 1.6vh 2vw;
+    }
+    .projectInputs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .subject{
+        display: none;
+    }
+    #projectMessage{
+        width: 46vw;
+        height: 16vh;
+    }
+    .btnsWrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 1vw 0px 1vw;
+    }
+    .projectBtn{
+        width: 8vw;
+        height: 7vh;
+        margin: 1vh 0px 1vh 0px;
+    }
+    
+    
+    #status{
+    }
 }
 
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
-
+    .projectListContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 76vw;
+        min-height: 80vh;
+    }
+    .projectForm{
+        display: flex;
+        width: 70vw;
+    }
+    .suggestProjectBtn{
+        width: 10vw;
+        margin: 1vh 1vw 1vh 1.8vw;
+        padding: 1.6vh 2vw 1.6vh 2vw;
+    }
+    .projectInputs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .subject{
+        display: none;
+    }
+    #projectMessage{
+        width: 46vw;
+        height: 16vh;
+    }
+    .btnsWrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 1vw 0px 1vw;
+    }
+    .projectBtn{
+        width: 8vw;
+        height: 7vh;
+        margin: 1vh 0px 1vh 0px;
+    }
+    
+    
+    #status{
+    }
 }
 
 
 @media only screen and (min-width: 3001px) {
-
+    .projectListContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 76vw;
+        min-height: 80vh;
+    }
+    .projectForm{
+        display: flex;
+        width: 70vw;
+    }
+    .suggestProjectBtn{
+        width: 10vw;
+        margin: 1vh 1vw 1vh 1.8vw;
+        padding: 1.6vh 2vw 1.6vh 2vw;
+    }
+    .projectInputs{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .subject{
+        display: none;
+    }
+    #projectMessage{
+        width: 46vw;
+        height: 16vh;
+    }
+    .btnsWrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 1vw 0px 1vw;
+    }
+    .projectBtn{
+        width: 8vw;
+        height: 7vh;
+        margin: 1vh 0px 1vh 0px;
+    }
+    
+    
+    #status{
+    }
 }

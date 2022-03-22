@@ -402,20 +402,232 @@
 
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
-
+    .projectContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 70vw;
+        height: 34vh;
+        margin-bottom: 1.2vw;
+        background: rgb(236, 210, 210);
+    }
+    .projectContainer:hover{
+        transform: scale(1.02,1.02);
+    }
+    .left{
+        width: 50%;
+        height: 74%;
+        border: 2px black solid;
+    }
+    #projectTitle{
+        height: 14%;
+        text-align: center;
+    }
+    .infoWrapper{
+        height: 60%;
+    }
+    #itemInfoDescription{
+        margin: 0px 14px 0px 14px;
+        text-align: center;
+        font-size: 1.2vw;
+    }
+    #itemInfoTech{
+        margin: 0px 14px 0px 14px;
+        text-align: center;
+        font-size: 1.2vw;
+        color: red;
+    }
+    .itemLinks{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 10%;
+        margin-top: 8px;
+        font-style: italic;
+        text-decoration: underline 2px;
+    }
+    .projectImgContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .projectImg{
+        height: 90%;
+    }
 }
 
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
-
+    .projectContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 70vw;
+        height: 34vh;
+        margin-bottom: 1.2vw;
+        background: rgb(236, 210, 210);
+    }
+    .projectContainer:hover{
+        transform: scale(1.02,1.02);
+    }
+    .left{
+        width: 50%;
+        height: 74%;
+        border: 2px black solid;
+    }
+    #projectTitle{
+        height: 14%;
+        text-align: center;
+    }
+    .infoWrapper{
+        height: 60%;
+    }
+    #itemInfoDescription{
+        margin: 0px 14px 0px 14px;
+        text-align: center;
+        font-size: 1.2vw;
+    }
+    #itemInfoTech{
+        margin: 0px 14px 0px 14px;
+        text-align: center;
+        font-size: 1.2vw;
+        color: red;
+    }
+    .itemLinks{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 10%;
+        margin-top: 8px;
+        font-style: italic;
+        text-decoration: underline 2px;
+    }
+    .projectImgContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .projectImg{
+        height: 90%;
+    }
 }
 
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
-
+    .projectContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 70vw;
+        height: 34vh;
+        margin-bottom: 1.2vw;
+        background: rgb(236, 210, 210);
+    }
+    .projectContainer:hover{
+        transform: scale(1.02,1.02);
+    }
+    .left{
+        width: 50%;
+        height: 74%;
+        border: 2px black solid;
+    }
+    #projectTitle{
+        height: 14%;
+        text-align: center;
+    }
+    .infoWrapper{
+        height: 60%;
+    }
+    #itemInfoDescription{
+        margin: 0px 14px 0px 14px;
+        text-align: center;
+        font-size: 1.2vw;
+    }
+    #itemInfoTech{
+        margin: 0px 14px 0px 14px;
+        text-align: center;
+        font-size: 1.2vw;
+        color: red;
+    }
+    .itemLinks{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 10%;
+        margin-top: 8px;
+        font-style: italic;
+        text-decoration: underline 2px;
+    }
+    .projectImgContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .projectImg{
+        height: 90%;
+    }
 }
 
 
 @media only screen and (min-width: 3001px) {
-
+    .projectContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 70vw;
+        height: 34vh;
+        margin-bottom: 1.2vw;
+        background: rgb(236, 210, 210);
+    }
+    .projectContainer:hover{
+        transform: scale(1.02,1.02);
+    }
+    .left{
+        width: 50%;
+        height: 74%;
+        border: 2px black solid;
+    }
+    #projectTitle{
+        height: 14%;
+        text-align: center;
+    }
+    .infoWrapper{
+        height: 60%;
+    }
+    #itemInfoDescription{
+        margin: 0px 14px 0px 14px;
+        text-align: center;
+        font-size: 1.2vw;
+    }
+    #itemInfoTech{
+        margin: 0px 14px 0px 14px;
+        text-align: center;
+        font-size: 1.2vw;
+        color: red;
+    }
+    .itemLinks{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 10%;
+        margin-top: 8px;
+        font-style: italic;
+        text-decoration: underline 2px;
+    }
+    .projectImgContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .projectImg{
+        height: 90%;
+    }
 }

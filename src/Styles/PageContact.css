@@ -446,20 +446,188 @@
 
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
-
+    .contactContainer{
+        height: 70vh;
+        background: rgb(243, 237, 237);
+    }
+    .contactItems{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .formContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    textarea{
+        resize: none;
+    }
+    #status{
+        color: white;
+    }
+    #status.success{
+        background: green;
+        animation: status 4s ease forwards;
+    }
+    #status.error{
+        background: red;
+        animation: status 4s ease forwards;
+    }
+    @keyframes status{
+        0%{
+            opacity: 1;
+            pointer-events: all;
+        }
+        90%{
+            opacity: 1;
+            pointer-events: all;
+        }
+        100%{
+            opacity: 0;
+            pointer-events: none;
+        }
+    }
 }
 
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
-
+    .contactContainer{
+        height: 70vh;
+        background: rgb(243, 237, 237);
+    }
+    .contactItems{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .formContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    textarea{
+        resize: none;
+    }
+    #status{
+        color: white;
+    }
+    #status.success{
+        background: green;
+        animation: status 4s ease forwards;
+    }
+    #status.error{
+        background: red;
+        animation: status 4s ease forwards;
+    }
+    @keyframes status{
+        0%{
+            opacity: 1;
+            pointer-events: all;
+        }
+        90%{
+            opacity: 1;
+            pointer-events: all;
+        }
+        100%{
+            opacity: 0;
+            pointer-events: none;
+        }
+    }
 }
 
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
-
+    .contactContainer{
+        height: 70vh;
+        background: rgb(243, 237, 237);
+    }
+    .contactItems{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .formContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    textarea{
+        resize: none;
+    }
+    #status{
+        color: white;
+    }
+    #status.success{
+        background: green;
+        animation: status 4s ease forwards;
+    }
+    #status.error{
+        background: red;
+        animation: status 4s ease forwards;
+    }
+    @keyframes status{
+        0%{
+            opacity: 1;
+            pointer-events: all;
+        }
+        90%{
+            opacity: 1;
+            pointer-events: all;
+        }
+        100%{
+            opacity: 0;
+            pointer-events: none;
+        }
+    }
 }
 
 
 @media only screen and (min-width: 3001px) {
-
+    .contactContainer{
+        height: 70vh;
+        background: rgb(243, 237, 237);
+    }
+    .contactItems{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .formContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    textarea{
+        resize: none;
+    }
+    #status{
+        color: white;
+    }
+    #status.success{
+        background: green;
+        animation: status 4s ease forwards;
+    }
+    #status.error{
+        background: red;
+        animation: status 4s ease forwards;
+    }
+    @keyframes status{
+        0%{
+            opacity: 1;
+            pointer-events: all;
+        }
+        90%{
+            opacity: 1;
+            pointer-events: all;
+        }
+        100%{
+            opacity: 0;
+            pointer-events: none;
+        }
+    }
 }
