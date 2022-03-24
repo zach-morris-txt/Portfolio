@@ -1,55 +1,60 @@
+.projectContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 84vw;
+    height: 35vh;
+    margin-bottom: 2vh;
+    background: rgb(237, 219, 219);
+    border: 2px white solid;
+}
+.projectContainer:hover{
+    transform: scale(1.02,1.02);
+}
+#projectTitleWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.2vh;
+    background: #5d57c9;
+    border-bottom: 2px white solid;
+}
+#projectTitle{
+    font-size: 2vh;
+    text-align: center;
+}
+.infoWrapper{
+    height: 3.5vh;
+}
+#itemInfoDescription{
+    margin: 22vh 3vw 0vh 3vw;
+    text-align: center;
+    font-size: 1.4vh;
+}
+.itemLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3.5vh;
+    margin-top: 1.4vh;
+    font-size: 1.4vh;
+    font-style: italic;
+    text-decoration: underline 2px;
+}
+.projectImg{
+    width: 90%;
+}
+
+
 @media only screen and (max-width: 415px) {
-    .projectContainer{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        width: 84vw;
-        height: 35vh;
-        margin-bottom: 2vh;
-        background: rgb(236, 210, 210);
-        border: 2px white solid;
-    }
-    .projectContainer:hover{
-        transform: scale(1.02,1.02);
-    }
     .left{
         position: relative;
         width: 100%;
         height: 100%;
     }
-    #projectTitleWrap{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 4.2vh;
-        background: #b34747;
-    }
-    #projectTitle{
-        font-size: 2vh;
-        text-align: center;
-    }
-    .infoWrapper{
-        height: 3.5vh;
-    }
-    #itemInfoDescription{
-        margin: 22vh 3vw 0vh 3vw;
-        text-align: center;
-        font-size: 1.4vh;
-    }
     #itemInfoTech{
         display: none;
-    }
-    .itemLinks{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: 3.5vh;
-        margin-top: 1.4vh;
-        font-size: 1.4vh;
-        font-style: italic;
-        text-decoration: underline 2px;
-        color: black;
     }
     .projectImgContainer{
         display: flex;
@@ -60,65 +65,27 @@
         margin-bottom: 5.7vh;
         background: rgba(0,0,0,0.3);
         border: 1px black solid;
-    }
-    .projectImg{
-        width: 90%;
     }
 }
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
     .projectContainer{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: space-around;
-        width: 84vw;
-        height: 35vh;
-        margin-bottom: 2vh;
-        background: rgb(236, 210, 210);
-        border: 2px white solid;
-    }
-    .projectContainer:hover{
-        transform: scale(1.02,1.02);
     }
     .left{
         position: relative;
         width: 100%;
         height: 100%;
     }
-    #projectTitleWrap{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 4.2vh;
-        background: #b34747;
-    }
-    #projectTitle{
-        font-size: 2vh;
-        text-align: center;
-    }
-    .infoWrapper{
-        height: 3.5vh;
-    }
     #itemInfoDescription{
-        margin: 22vh 3vw 0vh 3vw;
-        text-align: center;
-        font-size: 1.4vh;
+        margin: 22.5vh 3vw 0vh 3vw;
     }
     #itemInfoTech{
         display: none;
     }
     .itemLinks{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: 3.5vh;
-        margin-top: 1.4vh;
-        font-size: 1.4vh;
-        font-style: italic;
-        text-decoration: underline 2px;
-        color: black;
+        margin-top: 0.6vh;
     }
     .projectImgContainer{
         display: flex;
@@ -131,132 +98,62 @@
         border: 1px black solid;
     }
     .projectImg{
-        width: 90%;
+        width: 80%;
     }
 }
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
     .projectContainer{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        width: 84vw;
-        height: 35vh;
-        margin-bottom: 2vh;
-        background: rgb(236, 210, 210);
-        border: 2px white solid;
-    }
-    .projectContainer:hover{
-        transform: scale(1.02,1.02);
+        height: 30vh;
     }
     .left{
-        position: relative;
-        width: 100%;
+        width: 50%;
         height: 100%;
     }
     #projectTitleWrap{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 4.2vh;
-        background: #b34747;
+        height: 7vh;
     }
     #projectTitle{
-        font-size: 2vh;
-        text-align: center;
+        font-size: 2.4vh;
     }
     .infoWrapper{
-        height: 3.5vh;
+        height: 46%;
     }
     #itemInfoDescription{
-        margin: 22vh 3vw 0vh 3vw;
-        text-align: center;
-        font-size: 1.4vh;
+        margin: 3vh 2.6vw 1vh 2.6vw;
+        font-size: 1.8vh;
     }
     #itemInfoTech{
-        display: none;
+        text-align: center;
+        font-size: 1.2vw;
+        color: red;
     }
     .itemLinks{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: 3.5vh;
-        margin-top: 1.4vh;
-        font-size: 1.4vh;
-        font-style: italic;
-        text-decoration: underline 2px;
-        color: black;
+        height: 10%;
+        font-size: 1.8vh;
     }
     .projectImgContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        position: absolute;
-        width: 78vw;
-        margin-bottom: 5.7vh;
-        background: rgba(0,0,0,0.3);
-        border: 1px black solid;
+        width: 40vw;
+        height: 100%;
     }
     .projectImg{
-        width: 90%;
+        width: 96%;
     }
 }
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
-    .projectContainer{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        width: 84vw;
-        height: 35vh;
-        margin-bottom: 2vh;
-        background: rgb(236, 210, 210);
-        border: 2px white solid;
-    }
-    .projectContainer:hover{
-        transform: scale(1.02,1.02);
-    }
     .left{
         position: relative;
         width: 100%;
         height: 100%;
     }
-    #projectTitleWrap{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 4.2vh;
-        background: #b34747;
-    }
-    #projectTitle{
-        font-size: 2vh;
-        text-align: center;
-    }
-    .infoWrapper{
-        height: 3.5vh;
-    }
-    #itemInfoDescription{
-        margin: 22vh 3vw 0vh 3vw;
-        text-align: center;
-        font-size: 1.4vh;
-    }
     #itemInfoTech{
         display: none;
-    }
-    .itemLinks{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: 3.5vh;
-        margin-top: 1.4vh;
-        font-size: 1.4vh;
-        font-style: italic;
-        text-decoration: underline 2px;
-        color: black;
     }
     .projectImgContainer{
         display: flex;
@@ -267,127 +164,85 @@
         margin-bottom: 5.7vh;
         background: rgba(0,0,0,0.3);
         border: 1px black solid;
-    }
-    .projectImg{
-        width: 90%;
     }
 }
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: landscape) {
     .projectContainer{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        width: 84vw;
-        height: 35vh;
-        margin-bottom: 2vh;
-        background: rgb(236, 210, 210);
-        border: 2px white solid;
-    }
-    .projectContainer:hover{
-        transform: scale(1.02,1.02);
+        height: 30vh;
     }
     .left{
-        position: relative;
-        width: 100%;
+        width: 50%;
         height: 100%;
     }
     #projectTitleWrap{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 4.2vh;
-        background: #b34747;
-    }
-    #projectTitle{
-        font-size: 2vh;
-        text-align: center;
+        height: 7vh;
     }
     .infoWrapper{
-        height: 3.5vh;
+        height: 44%;
     }
     #itemInfoDescription{
-        margin: 22vh 3vw 0vh 3vw;
-        text-align: center;
-        font-size: 1.4vh;
+        margin: 3vh 3vw 1vh 3vw;
+        font-size: 1.8vh;
     }
     #itemInfoTech{
-        display: none;
+        text-align: center;
+        font-size: 1.6vw;
+        color: red;
     }
     .itemLinks{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: 3.5vh;
-        margin-top: 1.4vh;
-        font-size: 1.4vh;
-        font-style: italic;
-        text-decoration: underline 2px;
-        color: black;
+        height: 10%;
+        font-size: 1.6vh;
     }
     .projectImgContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        position: absolute;
-        width: 78vw;
-        margin-bottom: 5.7vh;
-        background: rgba(0,0,0,0.3);
-        border: 1px black solid;
+        width: 40vw;
+        height: 100%;
     }
     .projectImg{
-        width: 90%;
+        width: 94%;
+        border: 1px grey solid;
     }
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .projectContainer{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: space-around;
         width: 70vw;
         height: 34vh;
         margin-bottom: 1.2vw;
-        background: rgb(236, 210, 210);
     }
-    .projectContainer:hover{
-        transform: scale(1.02,1.02);
+    #projectTitleWrap{
+        height: 6vh;
     }
     .left{
         width: 50%;
         height: 74%;
+        margin-left: 1vw;
         border: 2px black solid;
     }
     #projectTitle{
-        height: 14%;
-        text-align: center;
+        font-size: 2.2vh;
     }
     .infoWrapper{
-        height: 60%;
+        height: 40%;
     }
     #itemInfoDescription{
-        margin: 0px 14px 0px 14px;
-        text-align: center;
+        margin: 2vh 1.1vw 1vh 1.1vw;
         font-size: 1.2vw;
     }
     #itemInfoTech{
-        margin: 0px 14px 0px 14px;
         text-align: center;
         font-size: 1.2vw;
         color: red;
     }
     .itemLinks{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         height: 10%;
-        margin-top: 8px;
-        font-style: italic;
-        text-decoration: underline 2px;
+        margin-top: 3.5vh;
     }
     .projectImgContainer{
         display: flex;
@@ -396,238 +251,202 @@
         height: 100%;
     }
     .projectImg{
-        height: 90%;
+        height: 84%;
+        border: 1px grey solid;
     }
 }
 
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .projectContainer{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: space-around;
-        width: 70vw;
+        width: 76vw;
         height: 34vh;
         margin-bottom: 1.2vw;
-        background: rgb(236, 210, 210);
     }
-    .projectContainer:hover{
-        transform: scale(1.02,1.02);
+    #projectTitleWrap{
+        height: 5vh;
     }
     .left{
-        width: 50%;
-        height: 74%;
+        width: 48%;
+        height: 62%;
         border: 2px black solid;
     }
     #projectTitle{
-        height: 14%;
-        text-align: center;
+        font-size: 2.1vh;
     }
     .infoWrapper{
-        height: 60%;
+        height: 40%;
     }
     #itemInfoDescription{
-        margin: 0px 14px 0px 14px;
-        text-align: center;
-        font-size: 1.2vw;
+        margin: 1vh 2.6vw 0.5vh 2.6vw;
+        font-size: 1.9vh;
     }
     #itemInfoTech{
-        margin: 0px 14px 0px 14px;
         text-align: center;
-        font-size: 1.2vw;
+        font-size: 1.9vh;
         color: red;
     }
     .itemLinks{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         height: 10%;
-        margin-top: 8px;
-        font-style: italic;
-        text-decoration: underline 2px;
+        margin-top: 3.7vh;
+        font-size: 1.7vh;
     }
     .projectImgContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+        width: 36vw;
     }
     .projectImg{
-        height: 90%;
+        height: 88%;
+        border: 1px grey solid;
     }
 }
 
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
     .projectContainer{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: space-around;
-        width: 70vw;
-        height: 34vh;
-        margin-bottom: 1.2vw;
-        background: rgb(236, 210, 210);
-    }
-    .projectContainer:hover{
-        transform: scale(1.02,1.02);
+        width: 80vw;
     }
     .left{
-        width: 50%;
-        height: 74%;
+        width: 48%;
+        height: 64%;
+        margin-left: 1vw;
         border: 2px black solid;
     }
+    #projectTitleWrap{
+        height: 5.4vh;
+    }
     #projectTitle{
-        height: 14%;
-        text-align: center;
+        font-size: 2.2vh;
     }
     .infoWrapper{
-        height: 60%;
+        height: 48%;
     }
     #itemInfoDescription{
-        margin: 0px 14px 0px 14px;
-        text-align: center;
-        font-size: 1.2vw;
+        margin: 1vh 1.6vw 0.5vh 1.6vw;
+        font-size: 1.9vh;
     }
     #itemInfoTech{
-        margin: 0px 14px 0px 14px;
         text-align: center;
-        font-size: 1.2vw;
+        font-size: 1.9vh;
         color: red;
     }
     .itemLinks{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         height: 10%;
-        margin-top: 8px;
-        font-style: italic;
-        text-decoration: underline 2px;
+        margin-top: 1.5vh;
+        font-size: 1.8vh;
+        font-weight: 600;
     }
     .projectImgContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+        width: 40vw;
     }
     .projectImg{
-        height: 90%;
+        height: 84%;
+        border: 1px grey solid;
     }
 }
 
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .projectContainer{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: space-around;
-        width: 70vw;
+        width: 80vw;
         height: 34vh;
         margin-bottom: 1.2vw;
-        background: rgb(236, 210, 210);
-    }
-    .projectContainer:hover{
-        transform: scale(1.02,1.02);
     }
     .left{
-        width: 50%;
-        height: 74%;
+        width: 48%;
+        height: 72%;
+        margin-left: 1vw;
         border: 2px black solid;
     }
+    #projectTitleWrap{
+        height: 5.5vh;
+    }
     #projectTitle{
-        height: 14%;
-        text-align: center;
+        font-size: 2.5vh;
     }
     .infoWrapper{
-        height: 60%;
+        height: 50%;
     }
     #itemInfoDescription{
-        margin: 0px 14px 0px 14px;
-        text-align: center;
-        font-size: 1.2vw;
+        margin: 1vh 2.1vw 1vh 2.1vw;
+        font-size: 2.1vh;
     }
     #itemInfoTech{
-        margin: 0px 14px 0px 14px;
         text-align: center;
-        font-size: 1.2vw;
+        font-size: 1.9vh;
         color: red;
     }
     .itemLinks{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         height: 10%;
-        margin-top: 8px;
-        font-style: italic;
-        text-decoration: underline 2px;
+        margin-top: 2vh;
+        font-size: 1.9vh;
+        font-weight: 600;
     }
     .projectImgContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+        width: 40vw;
     }
     .projectImg{
-        height: 90%;
+        height: 88%;
+        border: 1px grey solid;
     }
 }
 
 
 @media only screen and (min-width: 3001px) {
     .projectContainer{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: space-around;
-        width: 70vw;
+        width: 80vw;
         height: 34vh;
         margin-bottom: 1.2vw;
-        background: rgb(236, 210, 210);
-    }
-    .projectContainer:hover{
-        transform: scale(1.02,1.02);
     }
     .left{
-        width: 50%;
-        height: 74%;
+        width: 48%;
+        height: 70%;
+        margin-left: 2vw;
         border: 2px black solid;
     }
+    #projectTitleWrap{
+        height: 5.5vh;
+    }
     #projectTitle{
-        height: 14%;
-        text-align: center;
+        font-size: 2.5vh;
     }
     .infoWrapper{
-        height: 60%;
+        height: 50%;
     }
     #itemInfoDescription{
-        margin: 0px 14px 0px 14px;
-        text-align: center;
-        font-size: 1.2vw;
+        margin: 1vh 1.5vw 1vh 1.5vw;
+        font-size: 2vh;
     }
     #itemInfoTech{
-        margin: 0px 14px 0px 14px;
         text-align: center;
-        font-size: 1.2vw;
+        font-size: 1.9vh;
         color: red;
     }
     .itemLinks{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         height: 10%;
-        margin-top: 8px;
-        font-style: italic;
-        text-decoration: underline 2px;
+        margin-top: 1.5vh;
+        font-size: 1.7vh;
+        font-weight: 600;
     }
     .projectImgContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+        width: 38vw;
     }
     .projectImg{
-        height: 90%;
+        border: 1px grey solid;
     }
 }
