@@ -45,16 +45,16 @@ const SkillsList = () => {
               <form ref={form} className='skillInputs' onSubmit={sendEmail}>
                 <div>
                   <div className='formItem'>
-                    <input type="text" className='subject' name='subject' value='Skill Suggestion' readOnly/>
+                    <input type="text" className='subject inputText' name='subject' value='Skill Suggestion' readOnly/>
                   </div>
                   <div className='formItem'>
-                    <input type="text" className='formSkillInput' id='name' name='name' placeholder='Name'></input>
+                    <input type="text" className='formSkillInput inputText' id='name' name='name' placeholder='Name'></input>
                   </div>
                   <div className='formItem'>
-                    <input type="email" className='formSkillInput' id='email' name='email' placeholder='Email' required></input>
+                    <input type="email" className='formSkillInput inputText' id='email' name='email' placeholder='Email' required></input>
                   </div>
                   <div className='formItem'>
-                    <textarea className='formSkillInput' id='skillMessage' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
+                    <textarea className='formSkillInput inputText' id='skillMessage' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
                   </div>
                 </div>
                 <div className='btnsWrapper'>
@@ -62,11 +62,11 @@ const SkillsList = () => {
                   <input className='skillBtn' type="submit" value='&#10004;' readOnly/>
                 </div>
               </form>
-            <div id='status' />
           </div>
           : <></>
         }
       </div>
+      <div id='status' />
     </div>
   )
 }
