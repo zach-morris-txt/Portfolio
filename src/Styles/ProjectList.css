@@ -1,498 +1,232 @@
-@media only screen and (max-width: 415px) {
-    .projectListContainer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 76vw;
-        min-height: 80vh;
-    }
-    .projectForm{
-        display: flex;
-        align-items: center;
-    }
-    .suggestProjectBtn{
-        width: 28vw;
-        height: 7vh;
-        margin-right: 1vw;
-    }
-    .suggestProjectBtnAlt{
-        height: 18vh;
-        margin: 1vh 1vw 1vh 0vw;
-    }
-    .projectInputs{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formProjectInput{
-        width: 30vw;
-    }
-    .subject{
-        display: none;
-    }
-    #projectMessage{
-        width: 43vw;
-        height: 16vh;
-        margin-top: 0.5vh;
-    }
-    .btnsWrapper{
-        display: flex;
-        flex-direction: column;
-        margin: 0px 1vw 0px 1vw;
-    }
-    .projectBtn{
-        width: 8vw;
-        height: 7vh;
-        margin-top: 1vh;
-    }
-    
-    
-    #status{
-    }
+.projectListContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 76vw;
+}
+.projectForm{
+    display: flex;
+    align-items: center;
+}
+.suggestProjectBtn{
+    width: 28vw;
+    height: 7vh;
+    margin-right: 1vw;
+    font-size: 1.8vh;
+}
+.suggestProjectBtnAlt{
+    height: 18vh;
+    margin: 1vh 1vw 1vh 0vw;
+    font-size: 1.8vh;
+}
+.projectInputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.formProjectInput{
+    width: 30vw;
+}
+.inputText{
+    font-size: 1.8vh;
+}
+.subject{
+    display: none;
+}
+#projectMessage{
+    width: 43vw;
+    height: 16vh;
+    margin-top: 0.5vh;
+}
+.btnsWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 1vw 0px 1vw;
+}
+.projectBtn{
+    width: 8vw;
+    height: 7vh;
+    margin-top: 1vh;
+    font-size: 1.8vh;
+}
+.success{
+    width: 100%;
+    padding: 1.5vh;
+    color: green;
+    background: lightgray;
+}
+.error{
+    width: 100%;
+    padding: 1.5vh;
+    color: red;
+    background: lightgray;
 }
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
-    .projectListContainer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 76vw;
-        min-height: 80vh;
-    }
-    .projectForm{
-        display: flex;
-        align-items: center;
-    }
     .suggestProjectBtn{
-        width: 28vw;
-        height: 7vh;
-        margin-right: 1vw;
+        font-size: 1.6vh;
     }
     .suggestProjectBtnAlt{
-        height: 18vh;
-        margin: 1vh 1vw 1vh 0vw;
+        font-size: 1.6vh;
     }
-    .projectInputs{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formProjectInput{
-        width: 30vw;
-    }
-    .subject{
-        display: none;
-    }
-    #projectMessage{
-        width: 43vw;
-        height: 16vh;
-        margin-top: 0.5vh;
-    }
-    .btnsWrapper{
-        display: flex;
-        flex-direction: column;
-        margin: 0px 1vw 0px 1vw;
+    .inputText{
+        font-size: 1.9vh;
     }
     .projectBtn{
-        width: 8vw;
-        height: 7vh;
-        margin-top: 1vh;
-    }
-    
-    
-    #status{
+        font-size: 1.9vh;
     }
 }
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
-    .projectListContainer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 76vw;
-        min-height: 80vh;
-    }
-    .projectForm{
-        display: flex;
-        align-items: center;
-    }
     .suggestProjectBtn{
-        width: 28vw;
-        height: 7vh;
-        margin-right: 1vw;
+        height: 15vh;
+        font-size: 3.8vh;
     }
     .suggestProjectBtnAlt{
-        height: 18vh;
-        margin: 1vh 1vw 1vh 0vw;
+        height: 24vh;
+        font-size: 3.8vh;
     }
-    .projectInputs{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formProjectInput{
-        width: 30vw;
-    }
-    .subject{
-        display: none;
-    }
-    #projectMessage{
-        width: 43vw;
-        height: 16vh;
-        margin-top: 0.5vh;
-    }
-    .btnsWrapper{
-        display: flex;
-        flex-direction: column;
-        margin: 0px 1vw 0px 1vw;
+    .inputText{
+        font-size: 3vh;
     }
     .projectBtn{
-        width: 8vw;
-        height: 7vh;
-        margin-top: 1vh;
-    }
-    
-    
-    #status{
+        font-size: 2.6vh;
     }
 }
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
-    .projectListContainer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 76vw;
-        min-height: 80vh;
-    }
-    .projectForm{
-        display: flex;
-        align-items: center;
-    }
     .suggestProjectBtn{
-        width: 28vw;
-        height: 7vh;
-        margin-right: 1vw;
+        font-size: 1.7vh;
     }
     .suggestProjectBtnAlt{
-        height: 18vh;
-        margin: 1vh 1vw 1vh 0vw;
-    }
-    .projectInputs{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formProjectInput{
-        width: 30vw;
-    }
-    .subject{
-        display: none;
-    }
-    #projectMessage{
-        width: 43vw;
-        height: 16vh;
-        margin-top: 0.5vh;
-    }
-    .btnsWrapper{
-        display: flex;
-        flex-direction: column;
-        margin: 0px 1vw 0px 1vw;
-    }
-    .projectBtn{
-        width: 8vw;
-        height: 7vh;
-        margin-top: 1vh;
-    }
-    
-    
-    #status{
+        font-size: 1.7vh;
     }
 }
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: landscape) {
-    .projectListContainer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 76vw;
-        min-height: 80vh;
-    }
-    .projectForm{
-        display: flex;
-        align-items: center;
-    }
     .suggestProjectBtn{
-        width: 28vw;
-        height: 7vh;
-        margin-right: 1vw;
+        height: 10vh;
+        font-size: 2.5vh;
     }
     .suggestProjectBtnAlt{
-        height: 18vh;
-        margin: 1vh 1vw 1vh 0vw;
+        padding: 1.5vh;
+        font-size: 2.5vh;
     }
-    .projectInputs{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .formProjectInput{
-        width: 30vw;
-    }
-    .subject{
-        display: none;
-    }
-    #projectMessage{
-        width: 43vw;
-        height: 16vh;
-        margin-top: 0.5vh;
-    }
-    .btnsWrapper{
-        display: flex;
-        flex-direction: column;
-        margin: 0px 1vw 0px 1vw;
+    .inputText{
+        font-size: 2vh;
     }
     .projectBtn{
-        width: 8vw;
-        height: 7vh;
-        margin-top: 1vh;
-    }
-    
-    
-    #status{
+        font-size: 1.9vh;
     }
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
-    .projectListContainer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 76vw;
-        min-height: 80vh;
-    }
-    .projectForm{
-        display: flex;
-        width: 70vw;
-    }
     .suggestProjectBtn{
-        width: 10vw;
+        width: 18vw;
+        height: 10vh;
         margin: 1vh 1vw 1vh 1.8vw;
-        padding: 1.6vh 2vw 1.6vh 2vw;
+        font-size: 2.3vh;
     }
-    .projectInputs{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .suggestProjectBtnAlt{
+        height: 20vh;
+        padding: 1.5vh;
+        font-size: 2.3vh;
     }
-    .subject{
-        display: none;
-    }
-    #projectMessage{
-        width: 46vw;
-        height: 16vh;
-    }
-    .btnsWrapper{
-        display: flex;
-        flex-direction: column;
-        margin: 0px 1vw 0px 1vw;
+    .inputText{
+        font-size: 1.9vh;
     }
     .projectBtn{
-        width: 8vw;
-        height: 7vh;
         margin: 1vh 0px 1vh 0px;
-    }
-    
-    
-    #status{
+        font-size: 1.9vh;
     }
 }
 
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
-    .projectListContainer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 76vw;
-        min-height: 80vh;
-    }
-    .projectForm{
-        display: flex;
-        width: 70vw;
-    }
     .suggestProjectBtn{
-        width: 10vw;
+        width: 18vw;
+        height: 10vh;
         margin: 1vh 1vw 1vh 1.8vw;
-        padding: 1.6vh 2vw 1.6vh 2vw;
+        font-size: 2.3vh;
     }
-    .projectInputs{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .suggestProjectBtnAlt{
+        padding: 1.5vh;
+        font-size: 2.3vh;
     }
-    .subject{
-        display: none;
-    }
-    #projectMessage{
-        width: 46vw;
-        height: 16vh;
-    }
-    .btnsWrapper{
-        display: flex;
-        flex-direction: column;
-        margin: 0px 1vw 0px 1vw;
+    .inputText{
+        font-size: 2vh;
     }
     .projectBtn{
-        width: 8vw;
-        height: 7vh;
         margin: 1vh 0px 1vh 0px;
-    }
-    
-    
-    #status{
+        font-size: 2vh;
     }
 }
 
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
-    .projectListContainer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 76vw;
-        min-height: 80vh;
-    }
-    .projectForm{
-        display: flex;
-        width: 70vw;
-    }
     .suggestProjectBtn{
-        width: 10vw;
+        width: 18vw;
+        height: 10vh;
         margin: 1vh 1vw 1vh 1.8vw;
-        padding: 1.6vh 2vw 1.6vh 2vw;
+        font-size: 2.3vh;
     }
-    .projectInputs{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .suggestProjectBtnAlt{
+        padding: 1.5vh;
+        font-size: 2.3vh;
     }
-    .subject{
-        display: none;
-    }
-    #projectMessage{
-        width: 46vw;
-        height: 16vh;
-    }
-    .btnsWrapper{
-        display: flex;
-        flex-direction: column;
-        margin: 0px 1vw 0px 1vw;
+    .inputText{
+        font-size: 2vh;
     }
     .projectBtn{
-        width: 8vw;
-        height: 7vh;
         margin: 1vh 0px 1vh 0px;
-    }
-    
-    
-    #status{
+        font-size: 2vh;
     }
 }
 
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
-    .projectListContainer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 76vw;
-        min-height: 80vh;
-    }
-    .projectForm{
-        display: flex;
-        width: 70vw;
-    }
     .suggestProjectBtn{
-        width: 10vw;
+        width: 18vw;
+        height: 10vh;
         margin: 1vh 1vw 1vh 1.8vw;
-        padding: 1.6vh 2vw 1.6vh 2vw;
+        font-size: 2.3vh;
     }
-    .projectInputs{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .subject{
-        display: none;
-    }
-    #projectMessage{
-        width: 46vw;
+    .suggestProjectBtnAlt{
         height: 16vh;
+        padding: 1.5vh;
+        font-size: 2.3vh;
     }
-    .btnsWrapper{
-        display: flex;
-        flex-direction: column;
-        margin: 0px 1vw 0px 1vw;
+    .inputText{
+        font-size: 2vh;
     }
     .projectBtn{
-        width: 8vw;
-        height: 7vh;
         margin: 1vh 0px 1vh 0px;
-    }
-    
-    
-    #status{
+        font-size: 2vh;
     }
 }
 
 
 @media only screen and (min-width: 3001px) {
-    .projectListContainer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 76vw;
-        min-height: 80vh;
-    }
-    .projectForm{
-        display: flex;
-        width: 70vw;
-    }
     .suggestProjectBtn{
-        width: 10vw;
+        width: 18vw;
+        height: 10vh;
         margin: 1vh 1vw 1vh 1.8vw;
-        padding: 1.6vh 2vw 1.6vh 2vw;
+        font-size: 2.3vh;
     }
-    .projectInputs{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .suggestProjectBtnAlt{
+        padding: 1.5vh;
+        font-size: 2.3vh;
     }
-    .subject{
-        display: none;
-    }
-    #projectMessage{
-        width: 46vw;
-        height: 16vh;
-    }
-    .btnsWrapper{
-        display: flex;
-        flex-direction: column;
-        margin: 0px 1vw 0px 1vw;
+    .inputText{
+        font-size: 2.1vh;
     }
     .projectBtn{
-        width: 8vw;
-        height: 7vh;
         margin: 1vh 0px 1vh 0px;
-    }
-    
-    
-    #status{
+        font-size: 2.1vh;
     }
 }

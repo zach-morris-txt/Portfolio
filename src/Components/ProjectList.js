@@ -19,7 +19,7 @@ const ProjectList = () => {
     emailjs.sendForm('service_o41xzyd', 'template_c70amym', form.current, 'rRq4k2FhFObFtegju')
       .then((result) => {
         status.classList.add('success')
-        status.innerHTML = "Success"
+        status.innerHTML = "Success!"
       }, (error) => {
         status.classList.add('error')
         status.innerHTML = `Error: ${error}`
@@ -44,13 +44,13 @@ const ProjectList = () => {
                     <input type="text" className='subject' name='subject' value='Project Suggestion' readOnly/>
                   </div>
                   <div className='formItem'>
-                    <input type="text" className='formProjectInput' name='name' placeholder='Name'></input>
+                    <input type="text" className='formProjectInput inputText' name='name' placeholder='Name'></input>
                   </div>
                   <div className='formItem'>
-                    <input type="email" className='formProjectInput' name='email' placeholder='Email' required></input>
+                    <input type="email" className='formProjectInput inputText' name='email' placeholder='Email' required></input>
                   </div>
                   <div className='formItem'>
-                    <textarea id='projectMessage' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
+                    <textarea id='projectMessage' className='inputText'name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
                   </div>
                 </div>
                 <div className='btnsWrapper'>
@@ -58,11 +58,11 @@ const ProjectList = () => {
                   <input className='projectBtn' type="submit" value='&#10004;' readOnly/>
                 </div>
             </form>
-            <div id='status' />
           </div>
           : <></>
         }
       </div>
+      <div id='status' />
     </div>
   )
 }
