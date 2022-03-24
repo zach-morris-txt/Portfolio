@@ -78,7 +78,7 @@
 }
 .bloomColumn{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 90vw;
 }
 .bloomRow{
@@ -110,15 +110,31 @@
 }
 
 
+@media only screen and (max-width: 415px) {
+    .bloomColumn{
+        justify-content: center;
+    }
+}
+
+
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
     #slideWrap{
         top: 88%;
+    }
+    .homeSubtitleWrap{
+        font-size: 2.6vh;
+    }
+    .bloomColumn{
+        justify-content: center;
     }
     #bloomSubtitle{
         font-size: 2.2vh;
     }
     .curriculumTitle{
         font-size: 1.7vh;
+    }
+    .curriculumText{
+        width: 52vw;
     }
 }
 
@@ -137,6 +153,9 @@
         height: 10vh;
         font-size: 3.5vh;
     }
+    .bloomColumn{
+        width: 80vw;
+    }
     #bloomSubtitle{
         font-size: 2.8vh;
     }
@@ -145,7 +164,7 @@
         justify-content: center;
     }
     #bloomTech{
-        width: 42vw;
+        width: 38vw;
         margin: 1vh 2vw 0vh 0vw;
     }
     .curriculumTitle{
@@ -171,6 +190,9 @@
     #slideText{
         width: 46vw;
     }
+    .bloomColumn{
+        justify-content: center;
+    }
 }
 
 
@@ -193,17 +215,21 @@
         font-size: 2.4vh;
     }
     .bloomColumn{
+        width: 84vw;
         margin-top: 2vh;
     }
     .bloomRow{
         flex-direction: row;
     }
     #bloomTech{
-        width: 38vw;
-        margin-right: 3vh;
+        width: 40vw;
+        margin-right: 1vh;
+    }
+    .curriculumItem{
+        margin: 1vw;
     }
     .curriculumTitle{
-        width: 15vw;
+        width: 13vw;
         font-size: 1.7vh;
     }
     .curriculumText{
@@ -249,6 +275,7 @@
         font-size: 2.4vh;
     }
     .bloomColumn{
+        width: 80vw;
         margin-top: 2vh;
     }
     .bloomRow{
@@ -256,17 +283,17 @@
     }
     #bloomTech{
         width: 36vw;
-        margin: 0px 2vw 0vh 0vw;
+        margin: 0vh 1vw 0vh 0vw;
     }
     .curriculumItem{
         margin: 1vw;
     }
     .curriculumTitle{
-        width: 14vw;
+        width: 13vw;
         font-size: 1.9vh;
     }
     .curriculumText{
-        width: 28vw;
+        width: 23vw;
         font-size: 1.7vh;
     }
 }
@@ -309,24 +336,25 @@
         font-size: 2.4vh;
     }
     .bloomColumn{
+        width: 76vw;
         margin-top: 3vh;
     }
     .bloomRow{
         flex-direction: row;
     }
     #bloomTech{
-        width: 40vw;
-        margin: 0px 2vw 0px 0px;
+        width: 36vw;
+        margin: 0px 1vw 0px 0px;
     }
     .curriculumItem{
         margin: 1vw;
     }
     .curriculumTitle{
-        width: 14vw;
+        width: 12vw;
         font-size: 1.8vh;
     }
     .curriculumText{
-        width: 24vw;
+        width: 20vw;
         font-size: 1.5vh;
     }
 }
@@ -361,14 +389,15 @@
     }
     .homeSubtitleWrap{
         width: 90%;
-        height: 8vh;
+        height: 9vh;
         margin: 7vh 0vh 1vh 0vh;
-        font-size: 3vh;
+        font-size: 3.2vh;
     }
     #bloomSubtitle{
-        font-size: 2.8vh;
+        font-size: 2.6vh;
     }
     .bloomColumn{
+        width: 80vw;
         margin-top: 3vh;
     }
     .bloomRow{
@@ -376,17 +405,17 @@
     }
     #bloomTech{
         width: 38vw;
-        margin: 0px 1vw 0px 0px;
+        margin: 0vh 2vw 0vh 0vw;
     }
     .curriculumItem{
         margin: 1vw;
     }
     .curriculumTitle{
-        width: 13vw;
+        width: 12vw;
         font-size: 1.8vh;
     }
     .curriculumText{
-        width: 26vw;
+        width: 21vw;
         font-size: 1.8vh;
     }
 }
@@ -426,6 +455,9 @@
         margin: 7vh 0vh 1vh 0vh;
         font-size: 3.4vh;
     }
+    .bloomColumn{
+        width: 80vw;
+    }
     #bloomSubtitle{
         font-size: 2.4vh;
     }
@@ -444,7 +476,7 @@
         font-size: 1.8vh;
     }
     .curriculumText{
-        width: 26vw;
+        width: 21vw;
         font-size: 1.6vh;
     }
 }
@@ -488,11 +520,14 @@
     #bloomSubtitle{
         font-size: 2.6vh;
     }
+    .bloomColumn{
+        width: 84vw;
+    }
     .bloomRow{
         flex-direction: row;
     }
     #bloomTech{
-        width: 36vw;
+        width: 38vw;
         margin: 0vh 2vw 0vh 0vw;
     }
     .curriculumItem{
@@ -503,7 +538,7 @@
         font-size: 2vh;
     }
     .curriculumText{
-        width: 26vw;
+        width: 23vw;
         font-size: 1.8vh;
     }
 }

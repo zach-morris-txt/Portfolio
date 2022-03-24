@@ -73,6 +73,9 @@
     .projectContainer{
         justify-content: space-around;
     }
+    #projectTitle{
+        font-size: 2.2vh;
+    }
     .left{
         position: relative;
         width: 100%;
@@ -115,7 +118,7 @@
         height: 7vh;
     }
     #projectTitle{
-        font-size: 2.4vh;
+        font-size: 2.8vh;
     }
     .infoWrapper{
         height: 46%;
@@ -179,6 +182,9 @@
     #projectTitleWrap{
         height: 7vh;
     }
+    #projectTitle{
+        font-size: 2.4vh;
+    }
     .infoWrapper{
         height: 44%;
     }
@@ -226,7 +232,7 @@
         border: 2px black solid;
     }
     #projectTitle{
-        font-size: 2.2vh;
+        font-size: 2.4vh;
     }
     .infoWrapper{
         height: 40%;
@@ -273,7 +279,7 @@
         border: 2px black solid;
     }
     #projectTitle{
-        font-size: 2.1vh;
+        font-size: 2.4vh;
     }
     .infoWrapper{
         height: 40%;
@@ -320,7 +326,7 @@
         height: 5.4vh;
     }
     #projectTitle{
-        font-size: 2.2vh;
+        font-size: 2.6vh;
     }
     .infoWrapper{
         height: 48%;
@@ -370,7 +376,7 @@
         height: 5.5vh;
     }
     #projectTitle{
-        font-size: 2.5vh;
+        font-size: 2.4vh;
     }
     .infoWrapper{
         height: 50%;
@@ -420,7 +426,7 @@
         height: 5.5vh;
     }
     #projectTitle{
-        font-size: 2.5vh;
+        font-size: 2.6vh;
     }
     .infoWrapper{
         height: 50%;

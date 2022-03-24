@@ -1,218 +1,150 @@
-@media only screen and (max-width: 415px) {
-    .certListContainer{
-        display: flex;
-        justify-content: space-evenly;
-        flex-flow: wrap column;
-        width: 92vw;
-        margin-top: 1vh;
-    }
-    .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .certSubTitle{
-        margin-top: 2vh;;
-        font-size: 2vh;
-    }
-    .certImg{
-        width: 84vw;
-        border: 1px gray solid;
-    }
+.certListContainer{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap column;
+    width: 84vw;
+    margin-top: 1vh;
+}
+.certificate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.certSubTitle{
+    margin-top: 2vh;
+    font-size: 2vh;
+}
+.certImg{
+    width: 84vw;
+    border: 1px gray solid;
 }
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
     .certListContainer{
-        display: flex;
         justify-content: space-evenly;
-        flex-flow: wrap column;
         width: 92vw;
-        margin-top: 1vh;
-    }
-    .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .certSubTitle{
-        margin-top: 2vh;;
-        font-size: 2vh;
-    }
-    .certImg{
-        width: 84vw;
-        border: 1px gray solid;
+        font-size: 2.2vh;
     }
 }
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
     .certListContainer{
-        display: flex;
-        justify-content: space-evenly;
-        flex-flow: wrap column;
+        flex-flow: wrap row;
         width: 92vw;
-        margin-top: 1vh;
-    }
-    .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .certSubTitle{
-        margin-top: 2vh;;
-        font-size: 2vh;
+        font-size: 2.8vh;
     }
     .certImg{
-        width: 84vw;
-        border: 1px gray solid;
+        width: 38vw;
+        margin: 0vh 2vw 0vh 2vw;
     }
 }
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
     .certListContainer{
-        display: flex;
         justify-content: space-evenly;
-        flex-flow: wrap column;
         width: 92vw;
-        margin-top: 1vh;
-    }
-    .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .certSubTitle{
-        margin-top: 2vh;;
-        font-size: 2vh;
-    }
-    .certImg{
-        width: 84vw;
-        border: 1px gray solid;
     }
 }
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: landscape) {
     .certListContainer{
-        display: flex;
-        justify-content: space-evenly;
-        flex-flow: wrap column;
-        width: 92vw;
-        margin-top: 1vh;
-    }
-    .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-flow: wrap row;
+        width: 88vw;
     }
     .certSubTitle{
-        margin-top: 2vh;;
-        font-size: 2vh;
+        font-size: 2.4vh;
     }
     .certImg{
-        width: 84vw;
-        border: 1px gray solid;
+        width: 40vw;
+        margin: 0vh 1vw 0vh 1vw;
     }
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .certListContainer{
-        display: flex;
-        justify-content: space-evenly;
         flex-flow: wrap row;
         width: 92vw;
         margin-top: 6vh;
     }
-    .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .certSubTitle{
+        font-size: 2.4vh;
     }
     .certImg{
-        width: 28vw;
-        border: 1px gray solid;
+        width: 38vw;
+        margin: 0vh 2vw 0vh 2vw;
     }
 }
 
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .certListContainer{
-        display: flex;
-        justify-content: space-evenly;
         flex-flow: wrap row;
-        width: 92vw;
+        width: 82vw;
         margin-top: 6vh;
     }
-    .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .certSubTitle{
+        font-size: 2.4vh;
     }
     .certImg{
-        width: 28vw;
-        border: 1px gray solid;
+        width: 36vw;
+        margin: 0vh 2vw 0vh 2vw;
     }
 }
 
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
     .certListContainer{
-        display: flex;
-        justify-content: space-evenly;
         flex-flow: wrap row;
-        width: 92vw;
+        width: 86vw;
         margin-top: 6vh;
     }
-    .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .certSubTitle{
+        font-size: 2.6vh;
     }
     .certImg{
-        width: 28vw;
-        border: 1px gray solid;
+        width: 38vw;
+        margin: 0vh 2vw 0vh 2vw;
     }
 }
 
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .certListContainer{
-        display: flex;
-        justify-content: space-evenly;
         flex-flow: wrap row;
-        width: 92vw;
+        width: 86vw;
         margin-top: 6vh;
     }
-    .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .certSubTitle{
+        font-size: 2.4vh;
     }
     .certImg{
-        width: 28vw;
-        border: 1px gray solid;
+        width: 38vw;
+        margin: 0vh 2vw 0vh 2vw;
     }
 }
 
 
 @media only screen and (min-width: 3001px) {
     .certListContainer{
-        display: flex;
-        justify-content: space-evenly;
+        align-items: center;
         flex-flow: wrap row;
-        width: 92vw;
+        width: 88.2vw;
         margin-top: 6vh;
     }
-    .certificate{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .certSubTitle{
+        font-size: 2.6vh;
     }
     .certImg{
-        width: 28vw;
-        border: 1px gray solid;
+        width: 40vw;
+        margin: 0vh 2vw 0vh 2vw;
     }
 }
