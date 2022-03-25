@@ -256,6 +256,7 @@
     .skillListContainer{
         align-items: flex-start;
         justify-content: space-evenly;
+        flex-direction: row;
         width: 80vw;
         min-height: 54vh;
         margin: 4vh 0vw 6vh 0vw;
@@ -320,6 +321,7 @@
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .skillListContainer{
         align-items: flex-start;
+        flex-direction: row;
         width: 88vw;
         min-height: 54vh;
         margin: 4vh 0vw 6vh 0vw;
@@ -383,6 +385,7 @@
     .skillListContainer{
         align-items: flex-start;
         justify-content: space-evenly;
+        flex-direction: row;
         width: 80vw;
         min-height: 54vh;
         margin: 4vh 0vw 6vh 0vw;
@@ -445,6 +448,7 @@
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .skillListContainer{
         align-items: flex-start;
+        flex-direction: row;
         width: 80vw;
         min-height: 54vh;
         margin: 4vh 0vw 6vh 0vw;
@@ -507,6 +511,7 @@
 @media only screen and (min-width: 3001px) {
     .skillListContainer{
         align-items: flex-start;
+        flex-direction: row;
         width: 84vw;
         min-height: 54vh;
         margin: 4vh 0vw 6vh 0vw;
