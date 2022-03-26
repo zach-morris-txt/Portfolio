@@ -123,7 +123,7 @@
         height: 13vh;
     }
     .résuméFile:hover .résuméLink {
-        transform: translateX(8.5vw);
+        transform: translateX(11vw);
     }
 }
 
@@ -224,7 +224,7 @@
         height: 13vh;
     }
     .résuméFile:hover .résuméLink {
-        transform: translateX(4.7vw);
+        transform: translateX(5.2vw);
     }
 }
 
@@ -273,7 +273,7 @@
         height: 18vh;
     }
     .résuméFile:hover .résuméLink {
-        transform: translateX(4.1vw);
+        transform: translateX(5.5vw);
     }
     /* Scroll Effect */
     .titleRevealContainer{
@@ -294,15 +294,15 @@
         height: 11vh;
     }
     .navLeft{
-        width: 82%;
+        width: 96%;
     }
     .navLinks{
-        margin: 1.8vh 1.5vw 1vw;
-        font-size: 2.8vw;
+        margin: 0.5vh 0.8vw 0vh 1vw;
+        font-size: 2.6vw;
     }
     #navBottom{
         width: 50vw;
-        margin: 4.4vh 0vw 0vh 1vw;
+        margin: 3.3vh 0vw 0vh 1vw;
         font-size: 1.3vw;
     }
     .name{
@@ -333,7 +333,7 @@
         height: 18vh;
     }
     .résuméFile:hover .résuméLink {
-        transform: translateX(5.4vw);
+        transform: translateX(5.3vw);
     }
     /* Scroll Effect */
     .titleRevealContainer{

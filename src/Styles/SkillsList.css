@@ -322,18 +322,18 @@
     .skillListContainer{
         align-items: flex-start;
         flex-direction: row;
-        width: 88vw;
+        width: 76vw;
         min-height: 54vh;
         margin: 4vh 0vw 6vh 0vw;
     }
     .skills{
-        flex-flow: row wrap;
+        justify-content: start;
         width: 52%;
     }
     .skill{
         width: 8vw;
         height: 8vw;
-        margin: 1vh 2vh 2vh 2vh; 
+        margin: 1vh 2.8vh 2vh 2.8vh; 
     }
     .skillName{
         width: 9vw;

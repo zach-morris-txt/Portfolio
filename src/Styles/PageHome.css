@@ -21,22 +21,22 @@
     top: 91%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 42vw;
+    width: 60vw;
     height: 8vh;
-    border-radius: 0.9vw;
-    background: rgb(0,0,0,0.84);
+    border-radius: 1vw;
+    background: rgb(0,0,0,0.89);
 }
 #slideLink{
     display: flex;
     justify-content: center;
     position: relative;
-    width: 42vw;
+    width: 60vw;
     height: 8vh;
     border-radius: 4vw;
 }
 #slideText{
     position: absolute;
-    width: 42vw;
+    width: 60vw;
     margin-top: 0.6vh;
     font-size: 3.6vh;
     font-family: 'Titillium Web', sans-serif;
@@ -182,13 +182,13 @@
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
     #slideWrap{
         top: 88.25%;
-        width: 46vw;
+        width: 54vw;
     }
     #slideLink{
-        width: 46vw;
+        width: 54vw;
     }
     #slideText{
-        width: 46vw;
+        width: 54vw;
     }
     .bloomColumn{
         justify-content: center;
@@ -242,7 +242,7 @@
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     #slideWrap{
-        top: 81%;
+        top: 85%;
         width: 24vw;
         height: 9vh;
         border-radius: 0.7vw;
