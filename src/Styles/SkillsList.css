@@ -515,14 +515,17 @@
         width: 84vw;
         min-height: 54vh;
         margin: 4vh 0vw 6vh 0vw;
+        border: 16px white solid;
     }
     .skills{
+        justify-content: start;
         width: 58%;
     }
     .skill{
         width: 8vw;
         height: 8vw;
         margin: 1vh 2vh 2vh 2vh; 
+        border: 8px #5d57c9 solid;
     }
     .skillName{
         width: 9vw;

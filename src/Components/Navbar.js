@@ -25,7 +25,7 @@ const Navbar = () => {
                     <div className='résuméFile'>
                         <img src={manillaFull} className='manillaBack' alt="manilla folder" />
                         <a href="#" className='résuméLink'>
-                            <img src={résumé} className='résuméImg' alt="résumé icon" />
+                            <img src={résumé} className='résuméImg' alt="résumé icon" loading="lazy" />
                         </a>
                         <img src={manillaSlide} className='manillaFront' alt="manilla folder" />
                     </div>
