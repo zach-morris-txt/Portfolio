@@ -50,7 +50,7 @@ const ProjectList = () => {
                     <input type="email" className='formProjectInput inputText' name='email' placeholder='Email' required></input>
                   </div>
                   <div className='formItem'>
-                    <textarea id='projectMessage' className='inputText'name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
+                    <textarea id='projectMessage' className='inputText' name='message' placeholder='Email Me' cols="30" rows="10" required></textarea>
                   </div>
                 </div>
                 <div className='btnsWrapper'>

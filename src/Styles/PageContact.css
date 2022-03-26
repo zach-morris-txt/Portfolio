@@ -21,6 +21,12 @@
         width: 42vw;
         margin: 1vh 0vw 1vh 0vw;
     }
+    .iconText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.15vh;
+    }
     .faIcon{
         font-size: 5vh;
     }
@@ -69,11 +75,6 @@
             opacity: 0;
             pointer-events: none;
         }
-    }
-    .iconText{
-        display: flex;
-        flex-direction: column;
-        font-size: 1.15vh;
     }
 }
 
@@ -101,6 +102,15 @@
         width: 42vw;
         margin: 1vh 0vw 1vh 0vw;
     }
+    .iconText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.15vh;
+    }
+    .textSize{
+        font-size: 1.5vh;
+    }
     .faIcon{
         font-size: 5vh;
     }
@@ -149,11 +159,6 @@
             opacity: 0;
             pointer-events: none;
         }
-    }
-    .iconText{
-        display: flex;
-        flex-direction: column;
-        font-size: 1.15vh;
     }
 }
 
@@ -171,7 +176,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        margin: 3vh 0vw 3vh 0vw;
+        margin: 1vh 0vw 1vh 0vw;
         border: 3px black solid;
     }
     .mixIcon{
@@ -181,8 +186,17 @@
         width: 42vw;
         margin: 1vh 0vw 1vh 0vw;
     }
+    .iconText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.15vh;
+    }
+    .textSize{
+        font-size: 2vh;
+    }
     .faIcon{
-        font-size: 5vh;
+        font-size: 7vh;
     }
     .formContainer{
         display: flex;
@@ -200,7 +214,7 @@
         padding: 1vh 3vw 1vh 3vw;
     }
     .contactMessage{
-        max-height: 22vh;
+        max-height: 14vh;
     }
     textarea{
         resize: none;
@@ -229,11 +243,6 @@
             opacity: 0;
             pointer-events: none;
         }
-    }
-    .iconText{
-        display: flex;
-        flex-direction: column;
-        font-size: 1.15vh;
     }
 }
 
@@ -261,6 +270,15 @@
         width: 42vw;
         margin: 1vh 0vw 1vh 0vw;
     }
+    .iconText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.15vh;
+    }
+    .textSize{
+        font-size: 1.4vh;
+    }
     .faIcon{
         font-size: 5vh;
     }
@@ -309,11 +327,6 @@
             opacity: 0;
             pointer-events: none;
         }
-    }
-    .iconText{
-        display: flex;
-        flex-direction: column;
-        font-size: 1.15vh;
     }
 }
 
@@ -331,7 +344,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        margin: 3vh 0vw 3vh 0vw;
+        margin: 2vh 0vw 2vh 0vw;
         border: 3px black solid;
     }
     .mixIcon{
@@ -340,6 +353,15 @@
         justify-content: center;
         width: 42vw;
         margin: 1vh 0vw 1vh 0vw;
+    }
+    .iconText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.15vh;
+    }
+    .textSize{
+        font-size: 1.5vh;
     }
     .faIcon{
         font-size: 5vh;
@@ -360,7 +382,7 @@
         padding: 1vh 3vw 1vh 3vw;
     }
     .contactMessage{
-        max-height: 22vh;
+        max-height: 18vh;
     }
     textarea{
         resize: none;
@@ -390,16 +412,15 @@
             pointer-events: none;
         }
     }
-    .iconText{
-        display: flex;
-        flex-direction: column;
-        font-size: 1.15vh;
-    }
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .contactContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
         height: 70vh;
         background: rgb(243, 237, 237);
     }
@@ -407,12 +428,45 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        margin: 3vh 0vw 3vh 0vw;
+        border: 3px black solid;
+    }
+    .mixIcon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+        margin: 1vh 0vw 1vh 0vw;
+    }
+    .iconText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.15vh;
+    }
+    .textSize{
+        font-size: 1.8vh;
+    }
+    .faIcon{
+        font-size: 5vh;
     }
     .formContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+    }
+    .contactInput{
+        margin-top: 1vh;
+    }
+    .contactMessage{
+        width: 40vw;
+        margin-top: 1vh;
+    }
+    #contactSend{
+        padding: 1vh 3vw 1vh 3vw;
+    }
+    .contactMessage{
+        max-height: 18vh;
     }
     textarea{
         resize: none;
@@ -447,6 +501,10 @@
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .contactContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
         height: 70vh;
         background: rgb(243, 237, 237);
     }
@@ -454,12 +512,42 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        margin: 4vh 0vw 4vh 0vw;
+        border: 3px black solid;
+    }
+    .mixIcon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35vw;
+        margin: 1vh 0vw 1vh 0vw;
+    }
+    .iconText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2vh;
+    }
+    .textSize{
+        font-size: 1.5vh;
     }
     .formContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+    }
+    .contactInput{
+        margin-top: 1vh;
+    }
+    .contactMessage{
+        width: 40vw;
+        margin-top: 1vh;
+    }
+    #contactSend{
+        padding: 1vh 3vw 1vh 3vw;
+    }
+    .contactMessage{
+        max-height: 18vh;
     }
     textarea{
         resize: none;
@@ -494,6 +582,10 @@
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
     .contactContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
         height: 70vh;
         background: rgb(243, 237, 237);
     }
@@ -501,12 +593,42 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        margin: 4vh 0vw 4vh 0vw;
+        border: 3px black solid;
+    }
+    .mixIcon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35vw;
+        margin: 1vh 0vw 1vh 0vw;
+    }
+    .iconText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2vh;
+    }
+    .textSize{
+        font-size: 1.5vh;
     }
     .formContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+    }
+    .contactInput{
+        margin-top: 1vh;
+    }
+    .contactMessage{
+        width: 34vw;
+        margin-top: 1vh;
+    }
+    #contactSend{
+        padding: 1vh 3vw 1vh 3vw;
+    }
+    .contactMessage{
+        max-height: 18vh;
     }
     textarea{
         resize: none;
@@ -541,6 +663,10 @@
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .contactContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
         height: 70vh;
         background: rgb(243, 237, 237);
     }
@@ -548,12 +674,42 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        margin: 4vh 0vw 4vh 0vw;
+        border: 3px black solid;
+    }
+    .mixIcon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35vw;
+        margin: 1vh 0vw 1vh 0vw;
+    }
+    .iconText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2.1vh;
+    }
+    .textSize{
+        font-size: 1.7vh;
     }
     .formContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+    }
+    .contactInput{
+        margin-top: 1vh;
+    }
+    .contactMessage{
+        width: 40vw;
+        margin-top: 1vh;
+    }
+    #contactSend{
+        padding: 1vh 3vw 1vh 3vw;
+    }
+    .contactMessage{
+        max-height: 18vh;
     }
     textarea{
         resize: none;
@@ -588,6 +744,10 @@
 
 @media only screen and (min-width: 3001px) {
     .contactContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
         height: 70vh;
         background: rgb(243, 237, 237);
     }
@@ -595,12 +755,42 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        margin: 4vh 0vw 4vh 0vw;
+        border: 3px black solid;
+    }
+    .mixIcon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35vw;
+        margin: 1vh 0vw 1vh 0vw;
+    }
+    .iconText{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2vh;
+    }
+    .textSize{
+        font-size: 1.5vh;
     }
     .formContainer{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
+    }
+    .contactInput{
+        margin-top: 1vh;
+    }
+    .contactMessage{
+        width: 34vw;
+        margin-top: 1vh;
+    }
+    #contactSend{
+        padding: 1vh 3vw 1vh 3vw;
+    }
+    .contactMessage{
+        max-height: 18vh;
     }
     textarea{
         resize: none;
