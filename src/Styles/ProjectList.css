@@ -13,11 +13,13 @@
     height: 7vh;
     margin-right: 1vw;
     font-size: 1.8vh;
+    border: 2px black solid;
 }
 .suggestProjectBtnAlt{
     height: 18vh;
     margin: 1vh 1vw 1vh 0vw;
     font-size: 1.8vh;
+    border: 2px black solid;
 }
 .projectInputs{
     display: flex;
@@ -48,6 +50,7 @@
     height: 7vh;
     margin-top: 1vh;
     font-size: 1.8vh;
+    border: 2px black solid;
 }
 .success{
     width: 100%;

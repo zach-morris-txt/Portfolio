@@ -59,7 +59,7 @@ const SkillsList = () => {
                 </div>
                 <div className='btnsWrapper'>
                   <button className='skillBtn blueHover' onClick={()=>setReveal(!reveal)}>X</button>
-                  <input className='skillBtn' type="submit" value='&#10004;' readOnly/>
+                  <input className='skillBtn' type="submit" value='&#10004;' readOnly style={{border: "2px black solid"}} />
                 </div>
               </form>
           </div>

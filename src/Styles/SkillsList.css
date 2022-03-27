@@ -55,12 +55,14 @@
     height: 18vh;
     margin: 1vh 1vw 1vh 0vw;
     font-size: 1.8vh;
+    border: 2px black solid;
 }
 .suggestSkillBtnAlt{
     width: 28vw;
     height: 7vh;
     margin-bottom: 2vh;
     font-size: 1.8vh;
+    border: 2px black solid;
 }
 .skillInputs{
     display: flex;
@@ -90,6 +92,7 @@
     height: 7vh;
     margin-top: 1vh;
     font-size: 1.8vh;
+    border: 2px black solid;
 }
 .success{
     width: 100%;
@@ -259,7 +262,8 @@
         flex-direction: row;
         width: 80vw;
         min-height: 54vh;
-        margin: 4vh 0vw 6vh 0vw;
+        margin: 0vh 0vw 8vh 0vw;
+        border: 6px white solid;
     }
     .skills{
         justify-content: start;
@@ -324,23 +328,24 @@
         flex-direction: row;
         width: 76vw;
         min-height: 54vh;
-        margin: 4vh 0vw 6vh 0vw;
+        margin: 0vh 0vw 6vh 0vw;
+        border: 8px white solid;
     }
     .skills{
         justify-content: start;
         width: 52%;
     }
     .skill{
-        width: 8vw;
-        height: 8vw;
+        width: 7vw;
+        height: 7vw;
         margin: 1vh 2.8vh 2vh 2.8vh; 
     }
     .skillName{
-        width: 9vw;
+        width: 8.5vw;
         font-size: 2.4vh;
     }
     .skillIcon{
-        height: 9vh;
+        height: 7.5vh;
     }
     .skillForm{
         width: 30%;
@@ -388,7 +393,8 @@
         flex-direction: row;
         width: 80vw;
         min-height: 54vh;
-        margin: 4vh 0vw 6vh 0vw;
+        margin: 0vh 0vw 6vh 0vw;
+        border: 8px white solid;
     }
     .skills{
         justify-content: start;
@@ -451,7 +457,8 @@
         flex-direction: row;
         width: 80vw;
         min-height: 54vh;
-        margin: 4vh 0vw 6vh 0vw;
+        margin: 0vh 0vw 6vh 0vw;
+        border: 10px white solid;
     }
     .skills{
         width: 58%;
@@ -514,7 +521,7 @@
         flex-direction: row;
         width: 84vw;
         min-height: 54vh;
-        margin: 4vh 0vw 6vh 0vw;
+        margin: 0vh 0vw 6vh 0vw;
         border: 16px white solid;
     }
     .skills{
