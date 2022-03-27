@@ -8,8 +8,9 @@ const PDF = () => {
   return (
     <div>
         <Navbar />
-        <div style={{width:"100%", height:"78vh"}} >
-            <embed src={résumé} type="application/pdf" width="100%" height="100%" />
+        <div style={{width:"100%", height:"78vh", overflow: "hidden"
+ }} >
+            <iframe src={`${résumé}#view=fitW`} title="Résumé PDF" width="100%" height="100%" />
         </div>
     </div>
   )

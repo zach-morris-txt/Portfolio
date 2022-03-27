@@ -60,7 +60,7 @@ const Contact = () => {
             <input type="submit" id='contactSend' className='inputText' value='Send' readOnly/>
           </form>
         </div>
-        <div id='status' />
+        <div id='status' className='inputText' style={{width: "20vw", textAlign: "center"}} />
         <div className='contactItems'>
           <div className='mixIcon'>
             <a href="mailto:zachariahmorris2000@gmail.com" target="_blank" rel="noreferrer">

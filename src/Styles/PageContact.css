@@ -1,196 +1,95 @@
-@media only screen and (max-width: 415px) {
-    .contactContainer{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-        height: 72vh;
-        background: rgb(243, 237, 237);
+.contactContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 72vh;
+    background: rgb(243, 237, 237);
+}
+.contactItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3vh 0vw 3vh 0vw;
+    border: 3px black solid;
+}
+.mixIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42vw;
+    margin: 1vh 0vw 1vh 0vw;
+}
+.iconText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.15vh;
+}
+.faIcon{
+    font-size: 5vh;
+}
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactInput{
+    margin-top: 1vh;
+}
+.contactMessage{
+    width: 70vw;
+    max-height: 18vh;
+    margin-top: 1vh;
+}
+#contactSend{
+    padding: 1vh 3vw 1vh 3vw;
+}
+textarea{
+    resize: none;
+}
+#status{
+    color: white;
+}
+#status.success{
+    background: green;
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background: red;
+    animation: status 4s ease forwards;
+}
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
     }
-    .contactItems{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 3vh 0vw 3vh 0vw;
-        border: 3px black solid;
+    90%{
+        opacity: 1;
+        pointer-events: all;
     }
-    .mixIcon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 42vw;
-        margin: 1vh 0vw 1vh 0vw;
-    }
-    .iconText{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 1.15vh;
-    }
-    .faIcon{
-        font-size: 5vh;
-    }
-    .formContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactInput{
-        margin-top: 1vh;
-    }
-    .contactMessage{
-        width: 70vw;
-        margin-top: 1vh;
-    }
-    #contactSend{
-        padding: 1vh 3vw 1vh 3vw;
-    }
-    .contactMessage{
-        max-height: 22vh;
-    }
-    textarea{
-        resize: none;
-    }
-    #status{
-        color: white;
-    }
-    #status.success{
-        background: green;
-        animation: status 4s ease forwards;
-    }
-    #status.error{
-        background: red;
-        animation: status 4s ease forwards;
-    }
-    @keyframes status{
-        0%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        90%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        100%{
-            opacity: 0;
-            pointer-events: none;
-        }
+    100%{
+        opacity: 0;
+        pointer-events: none;
     }
 }
 
 
+@media only screen and (max-width: 415px) {
+
+}
+
+
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
-    .contactContainer{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-        height: 72vh;
-        background: rgb(243, 237, 237);
-    }
-    .contactItems{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 3vh 0vw 3vh 0vw;
-        border: 3px black solid;
-    }
-    .mixIcon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 42vw;
-        margin: 1vh 0vw 1vh 0vw;
-    }
-    .iconText{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 1.15vh;
-    }
     .textSize{
         font-size: 1.5vh;
-    }
-    .faIcon{
-        font-size: 5vh;
-    }
-    .formContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactInput{
-        margin-top: 1vh;
-    }
-    .contactMessage{
-        width: 70vw;
-        margin-top: 1vh;
-    }
-    #contactSend{
-        padding: 1vh 3vw 1vh 3vw;
-    }
-    .contactMessage{
-        max-height: 22vh;
-    }
-    textarea{
-        resize: none;
-    }
-    #status{
-        color: white;
-    }
-    #status.success{
-        background: green;
-        animation: status 4s ease forwards;
-    }
-    #status.error{
-        background: red;
-        animation: status 4s ease forwards;
-    }
-    @keyframes status{
-        0%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        90%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        100%{
-            opacity: 0;
-            pointer-events: none;
-        }
     }
 }
 
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
-    .contactContainer{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-        height: 72vh;
-        background: rgb(243, 237, 237);
-    }
     .contactItems{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
         margin: 1vh 0vw 1vh 0vw;
-        border: 3px black solid;
-    }
-    .mixIcon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 42vw;
-        margin: 1vh 0vw 1vh 0vw;
-    }
-    .iconText{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 1.15vh;
     }
     .textSize{
         font-size: 2vh;
@@ -198,626 +97,128 @@
     .faIcon{
         font-size: 7vh;
     }
-    .formContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactInput{
-        margin-top: 1vh;
-    }
-    .contactMessage{
-        width: 70vw;
-        margin-top: 1vh;
-    }
-    #contactSend{
-        padding: 1vh 3vw 1vh 3vw;
-    }
     .contactMessage{
         max-height: 14vh;
-    }
-    textarea{
-        resize: none;
-    }
-    #status{
-        color: white;
-    }
-    #status.success{
-        background: green;
-        animation: status 4s ease forwards;
-    }
-    #status.error{
-        background: red;
-        animation: status 4s ease forwards;
-    }
-    @keyframes status{
-        0%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        90%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        100%{
-            opacity: 0;
-            pointer-events: none;
-        }
     }
 }
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
-    .contactContainer{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-        height: 72vh;
-        background: rgb(243, 237, 237);
-    }
-    .contactItems{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 3vh 0vw 3vh 0vw;
-        border: 3px black solid;
-    }
-    .mixIcon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 42vw;
-        margin: 1vh 0vw 1vh 0vw;
-    }
-    .iconText{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 1.15vh;
-    }
     .textSize{
         font-size: 1.4vh;
-    }
-    .faIcon{
-        font-size: 5vh;
-    }
-    .formContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactInput{
-        margin-top: 1vh;
-    }
-    .contactMessage{
-        width: 70vw;
-        margin-top: 1vh;
-    }
-    #contactSend{
-        padding: 1vh 3vw 1vh 3vw;
-    }
-    .contactMessage{
-        max-height: 22vh;
-    }
-    textarea{
-        resize: none;
-    }
-    #status{
-        color: white;
-    }
-    #status.success{
-        background: green;
-        animation: status 4s ease forwards;
-    }
-    #status.error{
-        background: red;
-        animation: status 4s ease forwards;
-    }
-    @keyframes status{
-        0%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        90%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        100%{
-            opacity: 0;
-            pointer-events: none;
-        }
     }
 }
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: landscape) {
-    .contactContainer{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
-        height: 72vh;
-        background: rgb(243, 237, 237);
-    }
     .contactItems{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
         margin: 2vh 0vw 2vh 0vw;
-        border: 3px black solid;
-    }
-    .mixIcon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 42vw;
-        margin: 1vh 0vw 1vh 0vw;
-    }
-    .iconText{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 1.15vh;
     }
     .textSize{
         font-size: 1.5vh;
-    }
-    .faIcon{
-        font-size: 5vh;
-    }
-    .formContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactInput{
-        margin-top: 1vh;
-    }
-    .contactMessage{
-        width: 70vw;
-        margin-top: 1vh;
-    }
-    #contactSend{
-        padding: 1vh 3vw 1vh 3vw;
-    }
-    .contactMessage{
-        max-height: 18vh;
-    }
-    textarea{
-        resize: none;
-    }
-    #status{
-        color: white;
-    }
-    #status.success{
-        background: green;
-        animation: status 4s ease forwards;
-    }
-    #status.error{
-        background: red;
-        animation: status 4s ease forwards;
-    }
-    @keyframes status{
-        0%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        90%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        100%{
-            opacity: 0;
-            pointer-events: none;
-        }
     }
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .contactContainer{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
         height: 70vh;
-        background: rgb(243, 237, 237);
-    }
-    .contactItems{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 3vh 0vw 3vh 0vw;
-        border: 3px black solid;
     }
     .mixIcon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
         width: 40vw;
-        margin: 1vh 0vw 1vh 0vw;
-    }
-    .iconText{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 1.15vh;
     }
     .textSize{
         font-size: 1.8vh;
     }
-    .faIcon{
-        font-size: 5vh;
-    }
-    .formContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactInput{
-        margin-top: 1vh;
-    }
     .contactMessage{
         width: 40vw;
-        margin-top: 1vh;
-    }
-    #contactSend{
-        padding: 1vh 3vw 1vh 3vw;
-    }
-    .contactMessage{
-        max-height: 18vh;
-    }
-    textarea{
-        resize: none;
-    }
-    #status{
-        color: white;
-    }
-    #status.success{
-        background: green;
-        animation: status 4s ease forwards;
-    }
-    #status.error{
-        background: red;
-        animation: status 4s ease forwards;
-    }
-    @keyframes status{
-        0%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        90%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        100%{
-            opacity: 0;
-            pointer-events: none;
-        }
     }
 }
 
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .contactContainer{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
         height: 70vh;
-        background: rgb(243, 237, 237);
     }
     .contactItems{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
         margin: 4vh 0vw 4vh 0vw;
-        border: 3px black solid;
     }
     .mixIcon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
         width: 35vw;
-        margin: 1vh 0vw 1vh 0vw;
     }
     .iconText{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
         font-size: 2vh;
     }
     .textSize{
         font-size: 1.5vh;
     }
-    .formContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactInput{
-        margin-top: 1vh;
-    }
     .contactMessage{
         width: 40vw;
-        margin-top: 1vh;
-    }
-    #contactSend{
-        padding: 1vh 3vw 1vh 3vw;
-    }
-    .contactMessage{
-        max-height: 18vh;
-    }
-    textarea{
-        resize: none;
-    }
-    #status{
-        color: white;
-    }
-    #status.success{
-        background: green;
-        animation: status 4s ease forwards;
-    }
-    #status.error{
-        background: red;
-        animation: status 4s ease forwards;
-    }
-    @keyframes status{
-        0%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        90%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        100%{
-            opacity: 0;
-            pointer-events: none;
-        }
     }
 }
 
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
     .contactContainer{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
         height: 70vh;
-        background: rgb(243, 237, 237);
     }
     .contactItems{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
         margin: 4vh 0vw 4vh 0vw;
-        border: 3px black solid;
     }
     .mixIcon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
         width: 35vw;
-        margin: 1vh 0vw 1vh 0vw;
     }
     .iconText{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
         font-size: 2vh;
     }
     .textSize{
         font-size: 1.5vh;
     }
-    .formContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactInput{
-        margin-top: 1vh;
-    }
     .contactMessage{
         width: 34vw;
-        margin-top: 1vh;
-    }
-    #contactSend{
-        padding: 1vh 3vw 1vh 3vw;
-    }
-    .contactMessage{
-        max-height: 18vh;
-    }
-    textarea{
-        resize: none;
-    }
-    #status{
-        color: white;
-    }
-    #status.success{
-        background: green;
-        animation: status 4s ease forwards;
-    }
-    #status.error{
-        background: red;
-        animation: status 4s ease forwards;
-    }
-    @keyframes status{
-        0%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        90%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        100%{
-            opacity: 0;
-            pointer-events: none;
-        }
     }
 }
 
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .contactContainer{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
         height: 70vh;
-        background: rgb(243, 237, 237);
     }
     .contactItems{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
         margin: 4vh 0vw 4vh 0vw;
-        border: 3px black solid;
     }
     .mixIcon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
         width: 35vw;
-        margin: 1vh 0vw 1vh 0vw;
     }
     .iconText{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
         font-size: 2.1vh;
     }
     .textSize{
         font-size: 1.7vh;
     }
-    .formContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactInput{
-        margin-top: 1vh;
-    }
     .contactMessage{
         width: 40vw;
-        margin-top: 1vh;
-    }
-    #contactSend{
-        padding: 1vh 3vw 1vh 3vw;
-    }
-    .contactMessage{
-        max-height: 18vh;
-    }
-    textarea{
-        resize: none;
-    }
-    #status{
-        color: white;
-    }
-    #status.success{
-        background: green;
-        animation: status 4s ease forwards;
-    }
-    #status.error{
-        background: red;
-        animation: status 4s ease forwards;
-    }
-    @keyframes status{
-        0%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        90%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        100%{
-            opacity: 0;
-            pointer-events: none;
-        }
     }
 }
 
 
 @media only screen and (min-width: 3001px) {
     .contactContainer{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: column;
         height: 70vh;
-        background: rgb(243, 237, 237);
     }
     .contactItems{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
         margin: 4vh 0vw 4vh 0vw;
-        border: 3px black solid;
     }
     .mixIcon{
-        display: flex;
-        align-items: center;
-        justify-content: center;
         width: 35vw;
-        margin: 1vh 0vw 1vh 0vw;
     }
     .iconText{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
         font-size: 2vh;
     }
     .textSize{
         font-size: 1.5vh;
     }
-    .formContainer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contactInput{
-        margin-top: 1vh;
-    }
     .contactMessage{
         width: 34vw;
-        margin-top: 1vh;
-    }
-    #contactSend{
-        padding: 1vh 3vw 1vh 3vw;
-    }
-    .contactMessage{
-        max-height: 18vh;
-    }
-    textarea{
-        resize: none;
-    }
-    #status{
-        color: white;
-    }
-    #status.success{
-        background: green;
-        animation: status 4s ease forwards;
-    }
-    #status.error{
-        background: red;
-        animation: status 4s ease forwards;
-    }
-    @keyframes status{
-        0%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        90%{
-            opacity: 1;
-            pointer-events: all;
-        }
-        100%{
-            opacity: 0;
-            pointer-events: none;
-        }
     }
 }
