@@ -8,8 +8,7 @@ const PDF = () => {
   return (
     <div>
         <Navbar />
-        <div style={{width:"100%", height:"78vh", overflow: "hidden"
- }} >
+        <div style={{width:"100%", height:"78vh"}} >
             <iframe src={`${résumé}#view=fitW`} title="Résumé PDF" width="100%" height="100%" />
         </div>
     </div>
