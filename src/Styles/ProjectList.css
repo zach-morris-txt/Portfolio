@@ -2,17 +2,16 @@
     display: flex;
     display: -webkit-flex;
     justify-content: center;
--webkit-justify-content: center;
-
+    -webkit-justify-content: center;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     width: 76vw;
 }
 .projectForm{
     display: flex;
     display: -webkit-flex;
     align-items: center;
--webkit-align-items: center;
-
+    -webkit-align-items: center;
 }
 .suggestProjectBtn{
     width: 28vw;
@@ -31,9 +30,9 @@
     display: flex;
     display: -webkit-flex;
     flex-direction: row;
+    -webkit-flex-direction: row;
     align-items: center;
--webkit-align-items: center;
-
+    -webkit-align-items: center;
 }
 .formProjectInput{
     width: 30vw;
@@ -53,6 +52,7 @@
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
     margin: 0px 1vw 0px 1vw;
 }
 .projectBtn{

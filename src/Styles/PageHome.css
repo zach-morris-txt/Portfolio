@@ -30,8 +30,7 @@
     display: flex;
     display: -webkit-flex;
     justify-content: center;
--webkit-justify-content: center;
-
+    -webkit-justify-content: center;
     position: relative;
     width: 60vw;
     height: 8vh;
@@ -55,10 +54,11 @@
     display: flex;
     display: -webkit-flex;
     align-items: center;
--webkit-align-items: center;
-
+    -webkit-align-items: center;
     justify-content: space-evenly;
+    -webkit-justify-content: space-evenly;
     flex-direction: column;
+    -webkit-flex-direction: column;
     background: rgb(243, 237, 237);
 }
 #work{
@@ -71,11 +71,9 @@
     display: flex;
     display: -webkit-flex;
     align-items: center;
--webkit-align-items: center;
-
+    -webkit-align-items: center;
     justify-content: center;
--webkit-justify-content: center;
-
+    -webkit-justify-content: center;
     width: 94%;
     height: 7vh;
     margin: 5vh 0vh 1vh 0vh;
@@ -91,15 +89,16 @@
     display: flex;
     display: -webkit-flex;
     justify-content: space-between;
+    -webkit-justify-content: space-between;
     width: 90vw;
 }
 .bloomRow{
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
     align-items: center;
--webkit-align-items: center;
-
+    -webkit-align-items: center;
 }
 #bloomTech{
     width: 84vw;
@@ -110,8 +109,7 @@
     display: flex;
     display: -webkit-flex;
     align-items: center;
--webkit-align-items: center;
-
+    -webkit-align-items: center;
     margin: 1vh 0vw 1vh 0vw;
     padding: 1vh 0vw 1.5vh 0vw;
     border-bottom: 1px black solid;
@@ -134,8 +132,7 @@
     }
     .bloomColumn{
         justify-content: center;
--webkit-justify-content: center;
-
+        -webkit-justify-content: center;
     }
 }
 
@@ -149,8 +146,7 @@
     }
     .bloomColumn{
         justify-content: center;
--webkit-justify-content: center;
-
+        -webkit-justify-content: center;
     }
     #bloomSubtitle{
         font-size: 2.2vh;
@@ -186,9 +182,9 @@
     }
     .bloomRow{
         flex-direction: row;
+        -webkit-flex-direction: row;
         justify-content: center;
--webkit-justify-content: center;
-
+        -webkit-justify-content: center;
     }
     #bloomTech{
         width: 38vw;
@@ -219,8 +215,7 @@
     }
     .bloomColumn{
         justify-content: center;
--webkit-justify-content: center;
-
+        -webkit-justify-content: center;
     }
 }
 
@@ -249,6 +244,7 @@
     }
     .bloomRow{
         flex-direction: row;
+        -webkit-flex-direction: row;
     }
     #bloomTech{
         width: 40vw;
@@ -309,6 +305,7 @@
     }
     .bloomRow{
         flex-direction: row;
+        -webkit-flex-direction: row;
     }
     #bloomTech{
         width: 36vw;
@@ -370,6 +367,7 @@
     }
     .bloomRow{
         flex-direction: row;
+        -webkit-flex-direction: row;
     }
     #bloomTech{
         width: 36vw;
@@ -431,6 +429,7 @@
     }
     .bloomRow{
         flex-direction: row;
+        -webkit-flex-direction: row;
     }
     #bloomTech{
         width: 38vw;
@@ -492,6 +491,7 @@
     }
     .bloomRow{
         flex-direction: row;
+        -webkit-flex-direction: row;
     }
     #bloomTech{
         width: 36vw;
@@ -554,6 +554,7 @@
     }
     .bloomRow{
         flex-direction: row;
+        -webkit-flex-direction: row;
     }
     #bloomTech{
         width: 38vw;

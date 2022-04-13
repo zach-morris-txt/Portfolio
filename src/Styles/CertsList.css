@@ -3,8 +3,8 @@
     display: -webkit-flex;
     justify-content: center;
     -webkit-justify-content: center;
-
     flex-flow: wrap column;
+    -webkit-flex-flow: wrap column;
     width: 84vw;
     margin-top: 1vh;
 }
@@ -13,8 +13,7 @@
     display: -webkit-flex;
     flex-direction: column;
     align-items: center;
--webkit-align-items: center;
-
+    -webkit-align-items: center;
 }
 .certSubTitle{
     margin-top: 2vh;
@@ -29,6 +28,7 @@
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
     .certListContainer{
         justify-content: space-evenly;
+        -webkit-justify-content: space-evenly;
         width: 92vw;
     }
     .certSubTitle{
@@ -40,6 +40,7 @@
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
     .certListContainer{
         flex-flow: wrap row;
+        -webkit-flex-flow: wrap row;
         width: 92vw;
     }
     .certSubTitle{
@@ -55,6 +56,7 @@
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
     .certListContainer{
         justify-content: space-evenly;
+        -webkit-justify-content: space-evenly;
         width: 92vw;
     }
 }
@@ -63,6 +65,7 @@
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: landscape) {
     .certListContainer{
         flex-flow: wrap row;
+        -webkit-flex-flow: wrap row;
         width: 88vw;
     }
     .certSubTitle{
@@ -78,6 +81,7 @@
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .certListContainer{
         flex-flow: wrap row;
+        -webkit-flex-flow: wrap row;
         width: 92vw;
         margin-top: 6vh;
     }
@@ -94,6 +98,7 @@
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .certListContainer{
         flex-flow: wrap row;
+        -webkit-flex-flow: wrap row;
         width: 82vw;
         margin-top: 6vh;
     }
@@ -110,6 +115,7 @@
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
     .certListContainer{
         flex-flow: wrap row;
+        -webkit-flex-flow: wrap row;
         width: 86vw;
         margin-top: 6vh;
     }
@@ -126,6 +132,7 @@
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .certListContainer{
         flex-flow: wrap row;
+        -webkit-flex-flow: wrap row;
         width: 86vw;
         margin-top: 6vh;
     }
@@ -142,9 +149,9 @@
 @media only screen and (min-width: 3001px) {
     .certListContainer{
         align-items: center;
--webkit-align-items: center;
-
+        -webkit-align-items: center;
         flex-flow: wrap row;
+        -webkit-flex-flow: wrap row;
         width: 88.2vw;
         margin-top: 6vh;
     }
