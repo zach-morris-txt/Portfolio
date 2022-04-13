@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import emailjs from 'emailjs-com'
 
 import '../Styles/ProjectList.css'
@@ -8,7 +7,6 @@ import { projects } from '../Assets/data'
 
 
 const ProjectList = () => {
-  const navigate = useNavigate()
   const [reveal, setReveal] = useState(false)
 
   const form = useRef();
@@ -16,7 +14,7 @@ const ProjectList = () => {
     e.preventDefault();
     var status = document.getElementById('status')
 
-    emailjs.sendForm('service_o41xzyd', 'template_c70amym', form.current, 'rRq4k2FhFObFtegju')
+    emailjs.sendForm('service_lvssg9t', 'template_c70amym', form.current, 'rRq4k2FhFObFtegju')
       .then((result) => {
         status.classList.add('success')
         status.innerHTML = "Success!"
@@ -30,7 +28,7 @@ const ProjectList = () => {
   return (
     <div className='projectListContainer'>
       {projects.map((item) => 
-        <button onClick={()=> navigate(`/project/${item.id}`)} key={item.id} style={{border: "none"}}>
+        <button key={item.id} style={{border: "none"}}>
           <Project item={item} />
         </button>
       )}
@@ -55,7 +53,7 @@ const ProjectList = () => {
                 </div>
                 <div className='btnsWrapper'>
                   <button className='projectBtn blueHover' onClick={()=>setReveal(!reveal)}>X</button>
-                  <input className='projectBtn' type="submit" value='&#10004;' readOnly style={{border: "2px black solid"}} />
+                  <input className='projectBtn' type="submit" value='&#10004;' readOnly style={{border: "1px black solid"}} />
                 </div>
             </form>
           </div>

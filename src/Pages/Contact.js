@@ -15,7 +15,7 @@ const Contact = () => {
       e.preventDefault();
       var status = document.getElementById('status')
 
-      emailjs.sendForm('service_o41xzyd', 'template_c70amym', form.current, 'rRq4k2FhFObFtegju')
+      emailjs.sendForm('service_lvssg9t', 'template_c70amym', form.current, 'rRq4k2FhFObFtegju')
         .then((result) => {
           status.classList.add('success')
           status.innerHTML = "Success"
@@ -63,8 +63,8 @@ const Contact = () => {
         <div id='status' className='inputText' style={{width: "20vw", textAlign: "center"}} />
         <div className='contactItems'>
           <div className='mixIcon'>
-            <a href="mailto:zachariahmorris2000@gmail.com" target="_blank" rel="noreferrer">
-              <div className='iconText'><FontAwesomeIcon icon={faEnvelopeOpen} size='3x' className="faIcon" /><div className='textSize'>ZachariahMorris2000@gmail.com</div></div>
+            <a href="mailto:zach@developer-morris.com" target="_blank" rel="noreferrer">
+              <div className='iconText'><FontAwesomeIcon icon={faEnvelopeOpen} size='3x' className="faIcon" /><div className='textSize'>Zach@developer-morris.com</div></div>
             </a>
           </div>
           <div className='mixIcon'>

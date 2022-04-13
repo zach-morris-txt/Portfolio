@@ -13,7 +13,7 @@ const SkillsList = () => {
     e.preventDefault();
     var status = document.getElementById('status')
 
-    emailjs.sendForm('service_o41xzyd', 'template_c70amym', form.current, 'rRq4k2FhFObFtegju')
+    emailjs.sendForm('service_lvssg9t', 'template_c70amym', form.current, 'rRq4k2FhFObFtegju')
       .then((result) => {
         status.classList.add('success')
         status.innerHTML = "Success"
@@ -59,7 +59,7 @@ const SkillsList = () => {
                 </div>
                 <div className='btnsWrapper'>
                   <button className='skillBtn blueHover' onClick={()=>setReveal(!reveal)}>X</button>
-                  <input className='skillBtn' type="submit" value='&#10004;' readOnly style={{border: "2px black solid"}} />
+                  <input className='skillBtn' type="submit" value='&#10004;' readOnly style={{border: "1px black solid"}} />
                 </div>
               </form>
           </div>

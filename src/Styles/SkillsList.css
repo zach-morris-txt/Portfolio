@@ -55,14 +55,14 @@
     height: 18vh;
     margin: 1vh 1vw 1vh 0vw;
     font-size: 1.8vh;
-    border: 2px black solid;
+    border: 1px black solid;
 }
 .suggestSkillBtnAlt{
     width: 28vw;
     height: 7vh;
     margin-bottom: 2vh;
     font-size: 1.8vh;
-    border: 2px black solid;
+    border: 1px black solid;
 }
 .skillInputs{
     display: flex;
@@ -92,7 +92,7 @@
     height: 7vh;
     margin-top: 1vh;
     font-size: 1.8vh;
-    border: 2px black solid;
+    border: 1px black solid;
 }
 .success{
     width: 100%;
@@ -115,6 +115,9 @@
     .skillName{
         padding: 0.2vh;
         font-size: 2.2vh;
+    }
+    .skillIcon{
+        height: 8.4vh;
     }
     .suggestSkillBtn{
         font-size: 1.6vh;
@@ -325,6 +328,7 @@
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .skillListContainer{
         align-items: flex-start;
+        justify-content: flex-start;
         flex-direction: row;
         width: 76vw;
         min-height: 54vh;
@@ -333,12 +337,13 @@
     }
     .skills{
         justify-content: start;
-        width: 52%;
+        width: 57%;
+        margin: 0px 1vw 0px 1vw;
     }
     .skill{
         width: 7vw;
         height: 7vw;
-        margin: 1vh 2.8vh 2vh 2.8vh; 
+        margin: 1vh 2.2vh 2vh 2.2vh; 
     }
     .skillName{
         width: 8.5vw;
@@ -454,6 +459,7 @@
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .skillListContainer{
         align-items: flex-start;
+        justify-content: flex-start;
         flex-direction: row;
         width: 80vw;
         min-height: 54vh;
@@ -462,6 +468,7 @@
     }
     .skills{
         width: 58%;
+        margin: 0vh 1vw 0vh 1vw;
     }
     .skill{
         width: 8vw;

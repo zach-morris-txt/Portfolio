@@ -111,6 +111,9 @@
 
 
 @media only screen and (max-width: 415px) {
+    #slideWrap{
+        top: 79%;
+    }
     .bloomColumn{
         justify-content: center;
     }

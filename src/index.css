@@ -37,7 +37,7 @@ p{
 .blueHover, input[type="submit"] {
   color: rgb(243, 237, 237);
   background: #471972;
-  border: 1px rgb(243, 237, 237) solid;
+  border: 1px black solid;
   transition: .9s ease background;
 }
 .blueHover:hover, input[type="submit"]:hover {

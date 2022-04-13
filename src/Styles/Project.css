@@ -9,16 +9,16 @@
     background: rgb(237, 219, 219);
     border: 2px white solid;
 }
-.projectContainer:hover{
-    transform: scale(1.02,1.02);
-}
 #projectTitleWrap{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 4.2vh;
+    color: white;
     background: #5d57c9;
-    border-bottom: 2px white solid;
+    border-top: 1px white solid;
+    border-right: 3px white solid;
+    border-left: 2px white solid;
 }
 #projectTitle{
     font-size: 2vh;
@@ -48,6 +48,9 @@
 
 
 @media only screen and (max-width: 415px) {
+    #projectTitleWrap{
+        border: none;
+    }
     .left{
         position: relative;
         width: 100%;
@@ -72,6 +75,9 @@
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
     .projectContainer{
         justify-content: space-around;
+    }
+    #projectTitleWrap{
+        border: none;
     }
     #projectTitle{
         font-size: 2.2vh;
@@ -109,6 +115,9 @@
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: landscape) {
     .projectContainer{
         height: 30vh;
+    }
+    #projectTitleWrap{
+        border: none;
     }
     .left{
         width: 50%;
@@ -150,6 +159,9 @@
 
 
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: portrait) {
+    #projectTitleWrap{
+        border: none;
+    }
     .left{
         position: relative;
         width: 100%;
@@ -174,6 +186,9 @@
 @media only screen and (min-width: 770px) and (max-width: 1024px) and (orientation: landscape) {
     .projectContainer{
         height: 30vh;
+    }
+    #projectTitleWrap{
+        border: none;
     }
     .left{
         width: 50%;
@@ -224,6 +239,7 @@
     }
     #projectTitleWrap{
         height: 6vh;
+        border: none;
     }
     .left{
         width: 50%;
@@ -276,7 +292,7 @@
     .left{
         width: 48%;
         height: 62%;
-        border: 2px black solid;
+        border: 3px #5d57c9 solid;
     }
     #projectTitle{
         font-size: 2.4vh;
@@ -285,8 +301,8 @@
         height: 40%;
     }
     #itemInfoDescription{
-        margin: 1vh 2.6vw 0.5vh 2.6vw;
-        font-size: 1.9vh;
+        margin: 1vh 1.4vw 0.5vh 1.4vw;
+        font-size: 2vh;
     }
     #itemInfoTech{
         text-align: center;
