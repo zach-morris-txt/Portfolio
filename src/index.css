@@ -23,8 +23,8 @@ code {
 }
 
 a, a:visited{
-  text-decoration: none;
   -webkit-text-decoration: none;
+  text-decoration: none;
   color: inherit;
 }
 h1, h2, h3, h4, h5, h6{
@@ -39,6 +39,8 @@ p{
   color: rgb(243, 237, 237);
   background: #471972;
   border: 1px black solid;
+  -webkit-transition: .9s ease background;
+  -o-transition: .9s ease background;
   transition: .9s ease background;
 }
 .blueHover:hover, input[type="submit"]:hover {

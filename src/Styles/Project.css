@@ -1,12 +1,17 @@
 .projectContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: space-evenly;
-    -webkit-justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     width: 84vw;
     height: 35vh;
     margin-bottom: 2vh;
@@ -14,12 +19,15 @@
     border: 2px white solid;
 }
 #projectTitleWrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: center;
-    -webkit-justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 4.2vh;
     color: white;
     background: #5d57c9;
@@ -40,12 +48,14 @@
     font-size: 1.4vh;
 }
 .itemLinks{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: space-around;
-    -webkit-justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 3.5vh;
     margin-top: 1.4vh;
     font-size: 1.4vh;
@@ -71,12 +81,15 @@
         display: none;
     }
     .projectImgContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: absolute;
         width: 78vw;
         margin-bottom: 5.7vh;
@@ -88,9 +101,8 @@
 
 @media only screen and (min-width: 416px) and (max-width: 769px) and (orientation: portrait) {
     .projectContainer{
-        justify-content: space-around;
-        -webkit-justify-content: space-around;
-
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
     #projectTitleWrap{
         border: none;
@@ -113,12 +125,15 @@
         margin-top: 0.6vh;
     }
     .projectImgContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: absolute;
         width: 78vw;
         margin-bottom: 5.7vh;
@@ -165,12 +180,15 @@
         font-size: 1.8vh;
     }
     .projectImgContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 40vw;
         height: 100%;
     }
@@ -193,12 +211,15 @@
         display: none;
     }
     .projectImgContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: absolute;
         width: 78vw;
         margin-bottom: 5.7vh;
@@ -242,12 +263,15 @@
         font-size: 1.6vh;
     }
     .projectImgContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 40vw;
         height: 100%;
     }
@@ -260,9 +284,8 @@
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .projectContainer{
-        justify-content: space-around;
-        -webkit-justify-content: space-around;
-
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         width: 70vw;
         height: 34vh;
         margin-bottom: 1.2vw;
@@ -297,12 +320,15 @@
         margin-top: 3.5vh;
     }
     .projectImgContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         height: 100%;
     }
     .projectImg{
@@ -314,9 +340,8 @@
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .projectContainer{
-        justify-content: space-around;
-        -webkit-justify-content: space-around;
-
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         width: 76vw;
         height: 34vh;
         margin-bottom: 1.2vw;
@@ -350,12 +375,15 @@
         font-size: 1.7vh;
     }
     .projectImgContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 36vw;
     }
     .projectImg{
@@ -367,8 +395,8 @@
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
     .projectContainer{
-        justify-content: space-around;
-        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         width: 80vw;
     }
     .left{
@@ -402,12 +430,15 @@
         font-weight: 600;
     }
     .projectImgContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 40vw;
     }
     .projectImg{
@@ -419,8 +450,8 @@
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .projectContainer{
-        justify-content: space-around;
-        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         width: 80vw;
         height: 34vh;
         margin-bottom: 1.2vw;
@@ -456,12 +487,15 @@
         font-weight: 600;
     }
     .projectImgContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 40vw;
     }
     .projectImg{
@@ -473,8 +507,8 @@
 
 @media only screen and (min-width: 3001px) {
     .projectContainer{
-        justify-content: space-around;
-        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         width: 80vw;
         height: 34vh;
         margin-bottom: 1.2vw;
@@ -510,12 +544,15 @@
         font-weight: 600;
     }
     .projectImgContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: center;
-        -webkit-align-items: center;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 38vw;
     }
     .projectImg{

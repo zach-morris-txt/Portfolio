@@ -1,21 +1,29 @@
 .aboutContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: center;
-    -webkit-justify-content: center;
-    flex-direction: column;
-    -webkit-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
     height: 72vh;
     background: rgb(243, 237, 237);
 }
 .aboutText{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .aboutBold{
     font-size: 2vh;
@@ -27,10 +35,12 @@
     font-size: 1.6vh;
 }
 .aboutBooks{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    justify-content: space-evenly;
-    -webkit-justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     margin: 1vh 0vw 1vh 0vw;
 }
 .jsBooks{
@@ -45,10 +55,13 @@
 
 @media only screen and (max-width: 415px) {
     .aboutText{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        flex-direction: column;
-        -webkit-flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         width: 88vw;
     }
     .aboutRegular{
@@ -96,8 +109,9 @@
         text-align: center;
     }
     .aboutBooks{
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         margin: 1vh 4vw 1vh 4vw;
     }
     .jsBooks{
@@ -161,10 +175,13 @@
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .aboutContainer{
-        justify-content: space-evenly;
-        -webkit-justify-content: space-evenly;
-        flex-direction: row;
-        -webkit-flex-direction: row;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         height: 70vh;
     }
     .aboutText{
@@ -179,8 +196,9 @@
         font-size: 1.9vh;
     }
     .aboutBooks{
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .jsBooks{
         width: 10vw;
@@ -190,23 +208,29 @@
         font-size: 2.3vh;
     }
     .aboutImgs{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: flex-start;
-        -webkit-align-items: flex-start;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: relative;
         width: 18vw;
         height: 48vh;
     }
     .aboutImgsAlt{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: flex-end;
-        -webkit-align-items: flex-end;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: relative;
         width: 18vw;
         height: 48vh;
@@ -237,10 +261,13 @@
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .aboutContainer{
-        justify-content: space-evenly;
-        -webkit-justify-content: space-evenly;
-        flex-direction: row;
-        -webkit-flex-direction: row;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         height: 70vh;
     }
     .aboutText{
@@ -254,8 +281,9 @@
         font-size: 1.9vh;
     }
     .aboutBooks{
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .jsBooks{
         width: 10vw;
@@ -265,23 +293,29 @@
         font-size: 2.8vh;
     }
     .aboutImgs{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: flex-start;
-        -webkit-align-items: flex-start;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: relative;
         width: 16vw;
         height: 48vh;
     }
     .aboutImgsAlt{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: flex-end;
-        -webkit-align-items: flex-end;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: relative;
         width: 16vw;
         height: 48vh;
@@ -312,10 +346,13 @@
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
     .aboutContainer{
-        justify-content: space-evenly;
-        -webkit-justify-content: space-evenly;
-        flex-direction: row;
-        -webkit-flex-direction: row;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         height: 70vh;
     }
     .aboutText{
@@ -329,8 +366,9 @@
         font-size: 2.1vh;
     }
     .aboutBooks{
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .jsBooks{
         width: 9vw;
@@ -340,23 +378,29 @@
         font-size: 2.6vh;
     }
     .aboutImgs{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: flex-start;
-        -webkit-align-items: flex-start;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: relative;
         width: 18vw;
         height: 48vh;
     }
     .aboutImgsAlt{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: flex-end;
-        -webkit-align-items: flex-end;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: relative;
         width: 18vw;
         height: 48vh;
@@ -387,10 +431,13 @@
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .aboutContainer{
-        justify-content: space-evenly;
-        -webkit-justify-content: space-evenly;
-        flex-direction: row;
-        -webkit-flex-direction: row;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         height: 70vh;
     }
     .aboutText{
@@ -404,8 +451,9 @@
         font-size: 2vh;
     }
     .aboutBooks{
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .jsBooks{
         width: 10vw;
@@ -415,23 +463,29 @@
         font-size: 2.7vh;
     }
     .aboutImgs{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: top;
-        -webkit-align-items: top;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: relative;
         width: 18vw;
         height: 46vh;
     }
     .aboutImgsAlt{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: flex-end;
-        -webkit-align-items: flex-end;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: relative;
         width: 18vw;
         height: 46vh;
@@ -462,10 +516,13 @@
 
 @media only screen and (min-width: 3001px) {
     .aboutContainer{
-        justify-content: space-evenly;
-        -webkit-justify-content: space-evenly;
-        flex-direction: row;
-        -webkit-flex-direction: row;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         height: 70vh;
     }
     .aboutText{
@@ -479,8 +536,9 @@
         font-size: 2vh;
     }
     .aboutBooks{
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .jsBooks{
         width: 10vw;
@@ -490,23 +548,29 @@
         font-size: 2.7vh;
     }
     .aboutImgs{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: top;
-        -webkit-align-items: top;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: relative;
         width: 18vw;
         height: 48vh;
     }
     .aboutImgsAlt{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        display: -webkit-flex;
-        align-items: flex-end;
-        -webkit-align-items: flex-end;
-        justify-content: center;
-        -webkit-justify-content: center;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         position: relative;
         width: 18vw;
         height: 48vh;

@@ -1,54 +1,72 @@
 .contactContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: space-evenly;
-    -webkit-justify-content: space-evenly;
-    flex-direction: column;
-    -webkit-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: 72vh;
     background: rgb(243, 237, 237);
 }
 .contactItems{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: space-evenly;
-    -webkit-justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     margin: 3vh 0vw 3vh 0vw;
     border: 3px black solid;
 }
 .mixIcon{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: center;
-    -webkit-justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 42vw;
     margin: 1vh 0vw 1vh 0vw;
 }
 .iconText{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    flex-direction: column;
-    -webkit-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     font-size: 1.15vh;
 }
 .faIcon{
     font-size: 5vh;
 }
 .formContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: center;
-    -webkit-justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .contactInput{
     margin-top: 1vh;
@@ -69,11 +87,27 @@ textarea{
 }
 #status.success{
     background: green;
-    animation: status 4s ease forwards;
+    -webkit-animation: status 4s ease forwards;
+            animation: status 4s ease forwards;
 }
 #status.error{
     background: red;
-    animation: status 4s ease forwards;
+    -webkit-animation: status 4s ease forwards;
+            animation: status 4s ease forwards;
+}
+@-webkit-keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
 }
 @keyframes status{
     0%{

@@ -1,33 +1,47 @@
 .skillListContainer{
-    display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;    
-    justify-content: center;
-    -webkit-justify-content: center;    
-    flex-direction: column;
-    -webkit-flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+    -webkit-box-align: center;    
+        -ms-flex-align: center;    
+            align-items: center;    
+    -webkit-box-pack: center;    
+        -ms-flex-pack: center;    
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 84vw;
     margin-bottom: 2vh;
     border: 4px white solid;
 }
 .skills{
-    display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: center;
-    -webkit-justify-content: center;
-    flex-flow: row wrap;
-    -webkit-flex-flow: row wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+    -webkit-box-align: center;    
+        -ms-flex-align: center;    
+            align-items: center;    
+    -webkit-box-pack: center;    
+        -ms-flex-pack: center;    
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
 }
 .skill{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    align-items: center;
-    -webkit-align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;    
+    -webkit-box-align: center;    
+        -ms-flex-align: center;    
+            align-items: center;
     width: 19vw;
     height: 19vw;
     margin: 1vh 2.3vw 2vh 2.3vw; 
@@ -49,26 +63,34 @@
     height: 6.4vh;
 }
 .imgIconWrap{
-    display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: center;
-    -webkit-justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+    -webkit-box-align: center;    
+        -ms-flex-align: center;    
+            align-items: center;    
+    -webkit-box-pack: center;    
+        -ms-flex-pack: center;    
+            justify-content: center;
 }
 .skillForm{
-    display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+    -webkit-box-align: center;    
+        -ms-flex-align: center;    
+            align-items: center;
 }
 .skillFormAlt{
-    display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: center;
-    -webkit-justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+    -webkit-box-align: center;    
+        -ms-flex-align: center;    
+            align-items: center;    
+    -webkit-box-pack: center;    
+        -ms-flex-pack: center;    
+            justify-content: center;
 }
 .suggestSkillBtn{
     height: 18vh;
@@ -84,12 +106,16 @@
     border: 1px black solid;
 }
 .skillInputs{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
-    align-items: center;
-    -webkit-align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;    
+    -webkit-box-align: center;    
+        -ms-flex-align: center;    
+            align-items: center;
 }
 .formSkillInput{
     width: 30vw;
@@ -106,10 +132,13 @@
     margin-top: 0.5vh;
 }
 .btnsWrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .skillBtn{
     width: 8vw;
@@ -284,22 +313,29 @@
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .skillListContainer{
-        align-items: flex-start;
-        -webkit-align-items: flex-start;
-        justify-content: space-evenly;
-        -webkit-justify-content: space-evenly;
-        flex-direction: row;
-        -webkit-flex-direction: row;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         width: 80vw;
         min-height: 54vh;
         margin: 0vh 0vw 8vh 0vw;
         border: 6px white solid;
     }
     .skills{
-        justify-content: start;
-        -webkit-justify-content: start;
-        flex-flow: row wrap;
-        -webkit-flex-flow: row wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
         width: 54%;
         margin-top: 2vh;
     }
@@ -356,20 +392,25 @@
 
 @media only screen and (min-width: 1281px) and (max-width: 1536px) {
     .skillListContainer{
-        align-items: flex-start;
-        -webkit-align-items: flex-start;
-        justify-content: flex-start;
-        -webkit-justify-content: flex-start;
-        flex-direction: row;
-        -webkit-flex-direction: row;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         width: 76vw;
         min-height: 54vh;
         margin: 0vh 0vw 6vh 0vw;
         border: 8px white solid;
     }
     .skills{
-        justify-content: start;
-        -webkit-justify-content: start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
         width: 57%;
         margin: 0px 1vw 0px 1vw;
     }
@@ -426,20 +467,25 @@
 
 @media only screen and (min-width: 1537px) and (max-width: 2048px) {
     .skillListContainer{
-        align-items: flex-start;
-        -webkit-align-items: flex-start;
-        justify-content: space-evenly;
-        -webkit-justify-content: space-evenly;
-        flex-direction: row;
-        -webkit-flex-direction: row;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         width: 80vw;
         min-height: 54vh;
         margin: 0vh 0vw 6vh 0vw;
         border: 8px white solid;
     }
     .skills{
-        justify-content: start;
-        -webkit-justify-content: start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
         width: 58%;
     }
     .skill{
@@ -495,12 +541,16 @@
 
 @media only screen and (min-width: 2049px) and (max-width: 3000px) {
     .skillListContainer{
-        align-items: flex-start;
-        -webkit-align-items: flex-start;
-        justify-content: flex-start;
-        -webkit-justify-content: flex-start;
-        flex-direction: row;
-        -webkit-flex-direction: row;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         width: 80vw;
         min-height: 54vh;
         margin: 0vh 0vw 6vh 0vw;
@@ -564,18 +614,22 @@
 
 @media only screen and (min-width: 3001px) {
     .skillListContainer{
-        align-items: flex-start;
-        -webkit-align-items: flex-start;
-        flex-direction: row;
-        -webkit-flex-direction: row;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         width: 84vw;
         min-height: 54vh;
         margin: 0vh 0vw 6vh 0vw;
         border: 16px white solid;
     }
     .skills{
-        justify-content: start;
-        -webkit-justify-content: start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
         width: 58%;
     }
     .skill{
