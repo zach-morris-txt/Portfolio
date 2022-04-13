@@ -1,6 +1,9 @@
 .contactContainer{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     justify-content: space-evenly;
     flex-direction: column;
     height: 72vh;
@@ -8,21 +11,32 @@
 }
 .contactItems{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     justify-content: space-evenly;
     margin: 3vh 0vw 3vh 0vw;
     border: 3px black solid;
 }
 .mixIcon{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     justify-content: center;
+-webkit-justify-content: center;
+
     width: 42vw;
     margin: 1vh 0vw 1vh 0vw;
 }
 .iconText{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     flex-direction: column;
     font-size: 1.15vh;
 }
@@ -31,8 +45,13 @@
 }
 .formContainer{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     justify-content: center;
+-webkit-justify-content: center;
+
 }
 .contactInput{
     margin-top: 1vh;

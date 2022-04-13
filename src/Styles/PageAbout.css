@@ -1,7 +1,12 @@
 .aboutContainer{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     justify-content: center;
+-webkit-justify-content: center;
+
     flex-direction: column;
     width: 100%;
     height: 72vh;
@@ -9,6 +14,7 @@
 }
 .aboutText{
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
 }
 .aboutBold{
@@ -22,6 +28,7 @@
 }
 .aboutBooks{
     display: flex;
+    display: -webkit-flex;
     justify-content: space-evenly;
     margin: 1vh 0vw 1vh 0vw;
 }
@@ -38,6 +45,7 @@
 @media only screen and (max-width: 415px) {
     .aboutText{
         display: flex;
+    display: -webkit-flex;
         flex-direction: column;
         width: 88vw;
     }
@@ -87,6 +95,8 @@
     }
     .aboutBooks{
         justify-content: center;
+-webkit-justify-content: center;
+
         margin: 1vh 4vw 1vh 4vw;
     }
     .jsBooks{
@@ -167,6 +177,8 @@
     }
     .aboutBooks{
         justify-content: center;
+-webkit-justify-content: center;
+
     }
     .jsBooks{
         width: 10vw;
@@ -177,16 +189,22 @@
     }
     .aboutImgs{
         display: flex;
+    display: -webkit-flex;
         align-items: flex-start;
         justify-content: center;
+-webkit-justify-content: center;
+
         position: relative;
         width: 18vw;
         height: 48vh;
     }
     .aboutImgsAlt{
         display: flex;
+    display: -webkit-flex;
         align-items: flex-end;
         justify-content: center;
+-webkit-justify-content: center;
+
         position: relative;
         width: 18vw;
         height: 48vh;
@@ -233,6 +251,8 @@
     }
     .aboutBooks{
         justify-content: center;
+-webkit-justify-content: center;
+
     }
     .jsBooks{
         width: 10vw;
@@ -243,16 +263,22 @@
     }
     .aboutImgs{
         display: flex;
+    display: -webkit-flex;
         align-items: flex-start;
         justify-content: center;
+-webkit-justify-content: center;
+
         position: relative;
         width: 16vw;
         height: 48vh;
     }
     .aboutImgsAlt{
         display: flex;
+    display: -webkit-flex;
         align-items: flex-end;
         justify-content: center;
+-webkit-justify-content: center;
+
         position: relative;
         width: 16vw;
         height: 48vh;
@@ -299,6 +325,8 @@
     }
     .aboutBooks{
         justify-content: center;
+-webkit-justify-content: center;
+
     }
     .jsBooks{
         width: 9vw;
@@ -309,16 +337,22 @@
     }
     .aboutImgs{
         display: flex;
+    display: -webkit-flex;
         align-items: flex-start;
         justify-content: center;
+-webkit-justify-content: center;
+
         position: relative;
         width: 18vw;
         height: 48vh;
     }
     .aboutImgsAlt{
         display: flex;
+    display: -webkit-flex;
         align-items: flex-end;
         justify-content: center;
+-webkit-justify-content: center;
+
         position: relative;
         width: 18vw;
         height: 48vh;
@@ -365,6 +399,8 @@
     }
     .aboutBooks{
         justify-content: center;
+-webkit-justify-content: center;
+
     }
     .jsBooks{
         width: 10vw;
@@ -375,16 +411,22 @@
     }
     .aboutImgs{
         display: flex;
+    display: -webkit-flex;
         align-items: top;
         justify-content: center;
+-webkit-justify-content: center;
+
         position: relative;
         width: 18vw;
         height: 46vh;
     }
     .aboutImgsAlt{
         display: flex;
+    display: -webkit-flex;
         align-items: flex-end;
         justify-content: center;
+-webkit-justify-content: center;
+
         position: relative;
         width: 18vw;
         height: 46vh;
@@ -431,6 +473,8 @@
     }
     .aboutBooks{
         justify-content: center;
+-webkit-justify-content: center;
+
     }
     .jsBooks{
         width: 10vw;
@@ -441,16 +485,22 @@
     }
     .aboutImgs{
         display: flex;
+    display: -webkit-flex;
         align-items: top;
         justify-content: center;
+-webkit-justify-content: center;
+
         position: relative;
         width: 18vw;
         height: 48vh;
     }
     .aboutImgsAlt{
         display: flex;
+    display: -webkit-flex;
         align-items: flex-end;
         justify-content: center;
+-webkit-justify-content: center;
+
         position: relative;
         width: 18vw;
         height: 48vh;

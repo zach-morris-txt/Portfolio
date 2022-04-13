@@ -1,5 +1,6 @@
 .navContainer{
     display: flex;
+    display: -webkit-flex;
     position: fixed;
     z-index: 2;
     width: 100vw;
@@ -11,6 +12,7 @@
 }
 .navTop{
     display: flex;
+    display: -webkit-flex;
     float: right;
 }
 .navLinks{
@@ -46,8 +48,13 @@
 }
 .résuméFile{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     justify-content: center;
+-webkit-justify-content: center;
+
     position: relative;
     top: 6.4vh;
     right: 16vw;
@@ -58,8 +65,13 @@
 }
 .résuméLink{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     justify-content: center;
+-webkit-justify-content: center;
+
     position: absolute;
     height: 10vh;
     background: white;

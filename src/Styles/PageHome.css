@@ -28,7 +28,10 @@
 }
 #slideLink{
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
+-webkit-justify-content: center;
+
     position: relative;
     width: 60vw;
     height: 8vh;
@@ -50,7 +53,10 @@
 }
 #homeContainer{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     justify-content: space-evenly;
     flex-direction: column;
     background: rgb(243, 237, 237);
@@ -63,8 +69,13 @@
 }
 .homeSubtitleWrap{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     justify-content: center;
+-webkit-justify-content: center;
+
     width: 94%;
     height: 7vh;
     margin: 5vh 0vh 1vh 0vh;
@@ -78,13 +89,17 @@
 }
 .bloomColumn{
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
     width: 90vw;
 }
 .bloomRow{
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     align-items: center;
+-webkit-align-items: center;
+
 }
 #bloomTech{
     width: 84vw;
@@ -93,7 +108,10 @@
 }
 .curriculumItem{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
+-webkit-align-items: center;
+
     margin: 1vh 0vw 1vh 0vw;
     padding: 1vh 0vw 1.5vh 0vw;
     border-bottom: 1px black solid;
@@ -116,6 +134,8 @@
     }
     .bloomColumn{
         justify-content: center;
+-webkit-justify-content: center;
+
     }
 }
 
@@ -129,6 +149,8 @@
     }
     .bloomColumn{
         justify-content: center;
+-webkit-justify-content: center;
+
     }
     #bloomSubtitle{
         font-size: 2.2vh;
@@ -165,6 +187,8 @@
     .bloomRow{
         flex-direction: row;
         justify-content: center;
+-webkit-justify-content: center;
+
     }
     #bloomTech{
         width: 38vw;
@@ -195,6 +219,8 @@
     }
     .bloomColumn{
         justify-content: center;
+-webkit-justify-content: center;
+
     }
 }
 
