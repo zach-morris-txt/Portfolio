@@ -17,9 +17,9 @@ const About = () => {
       <Navbar />
       <div className='aboutContainer'>
         <div className='aboutText'>
-          <div className='aboutBold'><span className='aboutItalic'>Tampa, FL</span> - I am a JavaScript/ Node.js Developer.</div>
+          <div className='aboutBold'><span className='aboutItalic'>Tampa, FL</span> - I am a JavaScript/Node Developer.</div>
           <p className='aboutRegular'>I hold the scandalous conviction that the peacock is better than the rhino. However, I hold this view strictly because the rhino is twice as costly.
-          If anyone would like to change my mind by mailing me a free copy you are more than welcome to do so, I embrace incorrect opinions.</p>
+          If anyone would like to change my mind by mailing me a free copy, you are more than welcome to do so -I embrace incorrect opinions.</p>
           <div className='aboutBooks'>
             <img src={definitiveJS} className='jsBooks' alt='Definitive JavaScript Book' loading="lazy" />
             <img src={eloquentJS} className='jsBooks' alt='Eloquent JavaScript Book' loading="lazy" />

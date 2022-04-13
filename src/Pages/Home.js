@@ -39,11 +39,11 @@ const Home = () => {
             <img src={bloom} id='bloomTech' alt="BloomTech Certificate" />
             <div className='curriculum'>
               <h5 id='bloomSubtitle'>BloomTech Bootcamp<br />(F.K.A. Lambda School)</h5>
-              <div className='curriculumItem'><h6 className='curriculumTitle'>Web Foundations</h6><p className='curriculumText'>HTML, CSS, Git, JavaScript and UI Principles</p></div>
+              <div className='curriculumItem'><h6 className='curriculumTitle'>Web Foundations</h6><p className='curriculumText'>HTML, CSS, Git, JavaScript, and UI Principles</p></div>
               <div className='curriculumItem'><h6 className='curriculumTitle'>Web Application Development</h6><p className='curriculumText'>‍React, Redux, React Router, HTTP/Ajax, and Functional Programming Techniques</p></div>
               <div className='curriculumItem'><h6 className='curriculumTitle'>Advanced Web Development</h6><p className='curriculumText'>Advanced React, State Management, and Web Applications</p></div>
               <div className='curriculumItem'><h6 className='curriculumTitle'>Backend Development</h6><p className='curriculumText'>Node.js Web APIs, Data Persistence, Authentication, and Testing</p></div>
-              <div className='curriculumItem'><h6 className='curriculumTitle'>Computer Science</h6><p className='curriculumText'>‍Intro To Python And OOP, Algorithms, Data Structures, Graphs, and Hash Tables</p></div>
+              <div className='curriculumItem'><h6 className='curriculumTitle'>Computer Science</h6><p className='curriculumText'>‍Intro to Python/OOP, Algorithms, Data Structures, Graphs, and Hash Tables</p></div>
               <div className='curriculumItem'><h6 className='curriculumTitle'>Stakeholder Experience</h6><p className='curriculumText'>AGILE Development Apprenticeship w/ Industry Non-Profit</p></div>
             </div>
           </div>
