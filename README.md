@@ -1,6 +1,6 @@
-Portfolio
+<h1>Portfolio</h2>
 
-[Tech Stack]
+<h3>[Tech Stack]</h3>
 -EmailJS for messag forms
 
 
