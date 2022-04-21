@@ -23,7 +23,7 @@ import git from './Images/IconIMGs/Git.png'
 export const projects = [
     {
         id: 0,
-        title: "Cali Cafe",
+        title: "Cali Café",
         coverImg: caliProject,
         description1: "React site for a local café. Site has been optimized for search-engine algorithms and listed with Google Business.",
         techStack: "React | FontAwesome",
@@ -52,7 +52,7 @@ export const projects = [
     },
     {
         id: 3,
-        title: "StyleRider Ecommerce",
+        title: "StyleRider E-Commerce",
         coverImg: ecommerceProject,
         description1: "(Under Construction) Fullstack app for a demo, motorcylce gear vendor. Features product filtering, full product CRUD, and customer cart processing.",
         techStack: "React | Redux | Express | MongoDB",
