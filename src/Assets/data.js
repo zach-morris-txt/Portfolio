@@ -42,7 +42,7 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Coderheroes E-Learning",
+        title: "CoderHeroes E-Learning",
         coverImg: coderheroProject,
         description1: "(Private) Fullstack app for a startup education platform. Features okta account management, backend class registration, and stripe payment processing.",
         techStack: "React | Redux | Okta | Stripe | AntDesign",
